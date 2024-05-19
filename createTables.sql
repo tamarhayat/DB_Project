@@ -4,7 +4,7 @@
 -- Create the Suppliers table
 CREATE TABLE Suppliers
 (
-  sID INT NOT NULL,
+  sID NUMBER(9) NOT NULL,
   sname VARCHAR2(30) NOT NULL,
   address VARCHAR2(100) NOT NULL,
   phoneNumber VARCHAR2(15) NOT NULL,
@@ -13,23 +13,21 @@ CREATE TABLE Suppliers
 -- Create the Equipment table
 CREATE TABLE Equipment
 (
-  eID INT NOT NULL,
+  eID NUMBER(5) NOT NULL,
   ename VARCHAR2(30) NOT NULL,
   isMobile VARCHAR2(5) NOT NULL,
   quantity INT NOT NULL,
-  supplierId INT NOT NULL,
+  price NUMBER(7,2) NOT NULL,
   PRIMARY KEY (eID),
-  FOREIGN KEY (supplierId) REFERENCES Suppliers(sID),
   CHECK (isMobile IN ('true', 'false'))
 );
 
 -- Create the Orders table
 CREATE TABLE Orders
 (
-  oID INT NOT NULL,
+  oID NUMBER(5) NOT NULL,
   orderDate DATE NOT NULL,
-  total FLOAT NOT NULL,
-  sID INT NOT NULL,
+  sID NUMBER(9) NOT NULL,
   PRIMARY KEY (oID),
   FOREIGN KEY (sID) REFERENCES Suppliers(sID)
 );
@@ -37,7 +35,7 @@ CREATE TABLE Orders
 -- Create the Donors table
 CREATE TABLE Donors
 (
-  dID INT NOT NULL,
+  dID NUMBER(9) NOT NULL,
   dname VARCHAR2(30) NOT NULL,
   address VARCHAR2(100) NOT NULL,
   phoneNumber VARCHAR2(15) NOT NULL,
@@ -47,7 +45,7 @@ CREATE TABLE Donors
 -- Create the Repairs table
 CREATE TABLE Repairs
 (
-  rID INT NOT NULL,
+  rID NUMBER(5) NOT NULL,
   repairDate DATE NOT NULL,
   description VARCHAR2(255) NOT NULL,
   PRIMARY KEY (rID)
@@ -56,7 +54,7 @@ CREATE TABLE Repairs
 -- Create the EquipRepairs table
 CREATE TABLE EquipRepairs
 (
-  rID INT NOT NULL,
+  rID NUMBER(5) NOT NULL,
   eID INT NOT NULL,
   PRIMARY KEY (rID, eID),
   FOREIGN KEY (rID) REFERENCES Repairs(rID),
@@ -67,8 +65,8 @@ CREATE TABLE EquipRepairs
 CREATE TABLE equip_order
 (
   amountInOrder INT NOT NULL,
-  eID INT NOT NULL,
-  oID INT NOT NULL,
+  eID NUMBER(5) NOT NULL,
+  oID NUMBER(5) NOT NULL,
   PRIMARY KEY (eID, oID),
   FOREIGN KEY (eID) REFERENCES Equipment(eID),
   FOREIGN KEY (oID) REFERENCES Orders(oID)
@@ -77,10 +75,10 @@ CREATE TABLE equip_order
 -- Create the Vehicles table
 CREATE TABLE Vehicles
 (
-  vID INT NOT NULL,
+  vID NUMBER(8) NOT NULL,
   type VARCHAR2(12) NOT NULL,
   status VARCHAR2(12) NOT NULL,
-  dID INT NOT NULL,
+  dID NUMBER(9) NOT NULL,
   PRIMARY KEY (vID),
   FOREIGN KEY (dID) REFERENCES Donors(dID),
   CHECK (type IN ('ambulance', 'helicopter', 'motorcycle'))
@@ -89,8 +87,8 @@ CREATE TABLE Vehicles
 -- Create the VehiclesRepairs table
 CREATE TABLE VehiclesRepairs
 (
-  rID INT NOT NULL,
-  vID INT NOT NULL,
+  rID NUMBER(5) NOT NULL,
+  vID NUMBER(8) NOT NULL,
   PRIMARY KEY (rID, vID),
   FOREIGN KEY (rID) REFERENCES Repairs(rID),
   FOREIGN KEY (vID) REFERENCES Vehicles(vID)
@@ -100,8 +98,8 @@ CREATE TABLE VehiclesRepairs
 CREATE TABLE vehicle_equip
 (
   equipAmount INT NOT NULL,
-  eID INT NOT NULL,
-  vID INT NOT NULL,
+  eID NUMBER(5) NOT NULL,
+  vID NUMBER(8) NOT NULL,
   PRIMARY KEY (eID, vID),
   FOREIGN KEY (eID) REFERENCES Equipment(eID),
   FOREIGN KEY (vID) REFERENCES Vehicles(vID)
