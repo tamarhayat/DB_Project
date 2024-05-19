@@ -2,7 +2,7 @@ drop table Donors;
 drop table Suppliers;
 drop table vehiclesrepairs;
 drop table Equipment;
-drop table Repairs;
+drop table
 drop table
 drop table
 drop table
