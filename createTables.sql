@@ -82,6 +82,7 @@ CREATE TABLE Vehicles
   PRIMARY KEY (vID),
   FOREIGN KEY (dID) REFERENCES Donors(dID),
   CHECK (type IN ('ambulance', 'helicopter', 'motorcycle'))
+  CHECK (status IN ('normal', 'not normal', 'under repair'))
 );
 
 -- Create the VehiclesRepairs table
