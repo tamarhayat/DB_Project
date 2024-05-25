@@ -1,0 +1,1201 @@
+insert into VEHICLESREPAIRS (RID, VID)
+values (62084, 45140226);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62159, 45140247);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62153, 45140100);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62045, 45140108);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62071, 45140231);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62402, 45140193);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62119, 45140359);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62084, 45140222);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62021, 45140192);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62184, 45140339);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62207, 45140356);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62069, 45140071);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62096, 45140354);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62055, 45140092);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62391, 45140257);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62326, 45140366);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62058, 45140135);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62170, 45140326);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62305, 45140156);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62146, 45140067);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62026, 45140365);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62261, 45140022);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62042, 45140070);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62164, 45140281);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62387, 45140043);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62232, 45140032);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62180, 45140063);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62166, 45140090);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62133, 45140020);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62170, 45140371);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62230, 45140089);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62317, 45140305);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62026, 45140408);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62195, 45140229);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62311, 45140364);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62221, 45140345);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62179, 45140115);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62126, 45140313);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62047, 45140263);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62197, 45140235);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62071, 45140099);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62172, 45140312);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62295, 45140138);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62385, 45140135);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62186, 45140359);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62249, 45140284);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62091, 45140071);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62078, 45140195);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62068, 45140236);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62330, 45140375);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62024, 45140338);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62080, 45140328);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62015, 45140052);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62205, 45140056);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62039, 45140406);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62080, 45140316);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62386, 45140065);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62277, 45140088);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62058, 45140059);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62261, 45140235);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62140, 45140357);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62180, 45140013);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62229, 45140238);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62334, 45140409);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62196, 45140037);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62025, 45140368);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62402, 45140019);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62385, 45140085);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62023, 45140179);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62261, 45140024);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62028, 45140100);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62365, 45140038);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62246, 45140078);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62175, 45140255);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62080, 45140032);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62187, 45140298);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62089, 45140034);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62205, 45140321);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62209, 45140356);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62064, 45140201);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62033, 45140264);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62086, 45140189);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62310, 45140082);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62257, 45140365);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62101, 45140331);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62016, 45140370);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62129, 45140278);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62262, 45140196);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62177, 45140302);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62052, 45140084);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62080, 45140198);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62211, 45140115);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62335, 45140039);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62122, 45140151);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62100, 45140322);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62106, 45140106);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62403, 45140199);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62276, 45140203);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62120, 45140331);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62071, 45140198);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62353, 45140172);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62347, 45140228);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62165, 45140402);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62035, 45140065);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62308, 45140138);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62248, 45140032);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62080, 45140228);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62036, 45140155);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62182, 45140054);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62087, 45140228);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62077, 45140165);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62353, 45140341);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62140, 45140356);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62115, 45140355);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62107, 45140104);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62260, 45140096);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62286, 45140400);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62086, 45140114);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62066, 45140066);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62206, 45140203);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62373, 45140214);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62060, 45140133);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62013, 45140123);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62224, 45140373);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62343, 45140389);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62211, 45140260);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62022, 45140045);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62155, 45140403);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62083, 45140079);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62076, 45140173);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62056, 45140268);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62112, 45140054);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62017, 45140341);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62024, 45140325);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62266, 45140197);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62353, 45140048);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62117, 45140392);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62142, 45140406);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62114, 45140218);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62190, 45140201);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62137, 45140390);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62161, 45140133);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62325, 45140253);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62318, 45140272);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62276, 45140346);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62394, 45140364);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62058, 45140023);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62173, 45140344);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62268, 45140357);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62105, 45140140);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62107, 45140250);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62310, 45140319);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62086, 45140162);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62104, 45140049);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62127, 45140377);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62208, 45140154);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62289, 45140030);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62361, 45140316);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62279, 45140411);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62304, 45140409);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62373, 45140163);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62254, 45140017);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62106, 45140097);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62244, 45140322);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62366, 45140236);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62232, 45140217);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62236, 45140214);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62166, 45140218);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62037, 45140249);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62111, 45140242);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62100, 45140395);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62208, 45140230);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62130, 45140315);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62391, 45140260);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62084, 45140273);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62230, 45140153);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62030, 45140170);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62201, 45140202);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62105, 45140353);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62181, 45140026);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62247, 45140400);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62262, 45140199);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62208, 45140208);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62269, 45140227);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62128, 45140206);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62085, 45140146);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62389, 45140400);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62174, 45140304);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62397, 45140084);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62188, 45140397);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62049, 45140124);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62072, 45140130);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62111, 45140236);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62135, 45140372);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62263, 45140184);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62299, 45140174);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62050, 45140302);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62011, 45140306);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62081, 45140083);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62021, 45140109);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62129, 45140019);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62107, 45140103);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62056, 45140050);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62148, 45140137);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62035, 45140404);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62044, 45140138);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62186, 45140380);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62061, 45140241);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62286, 45140264);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62114, 45140360);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62293, 45140113);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62167, 45140164);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62122, 45140027);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62048, 45140141);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62024, 45140220);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62280, 45140109);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62211, 45140106);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62408, 45140037);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62068, 45140134);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62229, 45140167);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62193, 45140175);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62207, 45140277);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62214, 45140389);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62283, 45140073);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62233, 45140185);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62350, 45140379);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62219, 45140195);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62211, 45140078);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62217, 45140290);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62101, 45140291);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62307, 45140333);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62163, 45140152);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62156, 45140114);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62182, 45140253);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62101, 45140174);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62170, 45140317);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62227, 45140129);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62084, 45140190);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62360, 45140029);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62281, 45140093);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62034, 45140363);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62011, 45140225);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62365, 45140018);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62115, 45140277);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62293, 45140037);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62254, 45140319);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62111, 45140265);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62240, 45140247);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62147, 45140124);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62375, 45140236);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62133, 45140022);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62183, 45140389);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62100, 45140026);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62234, 45140233);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62156, 45140110);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62256, 45140047);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62177, 45140393);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62024, 45140075);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62167, 45140299);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62016, 45140204);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62117, 45140047);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62144, 45140374);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62320, 45140393);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62139, 45140081);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62379, 45140244);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62091, 45140255);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62052, 45140260);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62133, 45140066);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62380, 45140262);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62376, 45140144);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62039, 45140374);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62264, 45140166);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62359, 45140302);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62270, 45140087);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62165, 45140086);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62109, 45140385);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62061, 45140127);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62168, 45140384);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62326, 45140023);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62145, 45140225);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62249, 45140219);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62189, 45140157);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62051, 45140204);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62345, 45140114);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62243, 45140261);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62183, 45140242);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62154, 45140292);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62215, 45140359);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62280, 45140148);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62386, 45140400);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62403, 45140361);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62246, 45140024);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62301, 45140320);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62279, 45140057);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62026, 45140193);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62396, 45140128);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62361, 45140220);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62085, 45140173);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62229, 45140299);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62396, 45140378);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62270, 45140078);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62086, 45140227);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62352, 45140269);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62279, 45140218);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62049, 45140018);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62167, 45140334);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62034, 45140034);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62334, 45140208);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62023, 45140096);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62383, 45140085);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62223, 45140072);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62091, 45140123);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62127, 45140052);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62151, 45140113);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62192, 45140123);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62324, 45140187);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62047, 45140401);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62070, 45140379);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62189, 45140038);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62079, 45140216);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62180, 45140034);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62364, 45140391);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62118, 45140348);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62336, 45140305);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62217, 45140358);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62346, 45140141);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62229, 45140161);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62281, 45140225);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62164, 45140352);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62117, 45140170);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62250, 45140384);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62218, 45140348);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62170, 45140148);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62079, 45140363);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62130, 45140268);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62298, 45140107);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62391, 45140346);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62282, 45140254);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62018, 45140078);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62272, 45140366);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62081, 45140241);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62388, 45140076);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62260, 45140292);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62275, 45140126);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62296, 45140185);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62266, 45140118);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62222, 45140121);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62228, 45140353);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62237, 45140070);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62011, 45140021);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62343, 45140154);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62272, 45140126);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62012, 45140337);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62185, 45140388);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62206, 45140328);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62219, 45140320);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62216, 45140309);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62285, 45140326);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62237, 45140028);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62039, 45140404);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62351, 45140250);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62239, 45140112);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62233, 45140306);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62158, 45140371);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62056, 45140347);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62120, 45140179);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62305, 45140225);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62393, 45140189);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62373, 45140221);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62091, 45140037);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62259, 45140135);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62309, 45140379);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62233, 45140160);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62172, 45140306);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62191, 45140263);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62194, 45140115);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62165, 45140076);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62235, 45140286);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62312, 45140240);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62267, 45140056);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62037, 45140191);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62219, 45140244);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62397, 45140342);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62113, 45140295);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62014, 45140243);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62177, 45140029);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62061, 45140066);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62330, 45140236);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62347, 45140021);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62138, 45140014);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62256, 45140022);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62017, 45140398);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62382, 45140025);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62206, 45140360);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62396, 45140356);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62074, 45140142);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62401, 45140247);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62075, 45140202);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62307, 45140096);
+
+insert into VEHICLESREPAIRS (RID, VID) 
+values (62336, 45140123);
+
+commit;
