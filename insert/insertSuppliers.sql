@@ -601,4 +601,608 @@ values (322864931, 'Colin Foxx', '93rd Street, Bischofshofen, Austria', '059-894
 insert into Suppliers(sID, sname, address, PHONENUMBER) 
 values (111111111, 'ANI ZIUFE', '51 Kennedy Street, Sevilla, Spain', '053-4091793');--test
 
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864931, 'Kinsley Flores', '8686 Cedar St, Springfield, Mexico', '054-9012345');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864932, 'Nolan Thompson', '8787 Maple St, Springfield, Brazil', '055-0123456');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864933, 'Gabriella Wright', '8888 Birch St, Springfield, Japan', '051-1234567');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864934, 'Parker James', '8989 Willow St, Springfield, South Africa', '052-2345678');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864935, 'Athena Cooper', '9090 Spruce St, Springfield, China', '053-3456789');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864936, 'Camden Nguyen', '9191 Fir St, Springfield, India', '054-4567890');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864937, 'Eliza Carter', '9292 Pine St, Springfield, Russia', '055-5678901');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864938, 'Jaxson Evans', '9393 Oak St, Springfield, Argentina', '051-6789012');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864939, 'Lillian Martinez', '9494 Elm St, Springfield, Egypt', '052-7890123');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864940, 'Beckett Peterson', '9595 Cedar St, Springfield, Germany', '053-8901234');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864941, 'Margot Harrison', '9696 Maple St, Springfield, France', '054-9012345');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864942, 'Dante Cole', '9797 Birch St, Springfield, Italy', '055-0123456');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864943, 'Isla Howard', '9898 Willow St, Springfield, Mexico', '051-1234567');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864944, 'Kingston Bennett', '9999 Aspen St, Springfield, Brazil', '052-2345678');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864945, 'Nevaeh Wallace', '10000 Redwood St, Springfield, Canada', '053-3456789');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864946, 'Phoenix Brooks', '10101 Spruce St, Springfield, UK', '054-4567890');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864947, 'Ryder Kim', '10202 Fir St, Springfield, Australia', '055-5678901');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864948, 'Lucas Carter', '10303 Maple St, Springfield, USA', '051-2345678');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864949, 'Olivia Brooks', '10404 Birch St, Springfield, Canada', '052-3456789');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864950, 'Ethan Richardson', '10505 Willow St, Springfield, UK', '053-4567890');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864951, 'Ava Parker', '10606 Fir St, Springfield, Australia', '054-5678901');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864952, 'Liam Edwards', '10707 Pine St, Springfield, Germany', '055-6789012');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864953, 'Sophia Turner', '10808 Oak St, Springfield, France', '051-7890123');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864954, 'Noah Foster', '10909 Elm St, Springfield, Italy', '052-8901234');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864955, 'Isabella Collins', '11010 Cedar St, Springfield, Mexico', '053-9012345');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864956, 'Mason Ward', '11111 Spruce St, Springfield, Brazil', '054-0123456');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864957, 'Mia Bennett', '11212 Redwood St, Springfield, Japan', '055-1234567');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864958, 'James Bailey', '11313 Maple St, Springfield, South Africa', '051-2345678');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864959, 'Charlotte Rivera', '11414 Birch St, Springfield, China', '052-3456789');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864960, 'Benjamin Hughes', '11515 Willow St, Springfield, India', '053-4567890');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864961, 'Amelia Murphy', '11616 Fir St, Springfield, Russia', '054-5678901');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864962, 'Elijah Sullivan', '11717 Pine St, Springfield, Argentina', '055-6789012');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864963, 'Evelyn Ramirez', '11818 Oak St, Springfield, Egypt', '051-7890123');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864964, 'Alexander Perry', '11919 Elm St, Springfield, Germany', '052-8901234');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864965, 'Harper Diaz', '12020 Cedar St, Springfield, France', '053-9012345');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864966, 'Sebastian Hughes', '12121 Spruce St, Springfield, Italy', '054-0123456');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864967, 'Emily Martinez', '12222 Redwood St, Springfield, Mexico', '055-1234567');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864968, 'Jack Cooper', '12323 Maple St, Springfield, Brazil', '051-2345678');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864969, 'Abigail Howard', '12424 Birch St, Springfield, Canada', '052-3456789');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864970, 'Aiden Price', '12525 Willow St, Springfield, UK', '053-4567890');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864971, 'Ella Brooks', '12626 Fir St, Springfield, Australia', '054-5678901');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864972, 'Henry Bell', '12727 Pine St, Springfield, Germany', '055-6789012');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864973, 'Scarlett Patterson', '12828 Oak St, Springfield, France', '051-7890123');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864974, 'Daniel Mitchell', '12929 Elm St, Springfield, Italy', '052-8901234');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864975, 'Aria Simmons', '13030 Cedar St, Springfield, Mexico', '053-9012345');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864976, 'Matthew Sanders', '13131 Spruce St, Springfield, Brazil', '054-0123456');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864977, 'Luna Ross', '13232 Redwood St, Springfield, Japan', '055-1234567');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864978, 'Joseph Bailey', '13333 Maple St, Springfield, South Africa', '051-2345678');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864979, 'Mila Ward', '13434 Birch St, Springfield, China', '052-3456789');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864980, 'David Bryant', '13535 Willow St, Springfield, India', '053-4567890');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864981, 'Sofia Evans', '13636 Fir St, Springfield, Russia', '054-5678901');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864982, 'John Kelly', '13737 Pine St, Springfield, Argentina', '055-6789012');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864983, 'Caleb Powell', '13838 Maple St, Springfield, USA', '051-9876543');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864984, 'Grace Wood', '13939 Birch St, Springfield, Canada', '052-8765432');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864985, 'Julian Bennett', '14040 Willow St, Springfield, UK', '053-7654321');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864986, 'Victoria Torres', '14141 Fir St, Springfield, Australia', '054-6543210');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864987, 'Wyatt Rogers', '14242 Pine St, Springfield, Germany', '055-5432109');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864988, 'Hannah Jenkins', '14343 Oak St, Springfield, France', '051-4321098');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864989, 'Isaac Patterson', '14444 Elm St, Springfield, Italy', '052-3210987');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864990, 'Zoey Gray', '14545 Cedar St, Springfield, Mexico', '053-2109876');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864991, 'Gabriel Russell', '14646 Spruce St, Springfield, Brazil', '054-1098765');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864992, 'Lily Peterson', '14747 Redwood St, Springfield, Japan', '055-0987654');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864993, 'Lincoln Long', '14848 Maple St, Springfield, South Africa', '051-9876543');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864994, 'Violet Hughes', '14949 Birch St, Springfield, China', '052-8765432');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864995, 'Levi Foster', '15050 Willow St, Springfield, India', '053-7654321');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864996, 'Layla Price', '15151 Fir St, Springfield, Russia', '054-6543210');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864997, 'Nathaniel Sanders', '15252 Pine St, Springfield, Argentina', '055-5432109');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864998, 'Zoe Simmons', '15353 Oak St, Springfield, Egypt', '051-4321098');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322864999, 'Jack Henderson', '15454 Elm St, Springfield, Germany', '052-3210987');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865000, 'Stella Gonzales', '15555 Cedar St, Springfield, France', '053-2109876');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865001, 'Luke Fisher', '15656 Spruce St, Springfield, Italy', '054-1098765');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865002, 'Penelope Webb', '15757 Redwood St, Springfield, Mexico', '055-0987654');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865003, 'Isaiah Holmes', '15858 Maple St, Springfield, Brazil', '051-9876543');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865004, 'Aurora Mills', '15959 Birch St, Springfield, Canada', '052-8765432');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865005, 'Aaron Warren', '16060 Willow St, Springfield, UK', '053-7654321');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865006, 'Savannah Dixon', '16161 Fir St, Springfield, Australia', '054-6543210');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865007, 'Grayson Hunt', '16262 Pine St, Springfield, Germany', '055-5432109');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865008, 'Aubrey Reed', '16363 Oak St, Springfield, France', '051-4321098');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865009, 'Cameron Hall', '16464 Elm St, Springfield, Italy', '052-3210987');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865010, 'Brooklyn Tucker', '16565 Cedar St, Springfield, Mexico', '053-2109876');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865011, 'Oliver Campbell', '16666 Spruce St, Springfield, Brazil', '054-1098765');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865012, 'Madeline Carter', '16767 Redwood St, Springfield, Japan', '055-0987654');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865013, 'Elias Roberts', '16868 Maple St, Springfield, South Africa', '051-9876543');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865014, 'Ellie Stevens', '16969 Birch St, Springfield, China', '052-8765432');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865015, 'Henry Hayes', '17070 Willow St, Springfield, India', '053-7654321');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865016, 'Hazel Richardson', '17171 Fir St, Springfield, Russia', '054-6543210');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865017, 'Ryan Ramirez', '17272 Pine St, Springfield, Argentina', '055-5432109');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865018, 'Natalie Perry', '17373 Maple St, Springfield, USA', '051-2345678');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865019, 'Oliver Powell', '17474 Birch St, Springfield, Canada', '052-3456789');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865020, 'Victoria Brooks', '17575 Willow St, Springfield, UK', '053-4567890');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865021, 'Matthew Bennett', '17676 Fir St, Springfield, Australia', '054-5678901');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865022, 'Emma Turner', '17777 Pine St, Springfield, Germany', '055-6789012');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865023, 'Lucas Foster', '17878 Oak St, Springfield, France', '051-7890123');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865024, 'Sophia Collins', '17979 Elm St, Springfield, Italy', '052-8901234');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865025, 'Benjamin Ward', '18080 Cedar St, Springfield, Mexico', '053-9012345');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865026, 'Isabella Bailey', '18181 Spruce St, Springfield, Brazil', '054-0123456');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865027, 'James Rivera', '18282 Redwood St, Springfield, Japan', '055-1234567');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865028, 'Amelia Hughes', '18383 Maple St, Springfield, South Africa', '051-2345678');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865029, 'Mia Diaz', '18484 Birch St, Springfield, China', '052-3456789');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865030, 'Ethan Richardson', '18585 Willow St, Springfield, India', '053-4567890');
+
 commit;
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865031, 'Charlotte Murphy', '18686 Fir St, Springfield, Russia', '054-5678901');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865032, 'Liam Sullivan', '18787 Pine St, Springfield, Argentina', '055-6789012');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865033, 'Abigail Ramirez', '18888 Oak St, Springfield, Egypt', '051-7890123');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865034, 'Evelyn Perry', '18989 Elm St, Springfield, Germany', '052-8901234');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865035, 'Sebastian Diaz', '19090 Cedar St, Springfield, France', '053-9012345');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865036, 'Emily Martinez', '19191 Spruce St, Springfield, Italy', '054-0123456');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865037, 'Luna Martinez', '19292 Redwood St, Springfield, Mexico', '055-1234567');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865038, 'Mason Bell', '19393 Maple St, Springfield, Brazil', '051-2345678');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865039, 'Aria Patterson', '19494 Birch St, Springfield, Canada', '052-3456789');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865040, 'Alexander Mitchell', '19595 Willow St, Springfield, UK', '053-4567890');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865041, 'Mila Simmons', '19696 Fir St, Springfield, Australia', '054-5678901');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865042, 'Jack Sanders', '19797 Pine St, Springfield, Germany', '055-6789012');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865043, 'Henry Foster', '19898 Oak St, Springfield, France', '051-7890123');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865044, 'Daniel Henderson', '19999 Elm St, Springfield, Italy', '052-8901234');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865045, 'Scarlett Ward', '20000 Cedar St, Springfield, Mexico', '053-9012345');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865046, 'David Cooper', '20101 Spruce St, Springfield, Brazil', '054-0123456');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865047, 'Grace Bryant', '20202 Redwood St, Springfield, Japan', '055-1234567');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865048, 'Julian Evans', '20303 Maple St, Springfield, South Africa', '051-2345678');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865049, 'Ellie Martinez', '20404 Birch St, Springfield, China', '052-3456789');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865050, 'Aiden Bailey', '20505 Willow St, Springfield, India', '053-4567890');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865051, 'Aubrey Ross', '20606 Fir St, Springfield, Russia', '054-5678901');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865052, 'Isaac Kelly', '20707 Pine St, Springfield, Argentina', '055-6789012');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865053, 'Avery Carter', '20808 Maple St, Springfield, USA', '051-9876543');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865054, 'Liam Russell', '20909 Birch St, Springfield, Canada', '052-8765432');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865055, 'Zoe Gray', '21010 Willow St, Springfield, UK', '053-7654321');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865056, 'Mia Perry', '21111 Fir St, Springfield, Australia', '054-6543210');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865057, 'Benjamin Price', '21212 Pine St, Springfield, Germany', '055-5432109');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865058, 'Emily Hughes', '21313 Oak St, Springfield, France', '051-4321098');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865059, 'Caleb Gonzales', '21414 Elm St, Springfield, Italy', '052-3210987');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865060, 'Lily Bennett', '21515 Cedar St, Springfield, Mexico', '053-2109876');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865061, 'Noah Rogers', '21616 Spruce St, Springfield, Brazil', '054-1098765');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865062, 'Aria Martinez', '21717 Redwood St, Springfield, Japan', '055-0987654');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865063, 'Jackson Sullivan', '21818 Maple St, Springfield, South Africa', '051-9876543');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865064, 'Ella Collins', '21919 Birch St, Springfield, China', '052-8765432');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865065, 'Henry Sanders', '22020 Willow St, Springfield, India', '053-7654321');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865066, 'Aubrey Patterson', '22121 Fir St, Springfield, Russia', '054-6543210');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865067, 'Jack Howard', '22222 Pine St, Springfield, Argentina', '055-5432109');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865068, 'Hazel Bryant', '22323 Oak St, Springfield, Egypt', '051-4321098');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865069, 'Samuel Foster', '22424 Elm St, Springfield, Germany', '052-3210987');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865070, 'Scarlett Perry', '22525 Cedar St, Springfield, France', '053-2109876');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865071, 'Logan Wood', '22626 Spruce St, Springfield, Italy', '054-1098765');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865072, 'Leah Murphy', '22727 Redwood St, Springfield, Mexico', '055-0987654');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865073, 'Daniel Brooks', '22828 Maple St, Springfield, Brazil', '051-9876543');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865074, 'Luna Foster', '22929 Birch St, Springfield, Canada', '052-8765432');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865075, 'Elijah Russell', '23030 Willow St, Springfield, UK', '053-7654321');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865076, 'Avery Bailey', '23131 Fir St, Springfield, Australia', '054-6543210');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865077, 'Ethan Turner', '23232 Pine St, Springfield, Germany', '055-5432109');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865078, 'Nora Perry', '23333 Oak St, Springfield, France', '051-4321098');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865079, 'Mason Rogers', '23434 Elm St, Springfield, Italy', '052-3210987');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865080, 'Victoria Diaz', '23535 Cedar St, Springfield, Mexico', '053-2109876');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865081, 'Caleb Martinez', '23636 Spruce St, Springfield, Brazil', '054-1098765');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865082, 'Grace Price', '23737 Redwood St, Springfield, Japan', '055-0987654');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865083, 'Oliver Henderson', '23838 Maple St, Springfield, South Africa', '051-9876543');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865084, 'Layla Carter', '23939 Birch St, Springfield, China', '052-8765432');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865085, 'Julian Hughes', '24040 Willow St, Springfield, India', '053-7654321');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865086, 'Penelope Gray', '24141 Fir St, Springfield, Russia', '054-6543210');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865087, 'Isaac Bennett', '24242 Pine St, Springfield, Argentina', '055-5432109');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865088, 'David Bell', '24343 Maple St, Springfield, USA', '051-1234567');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865089, 'Madison Clark', '24444 Birch St, Springfield, Canada', '052-2345678');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865090, 'Oliver Scott', '24545 Willow St, Springfield, UK', '053-3456789');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865091, 'Sophia Adams', '24646 Fir St, Springfield, Australia', '054-4567890');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865092, 'Ethan Young', '24747 Pine St, Springfield, Germany', '055-5678901');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865093, 'Isabella King', '24848 Oak St, Springfield, France', '051-6789012');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865094, 'Mason Wright', '24949 Elm St, Springfield, Italy', '052-7890123');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865095, 'Ava Hill', '25050 Cedar St, Springfield, Mexico', '053-8901234');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865096, 'James Lopez', '25151 Spruce St, Springfield, Brazil', '054-9012345');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865097, 'Mia Green', '25252 Redwood St, Springfield, Japan', '055-0123456');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865098, 'Alexander Nelson', '25353 Maple St, Springfield, South Africa', '051-1234567');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865099, 'Ella Baker', '25454 Birch St, Springfield, China', '052-2345678');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865100, 'Logan Carter', '25555 Willow St, Springfield, India', '053-3456789');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865101, 'Scarlett Rivera', '25656 Fir St, Springfield, Russia', '054-4567890');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865102, 'Benjamin Mitchell', '25757 Pine St, Springfield, Argentina', '055-5678901');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865103, 'Luna Perez', '25858 Oak St, Springfield, Egypt', '051-6789012');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865104, 'Jack Roberts', '25959 Elm St, Springfield, Germany', '052-7890123');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865105, 'Amelia Hughes', '26060 Cedar St, Springfield, France', '053-8901234');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865106, 'Owen Bailey', '26161 Spruce St, Springfield, Italy', '054-9012345');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865107, 'Hannah Turner', '26262 Redwood St, Springfield, Mexico', '055-0123456');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865108, 'Elijah Lewis', '26363 Maple St, Springfield, Brazil', '051-1234567');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865109, 'Zoey Walker', '26464 Birch St, Springfield, Canada', '052-2345678');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865110, 'William Hall', '26565 Willow St, Springfield, UK', '053-3456789');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865111, 'Abigail Allen', '26666 Fir St, Springfield, Australia', '054-4567890');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865112, 'Daniel Young', '26767 Pine St, Springfield, Germany', '055-5678901');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865113, 'Grace Hernandez', '26868 Oak St, Springfield, France', '051-6789012');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865114, 'Caleb Nelson', '26969 Elm St, Springfield, Italy', '052-7890123');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865115, 'Layla King', '27070 Cedar St, Springfield, Mexico', '053-8901234');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865116, 'Lucas Wright', '27171 Spruce St, Springfield, Brazil', '054-9012345');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865117, 'Avery Scott', '27272 Redwood St, Springfield, Japan', '055-0123456');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865118, 'Levi Baker', '27373 Maple St, Springfield, South Africa', '051-1234567');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865119, 'Aria Clark', '27474 Birch St, Springfield, China', '052-2345678');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865120, 'Jackson Adams', '27575 Willow St, Springfield, India', '053-3456789');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865121, 'Harper Young', '27676 Fir St, Springfield, Russia', '054-4567890');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865122, 'Samuel Hill', '27777 Pine St, Springfield, Argentina', '055-5678901');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865123, 'Liam Davis', '27878 Maple St, Springfield, USA', '051-8765432');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865124, 'Emma Thompson', '27979 Birch St, Springfield, Canada', '052-9876543');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865125, 'Lucas White', '28080 Willow St, Springfield, UK', '053-7654321');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865126, 'Sophia Harris', '28181 Fir St, Springfield, Australia', '054-6543210');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865127, 'Mason Clark', '28282 Pine St, Springfield, Germany', '055-5432109');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865128, 'Olivia Lewis', '28383 Oak St, Springfield, France', '051-4321098');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865129, 'Elijah Young', '28484 Elm St, Springfield, Italy', '052-3210987');
+
+insert into suppliers (sid, sname, address, phonenumber)
+values (322865130, 'Ava King', '28585 Cedar St, Springfield, Mexico', '053-2109876');
+
+commit;
+
+

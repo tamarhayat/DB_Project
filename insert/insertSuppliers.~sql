@@ -595,8 +595,10 @@ values (322864929, 'Leelee Bryson', '41st Street, North bethesda, USA', '055-638
 insert into Suppliers (SID, SNAME, ADDRESS, PHONENUMBER)
 values (322864930, 'Nicky Burns', '58 Gifu Ave, Nicosia, Cyprus', '054-9430910');
 
-insert into Suppliers (SID, SNAME, ADDRESS, PHONENUMBER) values (322864931, 'Colin Foxx', '93rd Street, Bischofshofen, Austria', '059-8940705');
+insert into Suppliers (SID, SNAME, ADDRESS, PHONENUMBER) 
+values (322864931, 'Colin Foxx', '93rd Street, Bischofshofen, Austria', '059-8940705');
 
-insert into Suppliers(sID, sname, address, PHONENUMBER) values (111111111, 'ANI ZIUFE', '51 Kennedy Street, Sevilla, Spain', '053-4091793');--test
+insert into Suppliers(sID, sname, address, PHONENUMBER) 
+values (111111111, 'ANI ZIUFE', '51 Kennedy Street, Sevilla, Spain', '053-4091793');--test
 
 commit;
