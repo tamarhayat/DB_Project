@@ -9,7 +9,6 @@ CREATE TABLE Donors
   PRIMARY KEY (dID)
 );
 
---SQL> DESC Donors;
 
 -- Create the Suppliers table
 CREATE TABLE Suppliers
