@@ -1,18 +1,4 @@
-﻿SELECT d.dID, d.dname
-FROM Donors d
-JOIN (
-    SELECT dID
-    FROM Vehicles
-    GROUP BY dID
-    HAVING COUNT(DISTINCT typeIs) = 3
-) v ON d.dID = v.dID;
-
---delete from Vehicles where vID > 45140390;
-SELECT dID
-    FROM Vehicles
-    GROUP BY dID
-    HAVING COUNT(DISTINCT typeIs) = 2;
-    
+  
 SELECT d.dID, d.dname
 FROM Donors d
 WHERE NOT EXISTS (
@@ -59,7 +45,7 @@ WHERE NOT EXISTS (
 );
 
 
---
+-- delete all suppliers who did not provide equipment in the last year
 delete from Suppliers
 where Suppliers.Sid in ( 
 select S.Sid
@@ -67,10 +53,13 @@ from Suppliers S
 where not exists (
       select O.SID 
       from Orders O
-      where O.ORDERDATE > TO_DATE('2023-01-01', 'YYYY-MM-DD') AND O.Sid = S.Sid ))T;
- 
+      --where O.ORDERDATE > TO_DATE('2023-01-01', 'YYYY-MM-DD') AND O.Sid = S.Sid
+       WHERE EXTRACT(YEAR FROM O.ORDERDATE) > 2022 AND O.Sid = S.Sid
+       ))T;
+select * from orders O
+where EXTRACT(YEAR FROM O.ORDERDATE) > 2022 --AND O.Sid = S.Sid
 
---שמות כל המוצרים שספק 322864762 סיפק
+-- The names of all the products supplied by supplier 322864762
 select ename
 from (
 select eid
@@ -79,3 +68,12 @@ natural join
 (select oid,sid from orders)
 where sid= 322864762
 ) natural join Equipment
+
+--select all detales for mobile eqweepment
+SELECT r.rID, r.repairDate, r.description
+FROM Repairs r
+WHERE r.rID IN (SELECT er.rID
+                FROM EquipRepairs er
+                WHERE er.eID IN (SELECT e.eID
+                                 FROM Equipment e
+                                 WHERE e.isMobile = 'true'));
