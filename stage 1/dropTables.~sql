@@ -1,8 +1,8 @@
 drop table EquipRepairs;
-drop table vehiclesrepairs;
+drop table vehiclesRepairs;
 drop table Repairs;
 drop table vehicle_equip;
-drop table Vehicles;
+drop table Vehicles;--v
 drop table equip_order;
 drop table Equipment;
 drop table Orders;
@@ -17,3 +17,4 @@ BEGIN
     END LOOP;
 END;
 /
+--delete from EquipRepairs;  -- 

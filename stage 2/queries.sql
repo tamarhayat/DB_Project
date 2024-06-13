@@ -1,0 +1,98 @@
+-- delete all the vehicles that pass more than 5 repairs
+DELETE FROM Vehicles
+WHERE vID IN (
+  SELECT vid
+  FROM VehiclesRepairs
+  GROUP BY vID
+  HAVING COUNT(rID) > 5
+);
+
+
+-- delete all suppliers who did not provide equipment in the last year
+delete from Suppliers
+where Suppliers.Sid in ( 
+select S.Sid
+from Suppliers S
+where not exists (
+      select O.SID 
+      from Orders O
+      --where O.ORDERDATE > TO_DATE('2023-01-01', 'YYYY-MM-DD') AND O.Sid = S.Sid
+       WHERE EXTRACT(YEAR FROM O.ORDERDATE) > 2022 AND O.Sid = S.Sid
+       ))T;
+select * from orders O
+where EXTRACT(YEAR FROM O.ORDERDATE) > 2022 --AND O.Sid = S.Sid
+
+
+
+--select all the donors that donate all the types of the vehicles  V
+SELECT d.dID, d.dname, d.address, d.phoneNumber
+FROM Donors d
+WHERE NOT EXISTS (
+    SELECT vt.typeIs
+    FROM (SELECT typeIs FROM Vehicles GROUP BY TypeIs) vt
+    WHERE NOT EXISTS (
+        SELECT 1
+        FROM Vehicles v
+        WHERE v.dID = d.dID
+        AND v.typeIs = vt.typeIs
+    )
+);
+
+-- Update the description for each repair of non-mobile equipment, adding "Note: This equipment is not mobile" to the description
+UPDATE Repairs r
+SET r.description = r.description || '. Note: This equipment is not mobile'
+WHERE EXISTS (
+    SELECT 1
+    FROM EquipRepairs er
+    JOIN Equipment e ON er.eID = e.eID
+    WHERE er.rID = r.rID AND e.isMobile = 'false'
+);
+
+-- Select the names of all products and the latest supply date for each product
+
+SELECT e.ename, TRUNC(MAX(o.orderDate)) AS last_supply_date
+FROM Equipment e
+JOIN equip_order eo ON e.eID = eo.eID
+JOIN Orders o ON eo.oID = o.oID
+GROUP BY e.ename
+order by e.ename;
+
+
+
+
+--select all details for mobile equipment that was in repair 
+SELECT r.rID, r.repairDate, r.description
+FROM Repairs r
+WHERE r.rID IN (SELECT er.rID
+                FROM EquipRepairs er
+                WHERE er.eID IN (SELECT e.eID
+                                 FROM Equipment e
+                                 WHERE e.isMobile = 'true'));
+                                 
+-- Select the names of all the equipment with the lowest price, and the supplier that supplies it at this price
+                                 
+SELECT e.ename, s.sname, e.price
+FROM (
+    SELECT ename, MIN(price) AS min_price
+    FROM Equipment
+    GROUP BY ename
+) min_prices
+JOIN Equipment e ON min_prices.ename = e.ename AND min_prices.min_price = e.price
+JOIN equip_order eo ON e.eID = eo.eID
+JOIN Orders o ON eo.oID = o.oID
+JOIN Suppliers s ON o.sID = s.sID
+ORDER BY e.ename;
+
+
+
+
+--update old vehicles(before 4/2021) to be "not normal"  V
+UPDATE Vehicles
+SET status = 'not normal'
+WHERE vID IN (SELECT vr.vID 
+              FROM VehiclesRepairs vr 
+              WHERE vr.rID NOT IN (SELECT rID 
+                                   FROM Repairs 
+                                   WHERE repairDate > TO_DATE('2021-04-01', 'YYYY-MM-DD')));
+
+

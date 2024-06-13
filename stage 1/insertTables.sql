@@ -2413,6 +2413,1210 @@ values (322865130, 'Ava King', '28585 Cedar St, Springfield, Mexico', '053-21098
 commit;
 
 
+-- insert Orders
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (39999, to_date('11-05-2023', 'dd-mm-yyyy'), 322865024);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40000, to_date('10-04-2024', 'dd-mm-yyyy'), 322864756);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40001, to_date('15-08-2023', 'dd-mm-yyyy'), 322864932);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40002, to_date('27-03-2023', 'dd-mm-yyyy'), 322864795);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40003, to_date('23-02-2023', 'dd-mm-yyyy'), 322865001);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40004, to_date('02-03-2024', 'dd-mm-yyyy'), 322865081);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40005, to_date('30-09-2021', 'dd-mm-yyyy'), 322864894);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40006, to_date('08-07-2021', 'dd-mm-yyyy'), 322864980);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40007, to_date('14-09-2022', 'dd-mm-yyyy'), 322864997);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40008, to_date('10-09-2022', 'dd-mm-yyyy'), 322865057);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40009, to_date('12-02-2023', 'dd-mm-yyyy'), 322864920);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40010, to_date('08-05-2022', 'dd-mm-yyyy'), 322865060);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40011, to_date('16-09-2022', 'dd-mm-yyyy'), 322864878);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40012, to_date('01-04-2024', 'dd-mm-yyyy'), 322864803);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40013, to_date('29-06-2022', 'dd-mm-yyyy'), 322865068);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40014, to_date('15-07-2022', 'dd-mm-yyyy'), 322865080);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40015, to_date('07-02-2022', 'dd-mm-yyyy'), 322865081);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40016, to_date('18-02-2021', 'dd-mm-yyyy'), 322865109);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40017, to_date('12-02-2022', 'dd-mm-yyyy'), 322865037);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40018, to_date('04-11-2021', 'dd-mm-yyyy'), 322865059);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40019, to_date('25-07-2021', 'dd-mm-yyyy'), 322865094);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40020, to_date('26-02-2024', 'dd-mm-yyyy'), 322865127);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40021, to_date('25-12-2021', 'dd-mm-yyyy'), 322864819);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40022, to_date('10-04-2023', 'dd-mm-yyyy'), 322864747);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40023, to_date('12-03-2023', 'dd-mm-yyyy'), 322864867);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40024, to_date('20-01-2024', 'dd-mm-yyyy'), 322864785);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40025, to_date('30-10-2023', 'dd-mm-yyyy'), 322865067);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40026, to_date('27-08-2021', 'dd-mm-yyyy'), 322864899);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40027, to_date('12-08-2023', 'dd-mm-yyyy'), 322864745);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40028, to_date('28-07-2022', 'dd-mm-yyyy'), 322865127);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40029, to_date('01-11-2021', 'dd-mm-yyyy'), 322864794);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40030, to_date('12-04-2021', 'dd-mm-yyyy'), 322864877);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40031, to_date('28-03-2024', 'dd-mm-yyyy'), 322865125);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40032, to_date('17-05-2021', 'dd-mm-yyyy'), 322864980);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40033, to_date('28-12-2023', 'dd-mm-yyyy'), 322864792);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40034, to_date('17-07-2021', 'dd-mm-yyyy'), 322864981);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40035, to_date('05-06-2021', 'dd-mm-yyyy'), 322865041);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40036, to_date('18-01-2023', 'dd-mm-yyyy'), 322864739);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40037, to_date('15-11-2022', 'dd-mm-yyyy'), 322864776);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40038, to_date('08-06-2021', 'dd-mm-yyyy'), 322865096);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40039, to_date('06-12-2023', 'dd-mm-yyyy'), 322864873);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40040, to_date('08-11-2023', 'dd-mm-yyyy'), 322864888);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40041, to_date('23-03-2024', 'dd-mm-yyyy'), 322865061);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40042, to_date('25-07-2022', 'dd-mm-yyyy'), 322864874);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40043, to_date('24-02-2023', 'dd-mm-yyyy'), 322864781);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40044, to_date('27-11-2021', 'dd-mm-yyyy'), 322864835);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40045, to_date('15-07-2021', 'dd-mm-yyyy'), 322864753);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40046, to_date('20-11-2023', 'dd-mm-yyyy'), 322865033);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40047, to_date('04-03-2021', 'dd-mm-yyyy'), 322864860);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40048, to_date('29-11-2023', 'dd-mm-yyyy'), 322864879);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40049, to_date('29-08-2021', 'dd-mm-yyyy'), 322864872);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40050, to_date('12-10-2021', 'dd-mm-yyyy'), 322864989);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40051, to_date('13-10-2021', 'dd-mm-yyyy'), 322865028);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40052, to_date('12-04-2023', 'dd-mm-yyyy'), 322864899);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40053, to_date('17-03-2023', 'dd-mm-yyyy'), 322864798);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40054, to_date('21-02-2022', 'dd-mm-yyyy'), 322864800);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40055, to_date('25-08-2021', 'dd-mm-yyyy'), 322865034);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40056, to_date('18-03-2024', 'dd-mm-yyyy'), 322864969);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40057, to_date('06-04-2022', 'dd-mm-yyyy'), 322864843);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40058, to_date('01-12-2023', 'dd-mm-yyyy'), 322865054);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40059, to_date('01-02-2022', 'dd-mm-yyyy'), 322864988);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40060, to_date('25-08-2023', 'dd-mm-yyyy'), 322865099);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40061, to_date('07-09-2021', 'dd-mm-yyyy'), 322864944);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40062, to_date('27-06-2021', 'dd-mm-yyyy'), 322865062);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40063, to_date('22-01-2024', 'dd-mm-yyyy'), 322864822);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40064, to_date('18-03-2022', 'dd-mm-yyyy'), 322864899);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40065, to_date('12-09-2023', 'dd-mm-yyyy'), 322865087);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40066, to_date('29-06-2022', 'dd-mm-yyyy'), 322864991);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40067, to_date('04-06-2023', 'dd-mm-yyyy'), 322865076);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40068, to_date('04-07-2023', 'dd-mm-yyyy'), 322864768);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40069, to_date('04-09-2022', 'dd-mm-yyyy'), 322865053);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40070, to_date('14-07-2023', 'dd-mm-yyyy'), 322865114);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40071, to_date('18-04-2023', 'dd-mm-yyyy'), 322865002);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40072, to_date('18-10-2021', 'dd-mm-yyyy'), 322865009);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40073, to_date('17-11-2021', 'dd-mm-yyyy'), 322865088);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40074, to_date('26-08-2021', 'dd-mm-yyyy'), 322864988);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40075, to_date('08-12-2022', 'dd-mm-yyyy'), 322864800);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40076, to_date('16-01-2022', 'dd-mm-yyyy'), 322864872);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40077, to_date('07-04-2023', 'dd-mm-yyyy'), 322865099);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40078, to_date('25-04-2024', 'dd-mm-yyyy'), 322864957);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40079, to_date('12-10-2023', 'dd-mm-yyyy'), 322864778);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40080, to_date('23-03-2021', 'dd-mm-yyyy'), 322865113);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40081, to_date('27-04-2024', 'dd-mm-yyyy'), 322864776);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40082, to_date('30-01-2024', 'dd-mm-yyyy'), 322864777);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40083, to_date('11-02-2022', 'dd-mm-yyyy'), 322865033);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40084, to_date('12-01-2022', 'dd-mm-yyyy'), 322864890);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40085, to_date('12-11-2021', 'dd-mm-yyyy'), 322865037);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40086, to_date('17-07-2022', 'dd-mm-yyyy'), 322864972);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40087, to_date('26-04-2022', 'dd-mm-yyyy'), 322864859);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40088, to_date('17-05-2021', 'dd-mm-yyyy'), 322864974);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40089, to_date('29-10-2022', 'dd-mm-yyyy'), 322864801);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40090, to_date('04-05-2022', 'dd-mm-yyyy'), 322864907);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40091, to_date('10-03-2023', 'dd-mm-yyyy'), 322865084);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40092, to_date('17-02-2021', 'dd-mm-yyyy'), 322864888);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40093, to_date('22-05-2021', 'dd-mm-yyyy'), 322865081);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40094, to_date('27-01-2021', 'dd-mm-yyyy'), 322864794);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40095, to_date('07-06-2021', 'dd-mm-yyyy'), 322864927);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40096, to_date('04-11-2023', 'dd-mm-yyyy'), 322864777);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40097, to_date('29-09-2023', 'dd-mm-yyyy'), 322864810);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40098, to_date('16-01-2024', 'dd-mm-yyyy'), 322864819);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40099, to_date('22-02-2022', 'dd-mm-yyyy'), 322864980);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40100, to_date('21-07-2023', 'dd-mm-yyyy'), 322864792);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40101, to_date('06-04-2022', 'dd-mm-yyyy'), 322864779);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40102, to_date('23-08-2021', 'dd-mm-yyyy'), 322864991);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40103, to_date('20-05-2022', 'dd-mm-yyyy'), 322865119);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40104, to_date('06-04-2022', 'dd-mm-yyyy'), 322864808);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40105, to_date('25-01-2024', 'dd-mm-yyyy'), 322864919);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40106, to_date('13-11-2022', 'dd-mm-yyyy'), 322864922);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40107, to_date('26-01-2022', 'dd-mm-yyyy'), 322864935);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40108, to_date('12-03-2021', 'dd-mm-yyyy'), 322864864);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40109, to_date('23-03-2022', 'dd-mm-yyyy'), 322864886);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40110, to_date('12-12-2022', 'dd-mm-yyyy'), 322864732);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40111, to_date('23-07-2021', 'dd-mm-yyyy'), 322865097);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40112, to_date('10-02-2024', 'dd-mm-yyyy'), 322865126);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40113, to_date('15-05-2021', 'dd-mm-yyyy'), 322864791);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40114, to_date('26-09-2023', 'dd-mm-yyyy'), 322865069);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40115, to_date('09-10-2022', 'dd-mm-yyyy'), 322864830);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40116, to_date('28-03-2022', 'dd-mm-yyyy'), 322864978);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40117, to_date('14-11-2022', 'dd-mm-yyyy'), 322864840);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40118, to_date('10-02-2022', 'dd-mm-yyyy'), 322865068);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40119, to_date('27-10-2023', 'dd-mm-yyyy'), 322865127);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40120, to_date('16-09-2021', 'dd-mm-yyyy'), 322864839);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40121, to_date('07-10-2023', 'dd-mm-yyyy'), 322865109);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40122, to_date('26-12-2023', 'dd-mm-yyyy'), 322865028);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40123, to_date('14-12-2023', 'dd-mm-yyyy'), 322864882);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40124, to_date('20-02-2022', 'dd-mm-yyyy'), 322865096);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40125, to_date('07-09-2022', 'dd-mm-yyyy'), 322865037);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40126, to_date('22-12-2022', 'dd-mm-yyyy'), 322865007);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40127, to_date('20-12-2021', 'dd-mm-yyyy'), 322864749);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40128, to_date('05-03-2024', 'dd-mm-yyyy'), 322864978);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40129, to_date('05-08-2022', 'dd-mm-yyyy'), 322865052);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40130, to_date('11-08-2021', 'dd-mm-yyyy'), 322864961);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40131, to_date('12-08-2021', 'dd-mm-yyyy'), 322865126);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40132, to_date('17-01-2022', 'dd-mm-yyyy'), 322864938);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40133, to_date('04-08-2023', 'dd-mm-yyyy'), 322865109);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40134, to_date('29-12-2023', 'dd-mm-yyyy'), 322864784);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40135, to_date('17-08-2023', 'dd-mm-yyyy'), 322865059);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40136, to_date('03-09-2021', 'dd-mm-yyyy'), 322864974);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40137, to_date('08-09-2022', 'dd-mm-yyyy'), 322864970);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40138, to_date('15-07-2023', 'dd-mm-yyyy'), 322865097);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40139, to_date('24-05-2021', 'dd-mm-yyyy'), 322864883);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40140, to_date('04-07-2023', 'dd-mm-yyyy'), 322864863);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40141, to_date('19-12-2023', 'dd-mm-yyyy'), 322864993);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40142, to_date('19-02-2023', 'dd-mm-yyyy'), 322864741);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40143, to_date('03-12-2023', 'dd-mm-yyyy'), 322864976);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40144, to_date('14-02-2024', 'dd-mm-yyyy'), 111111111);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40145, to_date('06-11-2021', 'dd-mm-yyyy'), 322865058);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40146, to_date('14-05-2023', 'dd-mm-yyyy'), 322865009);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40147, to_date('03-06-2021', 'dd-mm-yyyy'), 322865042);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40148, to_date('06-03-2023', 'dd-mm-yyyy'), 322864739);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40149, to_date('30-10-2021', 'dd-mm-yyyy'), 322864811);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40150, to_date('25-09-2022', 'dd-mm-yyyy'), 322864998);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40151, to_date('27-03-2022', 'dd-mm-yyyy'), 322865123);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40152, to_date('21-01-2022', 'dd-mm-yyyy'), 322865102);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40153, to_date('07-03-2024', 'dd-mm-yyyy'), 322864833);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40154, to_date('21-03-2023', 'dd-mm-yyyy'), 322864886);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40155, to_date('04-04-2022', 'dd-mm-yyyy'), 322865130);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40156, to_date('29-01-2021', 'dd-mm-yyyy'), 322864824);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40157, to_date('23-05-2021', 'dd-mm-yyyy'), 322864741);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40158, to_date('12-03-2024', 'dd-mm-yyyy'), 322864733);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40159, to_date('15-12-2021', 'dd-mm-yyyy'), 322864900);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40160, to_date('19-12-2021', 'dd-mm-yyyy'), 322864765);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40161, to_date('10-12-2022', 'dd-mm-yyyy'), 322865005);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40162, to_date('17-08-2021', 'dd-mm-yyyy'), 322864811);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40163, to_date('22-04-2023', 'dd-mm-yyyy'), 322864786);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40164, to_date('28-01-2022', 'dd-mm-yyyy'), 322865032);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40165, to_date('06-09-2022', 'dd-mm-yyyy'), 322864897);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40166, to_date('20-09-2022', 'dd-mm-yyyy'), 322865052);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40167, to_date('11-07-2023', 'dd-mm-yyyy'), 322864758);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40168, to_date('29-01-2024', 'dd-mm-yyyy'), 322865094);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40169, to_date('14-01-2024', 'dd-mm-yyyy'), 322864959);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40170, to_date('28-10-2021', 'dd-mm-yyyy'), 322864832);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40171, to_date('06-08-2022', 'dd-mm-yyyy'), 322864842);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40172, to_date('26-10-2023', 'dd-mm-yyyy'), 322865019);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40173, to_date('06-05-2021', 'dd-mm-yyyy'), 322864800);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40174, to_date('24-04-2022', 'dd-mm-yyyy'), 322865067);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40175, to_date('15-03-2024', 'dd-mm-yyyy'), 322864876);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40176, to_date('28-10-2023', 'dd-mm-yyyy'), 322865041);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40177, to_date('07-02-2022', 'dd-mm-yyyy'), 322865020);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40178, to_date('17-01-2023', 'dd-mm-yyyy'), 322865043);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40179, to_date('08-05-2023', 'dd-mm-yyyy'), 322864794);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40180, to_date('04-08-2021', 'dd-mm-yyyy'), 322865049);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40181, to_date('20-12-2021', 'dd-mm-yyyy'), 322864854);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40182, to_date('26-09-2023', 'dd-mm-yyyy'), 322864769);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40183, to_date('06-04-2021', 'dd-mm-yyyy'), 322865034);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40184, to_date('03-07-2023', 'dd-mm-yyyy'), 322864803);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40185, to_date('06-01-2024', 'dd-mm-yyyy'), 322864740);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40186, to_date('06-01-2022', 'dd-mm-yyyy'), 322864853);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40187, to_date('09-08-2023', 'dd-mm-yyyy'), 322865075);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40188, to_date('17-05-2023', 'dd-mm-yyyy'), 322864872);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40189, to_date('01-05-2024', 'dd-mm-yyyy'), 322865021);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40190, to_date('04-08-2022', 'dd-mm-yyyy'), 322865105);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40191, to_date('03-12-2021', 'dd-mm-yyyy'), 322864890);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40192, to_date('02-08-2023', 'dd-mm-yyyy'), 322865102);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40193, to_date('22-07-2021', 'dd-mm-yyyy'), 322864762);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40194, to_date('15-03-2021', 'dd-mm-yyyy'), 322865064);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40195, to_date('09-10-2022', 'dd-mm-yyyy'), 322864934);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40196, to_date('14-03-2024', 'dd-mm-yyyy'), 322865001);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40197, to_date('11-03-2023', 'dd-mm-yyyy'), 322865097);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40198, to_date('08-05-2024', 'dd-mm-yyyy'), 322864852);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40199, to_date('27-10-2022', 'dd-mm-yyyy'), 322865052);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40200, to_date('14-03-2024', 'dd-mm-yyyy'), 322864859);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40201, to_date('14-09-2021', 'dd-mm-yyyy'), 322865101);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40202, to_date('13-07-2023', 'dd-mm-yyyy'), 322864748);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40203, to_date('10-06-2021', 'dd-mm-yyyy'), 322865111);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40204, to_date('14-03-2021', 'dd-mm-yyyy'), 322864785);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40205, to_date('09-08-2021', 'dd-mm-yyyy'), 322864986);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40206, to_date('21-02-2022', 'dd-mm-yyyy'), 322865092);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40207, to_date('09-05-2023', 'dd-mm-yyyy'), 322864958);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40208, to_date('28-03-2023', 'dd-mm-yyyy'), 322864871);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40209, to_date('18-09-2022', 'dd-mm-yyyy'), 322865019);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40210, to_date('12-09-2023', 'dd-mm-yyyy'), 322864915);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40211, to_date('23-02-2021', 'dd-mm-yyyy'), 322864907);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40212, to_date('05-11-2021', 'dd-mm-yyyy'), 322864883);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40213, to_date('21-12-2023', 'dd-mm-yyyy'), 322864974);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40214, to_date('01-12-2021', 'dd-mm-yyyy'), 322864887);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40215, to_date('25-01-2022', 'dd-mm-yyyy'), 322864745);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40216, to_date('14-03-2021', 'dd-mm-yyyy'), 322865079);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40217, to_date('22-01-2024', 'dd-mm-yyyy'), 322864897);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40218, to_date('17-03-2023', 'dd-mm-yyyy'), 322864997);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40219, to_date('06-03-2024', 'dd-mm-yyyy'), 322864866);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40220, to_date('30-09-2021', 'dd-mm-yyyy'), 322864943);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40221, to_date('30-03-2022', 'dd-mm-yyyy'), 322864807);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40222, to_date('20-08-2023', 'dd-mm-yyyy'), 322864954);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40223, to_date('29-03-2023', 'dd-mm-yyyy'), 322865129);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40224, to_date('14-09-2022', 'dd-mm-yyyy'), 322865052);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40225, to_date('29-10-2022', 'dd-mm-yyyy'), 322864913);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40226, to_date('06-09-2021', 'dd-mm-yyyy'), 322864916);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40227, to_date('09-03-2023', 'dd-mm-yyyy'), 322865044);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40228, to_date('16-01-2023', 'dd-mm-yyyy'), 322864870);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40229, to_date('01-11-2022', 'dd-mm-yyyy'), 322864763);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40230, to_date('22-09-2022', 'dd-mm-yyyy'), 322864941);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40231, to_date('04-02-2023', 'dd-mm-yyyy'), 322864877);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40232, to_date('05-01-2021', 'dd-mm-yyyy'), 322864857);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40233, to_date('07-09-2023', 'dd-mm-yyyy'), 322864915);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40234, to_date('27-09-2021', 'dd-mm-yyyy'), 322864763);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40235, to_date('23-04-2021', 'dd-mm-yyyy'), 322864887);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40236, to_date('05-05-2022', 'dd-mm-yyyy'), 322864911);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40237, to_date('06-09-2022', 'dd-mm-yyyy'), 322865129);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40238, to_date('30-09-2021', 'dd-mm-yyyy'), 322865099);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40239, to_date('28-02-2023', 'dd-mm-yyyy'), 322865082);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40240, to_date('27-03-2023', 'dd-mm-yyyy'), 322864733);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40241, to_date('20-09-2021', 'dd-mm-yyyy'), 322865096);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40242, to_date('15-09-2023', 'dd-mm-yyyy'), 322864871);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40243, to_date('18-10-2021', 'dd-mm-yyyy'), 322865106);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40244, to_date('18-05-2022', 'dd-mm-yyyy'), 322864919);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40245, to_date('05-08-2022', 'dd-mm-yyyy'), 322864875);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40246, to_date('10-09-2021', 'dd-mm-yyyy'), 322864761);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40247, to_date('08-04-2023', 'dd-mm-yyyy'), 322865042);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40248, to_date('24-04-2021', 'dd-mm-yyyy'), 322864770);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40249, to_date('23-07-2022', 'dd-mm-yyyy'), 322865071);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40250, to_date('11-09-2023', 'dd-mm-yyyy'), 322865089);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40251, to_date('05-01-2021', 'dd-mm-yyyy'), 322864751);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40252, to_date('25-04-2023', 'dd-mm-yyyy'), 322864837);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40253, to_date('23-08-2023', 'dd-mm-yyyy'), 322865128);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40254, to_date('27-06-2023', 'dd-mm-yyyy'), 322864814);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40255, to_date('09-05-2021', 'dd-mm-yyyy'), 322864928);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40256, to_date('03-01-2024', 'dd-mm-yyyy'), 322864980);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40257, to_date('29-10-2021', 'dd-mm-yyyy'), 322864951);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40258, to_date('14-11-2021', 'dd-mm-yyyy'), 322864862);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40259, to_date('16-10-2021', 'dd-mm-yyyy'), 322865087);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40260, to_date('26-03-2024', 'dd-mm-yyyy'), 322864766);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40261, to_date('28-07-2023', 'dd-mm-yyyy'), 322865051);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40262, to_date('05-09-2022', 'dd-mm-yyyy'), 322864976);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40263, to_date('24-05-2023', 'dd-mm-yyyy'), 322864867);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40264, to_date('04-02-2021', 'dd-mm-yyyy'), 322864976);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40265, to_date('14-11-2021', 'dd-mm-yyyy'), 322864816);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40266, to_date('10-12-2023', 'dd-mm-yyyy'), 322864899);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40267, to_date('18-01-2023', 'dd-mm-yyyy'), 322865068);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40268, to_date('27-03-2021', 'dd-mm-yyyy'), 322865048);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40269, to_date('10-05-2023', 'dd-mm-yyyy'), 322864911);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40270, to_date('05-02-2021', 'dd-mm-yyyy'), 322865070);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40271, to_date('20-11-2022', 'dd-mm-yyyy'), 322864809);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40272, to_date('21-02-2022', 'dd-mm-yyyy'), 322864843);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40273, to_date('23-05-2021', 'dd-mm-yyyy'), 322864993);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40274, to_date('19-04-2022', 'dd-mm-yyyy'), 322864854);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40275, to_date('18-12-2022', 'dd-mm-yyyy'), 322864812);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40276, to_date('18-06-2022', 'dd-mm-yyyy'), 322864732);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40277, to_date('08-08-2023', 'dd-mm-yyyy'), 322864762);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40278, to_date('20-07-2021', 'dd-mm-yyyy'), 322865097);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40279, to_date('01-05-2024', 'dd-mm-yyyy'), 322864809);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40280, to_date('28-01-2024', 'dd-mm-yyyy'), 322864814);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40281, to_date('02-01-2022', 'dd-mm-yyyy'), 322865129);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40282, to_date('22-03-2021', 'dd-mm-yyyy'), 322864998);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40283, to_date('24-02-2022', 'dd-mm-yyyy'), 322865078);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40284, to_date('25-06-2022', 'dd-mm-yyyy'), 322864855);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40285, to_date('04-05-2024', 'dd-mm-yyyy'), 322865114);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40286, to_date('17-07-2022', 'dd-mm-yyyy'), 322864916);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40287, to_date('19-09-2022', 'dd-mm-yyyy'), 322864898);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40288, to_date('08-11-2022', 'dd-mm-yyyy'), 322864950);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40289, to_date('03-04-2021', 'dd-mm-yyyy'), 322864867);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40290, to_date('04-06-2021', 'dd-mm-yyyy'), 322865095);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40291, to_date('16-06-2023', 'dd-mm-yyyy'), 322864737);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40292, to_date('04-02-2024', 'dd-mm-yyyy'), 322864915);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40293, to_date('04-06-2021', 'dd-mm-yyyy'), 322864813);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40294, to_date('14-02-2023', 'dd-mm-yyyy'), 322865115);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40295, to_date('11-08-2023', 'dd-mm-yyyy'), 322864958);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40296, to_date('22-09-2021', 'dd-mm-yyyy'), 322864805);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40297, to_date('24-07-2022', 'dd-mm-yyyy'), 322864922);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40298, to_date('11-07-2021', 'dd-mm-yyyy'), 322864875);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40299, to_date('29-07-2021', 'dd-mm-yyyy'), 322865052);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40300, to_date('18-11-2022', 'dd-mm-yyyy'), 322864948);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40301, to_date('01-04-2023', 'dd-mm-yyyy'), 322864909);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40302, to_date('04-01-2021', 'dd-mm-yyyy'), 322865087);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40303, to_date('19-08-2022', 'dd-mm-yyyy'), 322864999);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40304, to_date('11-07-2022', 'dd-mm-yyyy'), 322865112);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40305, to_date('17-06-2021', 'dd-mm-yyyy'), 322864952);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40306, to_date('08-12-2022', 'dd-mm-yyyy'), 322864911);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40307, to_date('01-03-2023', 'dd-mm-yyyy'), 322864749);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40308, to_date('27-03-2022', 'dd-mm-yyyy'), 322864798);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40309, to_date('12-06-2023', 'dd-mm-yyyy'), 322864938);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40310, to_date('19-03-2024', 'dd-mm-yyyy'), 322865104);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40311, to_date('10-03-2022', 'dd-mm-yyyy'), 322865033);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40312, to_date('16-10-2023', 'dd-mm-yyyy'), 322865050);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40313, to_date('03-05-2022', 'dd-mm-yyyy'), 322865037);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40314, to_date('28-02-2021', 'dd-mm-yyyy'), 322865095);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40315, to_date('06-12-2022', 'dd-mm-yyyy'), 322865094);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40316, to_date('15-04-2021', 'dd-mm-yyyy'), 322864999);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40317, to_date('02-01-2021', 'dd-mm-yyyy'), 322864794);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40318, to_date('14-01-2022', 'dd-mm-yyyy'), 322864794);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40319, to_date('30-01-2021', 'dd-mm-yyyy'), 322864948);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40320, to_date('28-03-2022', 'dd-mm-yyyy'), 322865123);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40321, to_date('06-04-2021', 'dd-mm-yyyy'), 322864754);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40322, to_date('23-03-2024', 'dd-mm-yyyy'), 322865111);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40323, to_date('23-09-2023', 'dd-mm-yyyy'), 322864967);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40324, to_date('05-03-2023', 'dd-mm-yyyy'), 322864843);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40325, to_date('07-06-2023', 'dd-mm-yyyy'), 322865004);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40326, to_date('26-10-2023', 'dd-mm-yyyy'), 322864816);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40327, to_date('01-02-2021', 'dd-mm-yyyy'), 322864786);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40328, to_date('05-01-2021', 'dd-mm-yyyy'), 322864833);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40329, to_date('25-09-2022', 'dd-mm-yyyy'), 322865049);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40330, to_date('05-09-2023', 'dd-mm-yyyy'), 322864910);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40331, to_date('22-10-2022', 'dd-mm-yyyy'), 322864738);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40332, to_date('16-12-2022', 'dd-mm-yyyy'), 322864861);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40333, to_date('01-11-2022', 'dd-mm-yyyy'), 322865003);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40334, to_date('25-02-2023', 'dd-mm-yyyy'), 322864933);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40335, to_date('07-05-2023', 'dd-mm-yyyy'), 322865013);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40336, to_date('07-01-2021', 'dd-mm-yyyy'), 322864756);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40337, to_date('04-07-2022', 'dd-mm-yyyy'), 322864914);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40338, to_date('28-02-2023', 'dd-mm-yyyy'), 322864786);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40339, to_date('05-10-2021', 'dd-mm-yyyy'), 322864941);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40340, to_date('01-09-2022', 'dd-mm-yyyy'), 322864894);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40341, to_date('24-10-2022', 'dd-mm-yyyy'), 322865008);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40342, to_date('02-02-2023', 'dd-mm-yyyy'), 322864888);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40343, to_date('19-05-2021', 'dd-mm-yyyy'), 322864799);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40344, to_date('24-05-2022', 'dd-mm-yyyy'), 322865017);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40345, to_date('06-05-2024', 'dd-mm-yyyy'), 322864862);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40346, to_date('14-12-2022', 'dd-mm-yyyy'), 322865050);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40347, to_date('04-12-2022', 'dd-mm-yyyy'), 322864949);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40348, to_date('13-08-2022', 'dd-mm-yyyy'), 322864970);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40349, to_date('21-04-2021', 'dd-mm-yyyy'), 322865097);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40350, to_date('23-01-2024', 'dd-mm-yyyy'), 322864879);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40351, to_date('17-03-2021', 'dd-mm-yyyy'), 322865091);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40352, to_date('08-08-2022', 'dd-mm-yyyy'), 322864965);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40353, to_date('09-11-2022', 'dd-mm-yyyy'), 322864802);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40354, to_date('19-06-2021', 'dd-mm-yyyy'), 322864906);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40355, to_date('24-05-2022', 'dd-mm-yyyy'), 322864850);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40356, to_date('16-11-2022', 'dd-mm-yyyy'), 322864976);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40357, to_date('05-12-2023', 'dd-mm-yyyy'), 322865079);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40358, to_date('23-12-2021', 'dd-mm-yyyy'), 322864835);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40359, to_date('10-03-2024', 'dd-mm-yyyy'), 322864886);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40360, to_date('26-04-2021', 'dd-mm-yyyy'), 322864848);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40361, to_date('08-08-2023', 'dd-mm-yyyy'), 322865114);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40362, to_date('27-06-2023', 'dd-mm-yyyy'), 322864926);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40363, to_date('12-05-2023', 'dd-mm-yyyy'), 322864923);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40364, to_date('21-05-2021', 'dd-mm-yyyy'), 322864740);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40365, to_date('08-06-2023', 'dd-mm-yyyy'), 322864772);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40366, to_date('03-04-2023', 'dd-mm-yyyy'), 322864890);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40367, to_date('10-06-2023', 'dd-mm-yyyy'), 322865111);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40368, to_date('19-11-2021', 'dd-mm-yyyy'), 322865087);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40369, to_date('27-07-2022', 'dd-mm-yyyy'), 322864922);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40370, to_date('07-05-2021', 'dd-mm-yyyy'), 322865124);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40371, to_date('07-05-2022', 'dd-mm-yyyy'), 322865109);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40372, to_date('13-03-2022', 'dd-mm-yyyy'), 322864896);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40373, to_date('26-03-2023', 'dd-mm-yyyy'), 322865077);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40374, to_date('05-08-2022', 'dd-mm-yyyy'), 322865057);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40375, to_date('03-12-2023', 'dd-mm-yyyy'), 322864893);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40376, to_date('28-08-2022', 'dd-mm-yyyy'), 322864753);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40377, to_date('24-11-2022', 'dd-mm-yyyy'), 322864771);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40378, to_date('30-06-2023', 'dd-mm-yyyy'), 322865031);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40379, to_date('21-07-2022', 'dd-mm-yyyy'), 322864889);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40380, to_date('01-06-2023', 'dd-mm-yyyy'), 322864968);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40381, to_date('06-08-2023', 'dd-mm-yyyy'), 322865053);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40382, to_date('22-05-2021', 'dd-mm-yyyy'), 322864904);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40383, to_date('05-12-2021', 'dd-mm-yyyy'), 322865035);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40384, to_date('08-11-2021', 'dd-mm-yyyy'), 322864839);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40385, to_date('09-02-2021', 'dd-mm-yyyy'), 322864905);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40386, to_date('07-02-2022', 'dd-mm-yyyy'), 322864973);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40387, to_date('22-06-2023', 'dd-mm-yyyy'), 322864760);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40388, to_date('20-01-2022', 'dd-mm-yyyy'), 322865041);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40389, to_date('23-06-2021', 'dd-mm-yyyy'), 322864992);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40390, to_date('12-06-2022', 'dd-mm-yyyy'), 322864831);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40391, to_date('20-10-2021', 'dd-mm-yyyy'), 322865095);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40392, to_date('11-06-2022', 'dd-mm-yyyy'), 322864740);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40393, to_date('04-11-2023', 'dd-mm-yyyy'), 322864734);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40394, to_date('30-08-2021', 'dd-mm-yyyy'), 322864941);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40395, to_date('28-01-2024', 'dd-mm-yyyy'), 322864906);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40396, to_date('25-04-2022', 'dd-mm-yyyy'), 322865034);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40397, to_date('31-10-2023', 'dd-mm-yyyy'), 322865096);
+
+insert into ORDERS (OID, ORDERDATE, SID)
+values (40398, to_date('16-04-2021', 'dd-mm-yyyy'), 322864941);
+
+commit;
+
 -- insert Equipment
  
 insert into Equipment (eID, ename, isMobile, quantity, price) values (10000, 'cotton balls', 'true', 458, 261.2);
@@ -2819,2428 +4023,6 @@ insert into Equipment (eID, ename, isMobile, quantity, price) values (10400, 'Bl
 insert into Equipment (eID, ename, isMobile, quantity, price) values (10401, 'CPR training mannequin', 'false', 50, 108.35);
 insert into Equipment (eID, ename, isMobile, quantity, price) values (10402, 'weight', 'false', 50, 97.56);
 insert into Equipment (eID, ename, isMobile, quantity, price) values (10403, 'Blood donation needle','false', 300, 150.45);
-
-commit;
-
-
--- insert Orders
-
-insert into Orders (OID, ORDERDATE, SID)
-values (39999, to_date('10-06-2366 02:16:22', 'dd-mm-yyyy hh24:mi:ss'), 322864809);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40000, to_date('07-01-2922 15:18:34', 'dd-mm-yyyy hh24:mi:ss'), 322864762);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40001, to_date('25-05-2734 21:21:36', 'dd-mm-yyyy hh24:mi:ss'), 322864868);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40002, to_date('18-05-3058 01:19:37', 'dd-mm-yyyy hh24:mi:ss'), 322864902);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40003, to_date('04-12-2194 20:35:48', 'dd-mm-yyyy hh24:mi:ss'), 322864734);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40004, to_date('05-02-2224 03:45:04', 'dd-mm-yyyy hh24:mi:ss'), 322864777);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40005, to_date('07-06-2647 23:17:48', 'dd-mm-yyyy hh24:mi:ss'), 322864812);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40006, to_date('07-05-3033 16:20:21', 'dd-mm-yyyy hh24:mi:ss'), 322864817);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40007, to_date('04-10-2293 20:47:54', 'dd-mm-yyyy hh24:mi:ss'), 322864924);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40008, to_date('29-08-2869 15:34:33', 'dd-mm-yyyy hh24:mi:ss'), 322864818);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40009, to_date('30-08-2646 05:05:08', 'dd-mm-yyyy hh24:mi:ss'), 322864817);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40010, to_date('12-06-2076 17:22:33', 'dd-mm-yyyy hh24:mi:ss'), 322864883);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40011, to_date('07-02-2505 11:57:41', 'dd-mm-yyyy hh24:mi:ss'), 322864746);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40012, to_date('18-07-2620 07:46:07', 'dd-mm-yyyy hh24:mi:ss'), 322864749);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40013, to_date('14-10-2951 02:13:29', 'dd-mm-yyyy hh24:mi:ss'), 322864892);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40014, to_date('05-11-2491 16:06:14', 'dd-mm-yyyy hh24:mi:ss'), 322864871);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40015, to_date('18-11-2897 05:13:55', 'dd-mm-yyyy hh24:mi:ss'), 322864826);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40016, to_date('07-04-2981 17:52:22', 'dd-mm-yyyy hh24:mi:ss'), 322864894);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40017, to_date('22-03-2977 11:42:43', 'dd-mm-yyyy hh24:mi:ss'), 322864894);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40018, to_date('10-06-2950 06:06:11', 'dd-mm-yyyy hh24:mi:ss'), 322864824);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40019, to_date('06-07-2066 14:00:23', 'dd-mm-yyyy hh24:mi:ss'), 322864799);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40020, to_date('19-12-3042 03:42:46', 'dd-mm-yyyy hh24:mi:ss'), 322864798);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40021, to_date('15-12-2649 17:18:57', 'dd-mm-yyyy hh24:mi:ss'), 322864778);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40022, to_date('16-12-2925 07:40:13', 'dd-mm-yyyy hh24:mi:ss'), 322864861);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40023, to_date('06-06-2441 07:20:47', 'dd-mm-yyyy hh24:mi:ss'), 322864748);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40024, to_date('05-08-2368 10:55:12', 'dd-mm-yyyy hh24:mi:ss'), 322864771);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40025, to_date('07-06-2737 03:17:25', 'dd-mm-yyyy hh24:mi:ss'), 322864910);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40026, to_date('01-06-2445 22:49:26', 'dd-mm-yyyy hh24:mi:ss'), 322864733);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40027, to_date('02-08-2994 17:14:03', 'dd-mm-yyyy hh24:mi:ss'), 322864894);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40028, to_date('10-04-2360 09:11:31', 'dd-mm-yyyy hh24:mi:ss'), 322864774);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40029, to_date('16-09-2073 21:32:32', 'dd-mm-yyyy hh24:mi:ss'), 322864833);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40030, to_date('16-07-2433 02:00:48', 'dd-mm-yyyy hh24:mi:ss'), 322864758);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40031, to_date('18-02-2570 20:53:48', 'dd-mm-yyyy hh24:mi:ss'), 322864745);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40032, to_date('19-12-2940 22:41:31', 'dd-mm-yyyy hh24:mi:ss'), 322864880);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40033, to_date('24-01-2243 11:19:58', 'dd-mm-yyyy hh24:mi:ss'), 322864910);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40034, to_date('05-05-2483 16:01:55', 'dd-mm-yyyy hh24:mi:ss'), 322864903);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40035, to_date('09-03-2225 03:36:25', 'dd-mm-yyyy hh24:mi:ss'), 322864924);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40036, to_date('24-11-2997 06:43:46', 'dd-mm-yyyy hh24:mi:ss'), 322864895);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40037, to_date('01-04-2826 11:20:58', 'dd-mm-yyyy hh24:mi:ss'), 322864819);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40038, to_date('25-06-2388 06:10:04', 'dd-mm-yyyy hh24:mi:ss'), 322864836);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40039, to_date('16-12-2356 19:53:02', 'dd-mm-yyyy hh24:mi:ss'), 322864836);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40040, to_date('24-10-2475 15:39:10', 'dd-mm-yyyy hh24:mi:ss'), 322864736);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40041, to_date('04-05-3048 12:49:58', 'dd-mm-yyyy hh24:mi:ss'), 322864914);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40042, to_date('01-09-2157 19:05:22', 'dd-mm-yyyy hh24:mi:ss'), 322864744);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40043, to_date('16-09-3063 17:12:20', 'dd-mm-yyyy hh24:mi:ss'), 322864818);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40044, to_date('21-05-2952 15:28:04', 'dd-mm-yyyy hh24:mi:ss'), 322864785);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40045, to_date('09-08-2436 17:07:43', 'dd-mm-yyyy hh24:mi:ss'), 322864846);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40046, to_date('28-01-2623 21:25:55', 'dd-mm-yyyy hh24:mi:ss'), 322864908);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40047, to_date('09-10-2459 16:38:55', 'dd-mm-yyyy hh24:mi:ss'), 322864739);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40048, to_date('18-01-2472 23:05:51', 'dd-mm-yyyy hh24:mi:ss'), 322864783);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40049, to_date('27-04-2600 16:45:15', 'dd-mm-yyyy hh24:mi:ss'), 322864851);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40050, to_date('29-12-2418 00:04:01', 'dd-mm-yyyy hh24:mi:ss'), 322864833);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40051, to_date('29-01-2448 22:06:57', 'dd-mm-yyyy hh24:mi:ss'), 322864872);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40052, to_date('19-11-2588 20:00:23', 'dd-mm-yyyy hh24:mi:ss'), 322864913);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40053, to_date('11-01-2741 07:20:21', 'dd-mm-yyyy hh24:mi:ss'), 322864898);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40054, to_date('22-11-2945 14:41:08', 'dd-mm-yyyy hh24:mi:ss'), 322864762);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40055, to_date('11-07-2943 02:51:38', 'dd-mm-yyyy hh24:mi:ss'), 322864815);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40056, to_date('17-07-2276 11:52:56', 'dd-mm-yyyy hh24:mi:ss'), 322864823);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40057, to_date('09-04-2620 16:08:32', 'dd-mm-yyyy hh24:mi:ss'), 322864897);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40058, to_date('02-05-2313 19:28:16', 'dd-mm-yyyy hh24:mi:ss'), 322864734);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40059, to_date('07-11-2497 21:05:28', 'dd-mm-yyyy hh24:mi:ss'), 322864891);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40060, to_date('09-04-2991 15:10:39', 'dd-mm-yyyy hh24:mi:ss'), 322864827);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40061, to_date('11-07-2425 15:58:01', 'dd-mm-yyyy hh24:mi:ss'), 322864776);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40062, to_date('02-11-2547 02:38:58', 'dd-mm-yyyy hh24:mi:ss'), 322864807);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40063, to_date('28-04-2158 02:02:58', 'dd-mm-yyyy hh24:mi:ss'), 322864796);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40064, to_date('30-10-2713 04:44:24', 'dd-mm-yyyy hh24:mi:ss'), 322864859);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40065, to_date('26-02-2702 11:05:34', 'dd-mm-yyyy hh24:mi:ss'), 322864815);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40066, to_date('12-11-2611 16:34:53', 'dd-mm-yyyy hh24:mi:ss'), 322864852);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40067, to_date('17-10-3056 15:00:00', 'dd-mm-yyyy hh24:mi:ss'), 322864923);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40068, to_date('05-06-2200 19:47:25', 'dd-mm-yyyy hh24:mi:ss'), 322864793);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40069, to_date('29-06-2239 00:06:02', 'dd-mm-yyyy hh24:mi:ss'), 322864841);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40070, to_date('08-12-2575 14:42:34', 'dd-mm-yyyy hh24:mi:ss'), 322864900);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40071, to_date('17-12-3008 14:41:42', 'dd-mm-yyyy hh24:mi:ss'), 322864732);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40072, to_date('23-05-2324 22:01:37', 'dd-mm-yyyy hh24:mi:ss'), 322864930);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40073, to_date('19-06-2358 11:47:45', 'dd-mm-yyyy hh24:mi:ss'), 322864891);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40074, to_date('10-03-2049 15:10:22', 'dd-mm-yyyy hh24:mi:ss'), 322864859);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40075, to_date('16-10-2682 14:22:16', 'dd-mm-yyyy hh24:mi:ss'), 322864800);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40076, to_date('28-08-3067 20:58:50', 'dd-mm-yyyy hh24:mi:ss'), 322864835);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40077, to_date('04-11-2817 20:56:49', 'dd-mm-yyyy hh24:mi:ss'), 322864736);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40078, to_date('25-08-2371 10:38:47', 'dd-mm-yyyy hh24:mi:ss'), 322864788);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40079, to_date('24-09-2329 03:09:12', 'dd-mm-yyyy hh24:mi:ss'), 322864921);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40080, to_date('29-04-2050 03:32:58', 'dd-mm-yyyy hh24:mi:ss'), 322864750);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40081, to_date('30-01-3066 17:35:57', 'dd-mm-yyyy hh24:mi:ss'), 322864869);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40082, to_date('02-12-3064 12:52:33', 'dd-mm-yyyy hh24:mi:ss'), 322864738);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40083, to_date('19-07-2805 01:27:24', 'dd-mm-yyyy hh24:mi:ss'), 322864873);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40084, to_date('11-07-2101 23:23:16', 'dd-mm-yyyy hh24:mi:ss'), 322864765);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40085, to_date('24-03-2503 16:49:43', 'dd-mm-yyyy hh24:mi:ss'), 322864742);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40086, to_date('22-08-2044 11:26:44', 'dd-mm-yyyy hh24:mi:ss'), 322864748);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40087, to_date('11-07-2433 10:18:28', 'dd-mm-yyyy hh24:mi:ss'), 322864849);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40088, to_date('09-07-2529 05:48:46', 'dd-mm-yyyy hh24:mi:ss'), 322864746);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40089, to_date('04-09-2920 07:28:42', 'dd-mm-yyyy hh24:mi:ss'), 322864893);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40090, to_date('08-05-2762 13:20:55', 'dd-mm-yyyy hh24:mi:ss'), 322864817);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40091, to_date('25-12-2380 16:43:49', 'dd-mm-yyyy hh24:mi:ss'), 322864748);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40092, to_date('12-11-2600 23:04:16', 'dd-mm-yyyy hh24:mi:ss'), 322864833);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40093, to_date('29-07-2559 20:47:28', 'dd-mm-yyyy hh24:mi:ss'), 322864903);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40094, to_date('14-10-2934 07:05:13', 'dd-mm-yyyy hh24:mi:ss'), 322864822);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40095, to_date('08-07-2598 07:30:25', 'dd-mm-yyyy hh24:mi:ss'), 111111111);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40096, to_date('18-10-2445 06:47:39', 'dd-mm-yyyy hh24:mi:ss'), 322864894);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40097, to_date('24-03-2906 05:08:00', 'dd-mm-yyyy hh24:mi:ss'), 322864842);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40098, to_date('12-09-2873 01:40:30', 'dd-mm-yyyy hh24:mi:ss'), 322864810);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40099, to_date('05-12-2048 00:56:18', 'dd-mm-yyyy hh24:mi:ss'), 322864831);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40100, to_date('12-09-2445 17:09:27', 'dd-mm-yyyy hh24:mi:ss'), 322864749);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40101, to_date('20-06-2882 22:34:01', 'dd-mm-yyyy hh24:mi:ss'), 322864764);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40102, to_date('29-06-2794 02:46:36', 'dd-mm-yyyy hh24:mi:ss'), 322864850);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40103, to_date('22-11-2169 09:07:37', 'dd-mm-yyyy hh24:mi:ss'), 322864842);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40104, to_date('20-08-2158 04:15:18', 'dd-mm-yyyy hh24:mi:ss'), 322864753);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40105, to_date('07-05-2605 12:58:27', 'dd-mm-yyyy hh24:mi:ss'), 322864868);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40106, to_date('25-08-2830 07:33:36', 'dd-mm-yyyy hh24:mi:ss'), 322864848);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40107, to_date('13-03-3011 15:38:00', 'dd-mm-yyyy hh24:mi:ss'), 322864855);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40108, to_date('27-07-3006 11:43:26', 'dd-mm-yyyy hh24:mi:ss'), 322864736);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40109, to_date('18-01-2989 04:07:40', 'dd-mm-yyyy hh24:mi:ss'), 322864918);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40110, to_date('19-03-2586 19:47:25', 'dd-mm-yyyy hh24:mi:ss'), 322864919);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40111, to_date('18-09-2605 03:38:18', 'dd-mm-yyyy hh24:mi:ss'), 322864862);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40112, to_date('14-04-2053 12:30:31', 'dd-mm-yyyy hh24:mi:ss'), 322864914);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40113, to_date('20-02-2245 15:10:30', 'dd-mm-yyyy hh24:mi:ss'), 322864931);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40114, to_date('20-02-2338 20:08:44', 'dd-mm-yyyy hh24:mi:ss'), 322864926);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40115, to_date('30-11-2741 09:09:21', 'dd-mm-yyyy hh24:mi:ss'), 322864825);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40116, to_date('20-01-2215 13:00:02', 'dd-mm-yyyy hh24:mi:ss'), 322864756);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40117, to_date('08-12-3007 23:13:29', 'dd-mm-yyyy hh24:mi:ss'), 111111111);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40118, to_date('25-09-2720 13:13:52', 'dd-mm-yyyy hh24:mi:ss'), 322864786);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40119, to_date('25-04-2131 16:03:38', 'dd-mm-yyyy hh24:mi:ss'), 322864805);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40120, to_date('02-10-3002 18:12:23', 'dd-mm-yyyy hh24:mi:ss'), 322864823);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40121, to_date('11-03-2631 21:42:28', 'dd-mm-yyyy hh24:mi:ss'), 322864743);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40122, to_date('02-04-2892 07:18:37', 'dd-mm-yyyy hh24:mi:ss'), 111111111);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40123, to_date('20-12-2312 17:14:29', 'dd-mm-yyyy hh24:mi:ss'), 322864753);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40124, to_date('07-03-2417 19:44:06', 'dd-mm-yyyy hh24:mi:ss'), 322864753);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40125, to_date('27-04-2557 01:54:46', 'dd-mm-yyyy hh24:mi:ss'), 322864888);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40126, to_date('11-03-2463 04:17:11', 'dd-mm-yyyy hh24:mi:ss'), 111111111);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40127, to_date('02-10-3064 20:35:22', 'dd-mm-yyyy hh24:mi:ss'), 322864764);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40128, to_date('23-01-2606 18:04:19', 'dd-mm-yyyy hh24:mi:ss'), 322864828);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40129, to_date('27-09-2969 09:20:35', 'dd-mm-yyyy hh24:mi:ss'), 322864900);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40130, to_date('04-08-2962 09:53:42', 'dd-mm-yyyy hh24:mi:ss'), 322864886);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40131, to_date('02-05-2104 01:00:46', 'dd-mm-yyyy hh24:mi:ss'), 322864796);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40132, to_date('14-01-2388 22:53:36', 'dd-mm-yyyy hh24:mi:ss'), 322864889);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40133, to_date('23-10-2790 17:35:22', 'dd-mm-yyyy hh24:mi:ss'), 111111111);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40134, to_date('27-11-2506 19:03:04', 'dd-mm-yyyy hh24:mi:ss'), 322864778);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40135, to_date('17-07-2247 13:00:28', 'dd-mm-yyyy hh24:mi:ss'), 322864846);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40136, to_date('05-09-3041 11:16:48', 'dd-mm-yyyy hh24:mi:ss'), 322864816);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40137, to_date('10-07-2913 20:42:34', 'dd-mm-yyyy hh24:mi:ss'), 322864816);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40138, to_date('25-11-2677 15:31:58', 'dd-mm-yyyy hh24:mi:ss'), 322864784);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40139, to_date('26-12-2793 02:30:46', 'dd-mm-yyyy hh24:mi:ss'), 322864793);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40140, to_date('25-04-3073 14:59:51', 'dd-mm-yyyy hh24:mi:ss'), 322864779);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40141, to_date('03-10-2107 20:59:51', 'dd-mm-yyyy hh24:mi:ss'), 322864789);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40142, to_date('29-07-2267 21:46:04', 'dd-mm-yyyy hh24:mi:ss'), 322864750);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40143, to_date('29-09-2593 09:21:44', 'dd-mm-yyyy hh24:mi:ss'), 322864906);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40144, to_date('09-03-2026 07:37:29', 'dd-mm-yyyy hh24:mi:ss'), 322864844);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40145, to_date('12-10-2495 16:19:29', 'dd-mm-yyyy hh24:mi:ss'), 322864873);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40146, to_date('20-03-2176 03:25:03', 'dd-mm-yyyy hh24:mi:ss'), 322864830);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40147, to_date('27-02-2124 22:12:25', 'dd-mm-yyyy hh24:mi:ss'), 322864803);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40148, to_date('12-09-2771 12:21:27', 'dd-mm-yyyy hh24:mi:ss'), 322864737);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40149, to_date('06-10-2422 21:18:51', 'dd-mm-yyyy hh24:mi:ss'), 322864924);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40150, to_date('27-01-2457 21:38:44', 'dd-mm-yyyy hh24:mi:ss'), 322864891);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40151, to_date('27-10-2464 06:51:41', 'dd-mm-yyyy hh24:mi:ss'), 322864889);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40152, to_date('13-07-2779 02:55:23', 'dd-mm-yyyy hh24:mi:ss'), 322864784);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40153, to_date('04-04-2064 14:37:06', 'dd-mm-yyyy hh24:mi:ss'), 322864744);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40154, to_date('24-10-2066 20:05:16', 'dd-mm-yyyy hh24:mi:ss'), 322864871);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40155, to_date('14-10-2226 03:35:42', 'dd-mm-yyyy hh24:mi:ss'), 322864841);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40156, to_date('27-05-2876 16:24:40', 'dd-mm-yyyy hh24:mi:ss'), 322864802);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40157, to_date('15-03-2764 13:06:31', 'dd-mm-yyyy hh24:mi:ss'), 322864860);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40158, to_date('05-09-2377 06:06:37', 'dd-mm-yyyy hh24:mi:ss'), 322864911);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40159, to_date('16-01-2995 16:29:34', 'dd-mm-yyyy hh24:mi:ss'), 322864766);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40160, to_date('12-11-2871 04:09:50', 'dd-mm-yyyy hh24:mi:ss'), 322864757);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40161, to_date('21-03-2215 15:58:10', 'dd-mm-yyyy hh24:mi:ss'), 322864744);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40162, to_date('05-04-2836 23:41:51', 'dd-mm-yyyy hh24:mi:ss'), 322864840);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40163, to_date('21-01-2166 08:39:07', 'dd-mm-yyyy hh24:mi:ss'), 322864818);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40164, to_date('31-07-3057 11:57:41', 'dd-mm-yyyy hh24:mi:ss'), 322864785);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40165, to_date('12-12-2375 18:55:09', 'dd-mm-yyyy hh24:mi:ss'), 322864930);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40166, to_date('02-11-2495 23:36:31', 'dd-mm-yyyy hh24:mi:ss'), 322864825);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40167, to_date('29-11-2745 05:30:11', 'dd-mm-yyyy hh24:mi:ss'), 322864874);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40168, to_date('17-12-2076 21:52:50', 'dd-mm-yyyy hh24:mi:ss'), 322864772);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40169, to_date('06-07-2671 07:13:26', 'dd-mm-yyyy hh24:mi:ss'), 322864756);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40170, to_date('17-08-2142 09:16:33', 'dd-mm-yyyy hh24:mi:ss'), 322864790);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40171, to_date('14-02-2096 11:54:57', 'dd-mm-yyyy hh24:mi:ss'), 322864878);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40172, to_date('27-02-2780 10:27:50', 'dd-mm-yyyy hh24:mi:ss'), 322864901);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40173, to_date('26-03-2763 20:17:57', 'dd-mm-yyyy hh24:mi:ss'), 322864805);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40174, to_date('04-05-2792 12:22:27', 'dd-mm-yyyy hh24:mi:ss'), 322864787);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40175, to_date('01-10-2919 18:58:19', 'dd-mm-yyyy hh24:mi:ss'), 322864846);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40176, to_date('06-03-2834 01:56:12', 'dd-mm-yyyy hh24:mi:ss'), 322864759);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40177, to_date('07-08-2216 05:43:43', 'dd-mm-yyyy hh24:mi:ss'), 322864775);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40178, to_date('13-11-2668 01:05:22', 'dd-mm-yyyy hh24:mi:ss'), 322864736);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40179, to_date('28-02-2139 01:00:11', 'dd-mm-yyyy hh24:mi:ss'), 322864931);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40180, to_date('30-09-2821 21:20:00', 'dd-mm-yyyy hh24:mi:ss'), 322864807);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40181, to_date('23-01-2347 20:17:22', 'dd-mm-yyyy hh24:mi:ss'), 322864837);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40182, to_date('27-04-2168 04:42:14', 'dd-mm-yyyy hh24:mi:ss'), 322864928);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40183, to_date('18-01-3070 17:48:46', 'dd-mm-yyyy hh24:mi:ss'), 322864756);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40184, to_date('14-01-2263 17:13:03', 'dd-mm-yyyy hh24:mi:ss'), 322864812);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40185, to_date('23-03-2852 21:23:36', 'dd-mm-yyyy hh24:mi:ss'), 322864843);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40186, to_date('13-08-2025 21:18:43', 'dd-mm-yyyy hh24:mi:ss'), 322864886);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40187, to_date('20-05-2319 20:37:58', 'dd-mm-yyyy hh24:mi:ss'), 322864799);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40188, to_date('11-11-2566 09:11:13', 'dd-mm-yyyy hh24:mi:ss'), 322864843);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40189, to_date('23-09-2733 12:31:23', 'dd-mm-yyyy hh24:mi:ss'), 322864795);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40190, to_date('04-01-2075 09:16:33', 'dd-mm-yyyy hh24:mi:ss'), 322864793);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40191, to_date('18-05-2091 10:17:45', 'dd-mm-yyyy hh24:mi:ss'), 322864855);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40192, to_date('05-07-2128 03:01:17', 'dd-mm-yyyy hh24:mi:ss'), 322864826);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40193, to_date('30-12-2340 16:09:59', 'dd-mm-yyyy hh24:mi:ss'), 322864787);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40194, to_date('01-06-2716 17:25:00', 'dd-mm-yyyy hh24:mi:ss'), 322864882);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40195, to_date('18-01-2497 00:40:10', 'dd-mm-yyyy hh24:mi:ss'), 322864746);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40196, to_date('09-09-2580 00:39:44', 'dd-mm-yyyy hh24:mi:ss'), 322864866);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40197, to_date('19-04-2313 04:10:50', 'dd-mm-yyyy hh24:mi:ss'), 322864800);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40198, to_date('06-01-2752 00:53:42', 'dd-mm-yyyy hh24:mi:ss'), 322864782);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40199, to_date('25-01-2377 14:08:44', 'dd-mm-yyyy hh24:mi:ss'), 322864907);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40200, to_date('06-06-2967 03:46:56', 'dd-mm-yyyy hh24:mi:ss'), 322864930);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40201, to_date('21-09-2587 00:07:37', 'dd-mm-yyyy hh24:mi:ss'), 322864760);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40202, to_date('23-06-2040 22:51:01', 'dd-mm-yyyy hh24:mi:ss'), 322864839);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40203, to_date('23-06-2302 16:08:15', 'dd-mm-yyyy hh24:mi:ss'), 322864819);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40204, to_date('31-03-2959 09:10:30', 'dd-mm-yyyy hh24:mi:ss'), 322864889);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40205, to_date('18-02-2529 09:05:28', 'dd-mm-yyyy hh24:mi:ss'), 322864866);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40206, to_date('07-05-2633 04:45:24', 'dd-mm-yyyy hh24:mi:ss'), 322864784);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40207, to_date('14-10-2361 15:58:27', 'dd-mm-yyyy hh24:mi:ss'), 322864925);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40208, to_date('20-08-2438 01:49:17', 'dd-mm-yyyy hh24:mi:ss'), 322864929);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40209, to_date('31-12-2181 14:57:50', 'dd-mm-yyyy hh24:mi:ss'), 322864772);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40210, to_date('10-12-2057 12:24:37', 'dd-mm-yyyy hh24:mi:ss'), 322864779);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40211, to_date('08-12-2125 10:46:59', 'dd-mm-yyyy hh24:mi:ss'), 322864784);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40212, to_date('27-05-2735 23:11:36', 'dd-mm-yyyy hh24:mi:ss'), 322864918);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40213, to_date('24-04-2532 14:12:37', 'dd-mm-yyyy hh24:mi:ss'), 322864837);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40214, to_date('04-02-3033 18:17:42', 'dd-mm-yyyy hh24:mi:ss'), 322864815);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40215, to_date('19-01-2791 12:23:19', 'dd-mm-yyyy hh24:mi:ss'), 322864912);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40216, to_date('12-06-2120 14:12:54', 'dd-mm-yyyy hh24:mi:ss'), 322864739);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40217, to_date('28-09-2667 07:03:04', 'dd-mm-yyyy hh24:mi:ss'), 322864833);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40218, to_date('22-05-2660 13:28:24', 'dd-mm-yyyy hh24:mi:ss'), 322864873);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40219, to_date('12-09-3051 09:05:02', 'dd-mm-yyyy hh24:mi:ss'), 322864865);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40220, to_date('11-09-2452 17:03:15', 'dd-mm-yyyy hh24:mi:ss'), 322864788);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40221, to_date('17-05-2283 22:10:50', 'dd-mm-yyyy hh24:mi:ss'), 322864921);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40222, to_date('08-11-2271 17:53:22', 'dd-mm-yyyy hh24:mi:ss'), 322864856);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40223, to_date('26-07-2431 15:58:27', 'dd-mm-yyyy hh24:mi:ss'), 322864797);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40224, to_date('13-01-2693 19:00:37', 'dd-mm-yyyy hh24:mi:ss'), 322864827);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40225, to_date('21-08-2141 18:25:37', 'dd-mm-yyyy hh24:mi:ss'), 322864886);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40226, to_date('23-10-2032 13:45:24', 'dd-mm-yyyy hh24:mi:ss'), 322864873);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40227, to_date('27-04-2568 02:14:55', 'dd-mm-yyyy hh24:mi:ss'), 322864879);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40228, to_date('20-06-2515 19:42:48', 'dd-mm-yyyy hh24:mi:ss'), 322864806);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40229, to_date('02-05-2486 23:21:50', 'dd-mm-yyyy hh24:mi:ss'), 322864832);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40230, to_date('15-03-2474 07:42:48', 'dd-mm-yyyy hh24:mi:ss'), 322864891);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40231, to_date('25-11-2228 17:22:07', 'dd-mm-yyyy hh24:mi:ss'), 322864773);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40232, to_date('20-07-2288 00:00:17', 'dd-mm-yyyy hh24:mi:ss'), 322864846);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40233, to_date('19-08-2578 03:23:36', 'dd-mm-yyyy hh24:mi:ss'), 322864748);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40234, to_date('06-03-2395 18:40:36', 'dd-mm-yyyy hh24:mi:ss'), 322864752);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40235, to_date('15-01-2950 20:19:58', 'dd-mm-yyyy hh24:mi:ss'), 322864779);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40236, to_date('17-11-2594 07:02:12', 'dd-mm-yyyy hh24:mi:ss'), 322864782);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40237, to_date('08-11-2410 08:50:38', 'dd-mm-yyyy hh24:mi:ss'), 322864926);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40238, to_date('01-04-2639 10:57:38', 'dd-mm-yyyy hh24:mi:ss'), 322864744);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40239, to_date('25-09-2073 06:46:04', 'dd-mm-yyyy hh24:mi:ss'), 322864834);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40240, to_date('02-09-2232 04:04:30', 'dd-mm-yyyy hh24:mi:ss'), 322864873);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40241, to_date('17-06-2374 03:58:36', 'dd-mm-yyyy hh24:mi:ss'), 322864848);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40242, to_date('14-12-3072 18:33:24', 'dd-mm-yyyy hh24:mi:ss'), 322864744);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40243, to_date('30-05-2743 04:10:59', 'dd-mm-yyyy hh24:mi:ss'), 322864784);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40244, to_date('26-11-2090 01:34:27', 'dd-mm-yyyy hh24:mi:ss'), 322864869);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40245, to_date('26-12-2993 13:00:02', 'dd-mm-yyyy hh24:mi:ss'), 322864736);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40246, to_date('02-05-2270 00:08:55', 'dd-mm-yyyy hh24:mi:ss'), 322864918);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40247, to_date('14-09-2847 00:57:36', 'dd-mm-yyyy hh24:mi:ss'), 322864911);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40248, to_date('26-12-2226 19:24:40', 'dd-mm-yyyy hh24:mi:ss'), 322864847);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40249, to_date('08-03-2615 23:00:48', 'dd-mm-yyyy hh24:mi:ss'), 322864760);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40250, to_date('01-12-3070 23:25:17', 'dd-mm-yyyy hh24:mi:ss'), 322864780);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40251, to_date('20-10-3036 14:31:29', 'dd-mm-yyyy hh24:mi:ss'), 322864923);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40252, to_date('13-02-2706 11:22:07', 'dd-mm-yyyy hh24:mi:ss'), 322864801);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40253, to_date('12-07-2550 23:29:28', 'dd-mm-yyyy hh24:mi:ss'), 322864915);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40254, to_date('05-12-2892 12:25:12', 'dd-mm-yyyy hh24:mi:ss'), 322864827);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40255, to_date('21-09-2133 01:19:55', 'dd-mm-yyyy hh24:mi:ss'), 322864811);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40256, to_date('17-10-2922 10:19:46', 'dd-mm-yyyy hh24:mi:ss'), 322864806);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40257, to_date('11-07-2787 06:08:55', 'dd-mm-yyyy hh24:mi:ss'), 322864747);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40258, to_date('12-01-2591 10:18:54', 'dd-mm-yyyy hh24:mi:ss'), 322864922);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40259, to_date('10-11-2114 06:26:55', 'dd-mm-yyyy hh24:mi:ss'), 322864766);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40260, to_date('25-02-2572 12:41:19', 'dd-mm-yyyy hh24:mi:ss'), 322864931);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40261, to_date('11-07-3042 22:20:12', 'dd-mm-yyyy hh24:mi:ss'), 322864765);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40262, to_date('02-02-2181 12:15:59', 'dd-mm-yyyy hh24:mi:ss'), 322864842);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40263, to_date('09-05-2597 17:58:33', 'dd-mm-yyyy hh24:mi:ss'), 322864756);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40264, to_date('22-05-2159 03:00:25', 'dd-mm-yyyy hh24:mi:ss'), 322864928);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40265, to_date('11-09-2824 12:52:42', 'dd-mm-yyyy hh24:mi:ss'), 322864891);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40266, to_date('01-07-2438 07:33:10', 'dd-mm-yyyy hh24:mi:ss'), 322864802);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40267, to_date('22-11-2783 06:01:09', 'dd-mm-yyyy hh24:mi:ss'), 322864769);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40268, to_date('04-03-3047 22:51:36', 'dd-mm-yyyy hh24:mi:ss'), 322864868);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40269, to_date('04-11-2621 17:23:51', 'dd-mm-yyyy hh24:mi:ss'), 322864785);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40270, to_date('03-10-2866 19:23:48', 'dd-mm-yyyy hh24:mi:ss'), 322864922);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40271, to_date('15-07-2417 22:07:32', 'dd-mm-yyyy hh24:mi:ss'), 322864919);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40272, to_date('16-06-2817 05:51:12', 'dd-mm-yyyy hh24:mi:ss'), 322864760);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40273, to_date('02-06-3040 20:35:31', 'dd-mm-yyyy hh24:mi:ss'), 322864835);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40274, to_date('16-11-2371 19:30:34', 'dd-mm-yyyy hh24:mi:ss'), 322864867);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40275, to_date('19-08-2802 14:41:16', 'dd-mm-yyyy hh24:mi:ss'), 322864807);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40276, to_date('29-04-2842 11:00:14', 'dd-mm-yyyy hh24:mi:ss'), 322864912);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40277, to_date('12-08-2955 02:57:41', 'dd-mm-yyyy hh24:mi:ss'), 322864800);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40278, to_date('16-07-2642 05:25:09', 'dd-mm-yyyy hh24:mi:ss'), 322864852);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40279, to_date('09-01-2612 02:45:27', 'dd-mm-yyyy hh24:mi:ss'), 322864758);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40280, to_date('11-11-2721 02:10:45', 'dd-mm-yyyy hh24:mi:ss'), 322864866);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40281, to_date('01-01-3007 01:04:30', 'dd-mm-yyyy hh24:mi:ss'), 322864924);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40282, to_date('20-12-2620 21:53:34', 'dd-mm-yyyy hh24:mi:ss'), 322864804);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40283, to_date('04-09-2207 17:55:23', 'dd-mm-yyyy hh24:mi:ss'), 322864911);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40284, to_date('23-05-2707 11:51:30', 'dd-mm-yyyy hh24:mi:ss'), 322864895);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40285, to_date('17-09-2824 06:43:03', 'dd-mm-yyyy hh24:mi:ss'), 322864903);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40286, to_date('10-01-3071 21:42:28', 'dd-mm-yyyy hh24:mi:ss'), 322864886);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40287, to_date('11-09-2747 20:35:39', 'dd-mm-yyyy hh24:mi:ss'), 322864763);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40288, to_date('07-01-2495 14:33:47', 'dd-mm-yyyy hh24:mi:ss'), 322864857);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40289, to_date('02-04-2545 04:04:13', 'dd-mm-yyyy hh24:mi:ss'), 111111111);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40290, to_date('17-12-2236 06:31:40', 'dd-mm-yyyy hh24:mi:ss'), 322864787);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40291, to_date('20-07-2191 13:43:23', 'dd-mm-yyyy hh24:mi:ss'), 322864805);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40292, to_date('19-12-2724 11:01:58', 'dd-mm-yyyy hh24:mi:ss'), 322864817);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40293, to_date('18-06-2281 03:49:40', 'dd-mm-yyyy hh24:mi:ss'), 322864789);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40294, to_date('03-05-2655 22:37:29', 'dd-mm-yyyy hh24:mi:ss'), 322864777);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40295, to_date('08-06-2986 19:07:49', 'dd-mm-yyyy hh24:mi:ss'), 322864783);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40296, to_date('19-02-2851 14:06:00', 'dd-mm-yyyy hh24:mi:ss'), 322864831);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40297, to_date('08-06-2714 00:48:14', 'dd-mm-yyyy hh24:mi:ss'), 322864809);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40298, to_date('13-02-2722 07:39:38', 'dd-mm-yyyy hh24:mi:ss'), 322864912);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40299, to_date('26-11-2924 01:36:46', 'dd-mm-yyyy hh24:mi:ss'), 322864851);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40300, to_date('17-06-2772 20:47:45', 'dd-mm-yyyy hh24:mi:ss'), 322864885);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40301, to_date('13-08-2583 08:57:33', 'dd-mm-yyyy hh24:mi:ss'), 322864897);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40302, to_date('25-08-2580 18:50:24', 'dd-mm-yyyy hh24:mi:ss'), 322864819);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40303, to_date('13-03-2963 21:10:56', 'dd-mm-yyyy hh24:mi:ss'), 322864769);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40304, to_date('23-04-2946 13:10:33', 'dd-mm-yyyy hh24:mi:ss'), 322864810);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40305, to_date('24-06-2578 01:29:08', 'dd-mm-yyyy hh24:mi:ss'), 322864818);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40306, to_date('03-04-2156 12:41:19', 'dd-mm-yyyy hh24:mi:ss'), 322864830);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40307, to_date('27-07-2434 11:10:36', 'dd-mm-yyyy hh24:mi:ss'), 322864775);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40308, to_date('15-01-2984 11:51:12', 'dd-mm-yyyy hh24:mi:ss'), 322864746);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40309, to_date('12-08-2960 01:46:42', 'dd-mm-yyyy hh24:mi:ss'), 322864743);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40310, to_date('09-07-2952 19:05:57', 'dd-mm-yyyy hh24:mi:ss'), 322864885);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40311, to_date('03-12-2775 20:24:00', 'dd-mm-yyyy hh24:mi:ss'), 322864911);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40312, to_date('04-05-2952 04:15:44', 'dd-mm-yyyy hh24:mi:ss'), 322864780);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40313, to_date('12-10-2307 01:53:11', 'dd-mm-yyyy hh24:mi:ss'), 322864866);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40314, to_date('18-02-3050 02:31:03', 'dd-mm-yyyy hh24:mi:ss'), 322864793);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40315, to_date('06-02-2873 23:09:10', 'dd-mm-yyyy hh24:mi:ss'), 322864814);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40316, to_date('03-10-2100 06:07:29', 'dd-mm-yyyy hh24:mi:ss'), 322864732);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40317, to_date('06-06-2659 02:00:31', 'dd-mm-yyyy hh24:mi:ss'), 322864864);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40318, to_date('28-11-2202 18:28:22', 'dd-mm-yyyy hh24:mi:ss'), 322864861);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40319, to_date('23-07-2919 01:19:20', 'dd-mm-yyyy hh24:mi:ss'), 322864773);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40320, to_date('11-11-2406 04:41:22', 'dd-mm-yyyy hh24:mi:ss'), 322864924);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40321, to_date('29-03-2057 11:49:55', 'dd-mm-yyyy hh24:mi:ss'), 322864845);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40322, to_date('20-03-2248 16:14:35', 'dd-mm-yyyy hh24:mi:ss'), 322864883);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40323, to_date('07-05-3061 00:52:59', 'dd-mm-yyyy hh24:mi:ss'), 322864847);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40324, to_date('09-03-2156 22:34:01', 'dd-mm-yyyy hh24:mi:ss'), 322864890);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40325, to_date('27-05-2990 00:28:56', 'dd-mm-yyyy hh24:mi:ss'), 322864743);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40326, to_date('27-09-2831 07:43:14', 'dd-mm-yyyy hh24:mi:ss'), 322864887);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40327, to_date('19-03-2108 00:22:10', 'dd-mm-yyyy hh24:mi:ss'), 322864837);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40328, to_date('20-02-2787 19:27:07', 'dd-mm-yyyy hh24:mi:ss'), 322864863);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40329, to_date('01-04-2956 18:46:30', 'dd-mm-yyyy hh24:mi:ss'), 322864774);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40330, to_date('10-10-3005 13:32:52', 'dd-mm-yyyy hh24:mi:ss'), 322864854);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40331, to_date('07-02-2646 20:23:16', 'dd-mm-yyyy hh24:mi:ss'), 322864736);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40332, to_date('26-11-2602 11:53:39', 'dd-mm-yyyy hh24:mi:ss'), 322864821);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40333, to_date('01-08-3037 13:07:14', 'dd-mm-yyyy hh24:mi:ss'), 322864763);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40334, to_date('09-08-2365 05:27:44', 'dd-mm-yyyy hh24:mi:ss'), 322864791);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40335, to_date('09-10-2488 11:26:26', 'dd-mm-yyyy hh24:mi:ss'), 322864830);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40336, to_date('09-06-2692 15:26:29', 'dd-mm-yyyy hh24:mi:ss'), 322864893);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40337, to_date('17-12-2818 17:45:10', 'dd-mm-yyyy hh24:mi:ss'), 322864929);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40338, to_date('16-10-2779 04:22:04', 'dd-mm-yyyy hh24:mi:ss'), 322864771);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40339, to_date('27-02-2034 02:24:08', 'dd-mm-yyyy hh24:mi:ss'), 322864865);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40340, to_date('27-03-2886 11:22:59', 'dd-mm-yyyy hh24:mi:ss'), 322864925);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40341, to_date('25-06-2760 03:30:05', 'dd-mm-yyyy hh24:mi:ss'), 322864931);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40342, to_date('28-01-2267 18:03:27', 'dd-mm-yyyy hh24:mi:ss'), 322864732);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40343, to_date('18-06-2183 17:21:15', 'dd-mm-yyyy hh24:mi:ss'), 322864873);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40344, to_date('03-09-2529 11:16:22', 'dd-mm-yyyy hh24:mi:ss'), 322864819);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40345, to_date('02-11-2413 04:30:08', 'dd-mm-yyyy hh24:mi:ss'), 322864783);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40346, to_date('17-04-2138 08:45:44', 'dd-mm-yyyy hh24:mi:ss'), 322864844);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40347, to_date('08-04-2326 20:23:51', 'dd-mm-yyyy hh24:mi:ss'), 322864871);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40348, to_date('14-04-2906 04:40:04', 'dd-mm-yyyy hh24:mi:ss'), 322864827);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40349, to_date('28-01-2928 22:53:54', 'dd-mm-yyyy hh24:mi:ss'), 322864823);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40350, to_date('25-02-2061 22:19:37', 'dd-mm-yyyy hh24:mi:ss'), 322864831);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40351, to_date('12-04-2615 22:28:07', 'dd-mm-yyyy hh24:mi:ss'), 322864809);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40352, to_date('09-07-2863 02:02:58', 'dd-mm-yyyy hh24:mi:ss'), 322864801);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40353, to_date('23-11-2229 20:57:15', 'dd-mm-yyyy hh24:mi:ss'), 322864748);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40354, to_date('25-07-2054 14:09:36', 'dd-mm-yyyy hh24:mi:ss'), 322864865);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40355, to_date('01-06-2083 10:05:22', 'dd-mm-yyyy hh24:mi:ss'), 322864789);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40356, to_date('03-12-2423 06:00:17', 'dd-mm-yyyy hh24:mi:ss'), 322864823);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40357, to_date('25-12-2940 07:16:10', 'dd-mm-yyyy hh24:mi:ss'), 322864918);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40358, to_date('29-12-2964 15:52:24', 'dd-mm-yyyy hh24:mi:ss'), 322864812);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40359, to_date('28-06-2106 03:38:09', 'dd-mm-yyyy hh24:mi:ss'), 322864746);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40360, to_date('21-07-2766 04:07:49', 'dd-mm-yyyy hh24:mi:ss'), 322864780);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40361, to_date('17-09-2410 07:15:36', 'dd-mm-yyyy hh24:mi:ss'), 322864907);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40362, to_date('06-04-2257 20:07:43', 'dd-mm-yyyy hh24:mi:ss'), 322864850);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40363, to_date('01-06-2540 11:00:40', 'dd-mm-yyyy hh24:mi:ss'), 322864786);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40364, to_date('16-09-2578 07:34:36', 'dd-mm-yyyy hh24:mi:ss'), 322864915);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40365, to_date('18-04-2877 20:19:49', 'dd-mm-yyyy hh24:mi:ss'), 322864736);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40366, to_date('08-04-3070 15:18:08', 'dd-mm-yyyy hh24:mi:ss'), 322864841);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40367, to_date('24-02-2148 23:18:23', 'dd-mm-yyyy hh24:mi:ss'), 322864794);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40368, to_date('15-01-2393 17:55:58', 'dd-mm-yyyy hh24:mi:ss'), 322864926);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40369, to_date('02-06-2688 13:49:17', 'dd-mm-yyyy hh24:mi:ss'), 322864751);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40370, to_date('22-04-2748 09:40:45', 'dd-mm-yyyy hh24:mi:ss'), 322864873);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40371, to_date('25-04-2260 12:59:54', 'dd-mm-yyyy hh24:mi:ss'), 322864898);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40372, to_date('02-03-2127 17:13:55', 'dd-mm-yyyy hh24:mi:ss'), 322864846);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40373, to_date('06-09-2370 18:03:53', 'dd-mm-yyyy hh24:mi:ss'), 322864777);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40374, to_date('22-10-2028 02:03:59', 'dd-mm-yyyy hh24:mi:ss'), 322864759);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40375, to_date('09-07-2054 03:59:54', 'dd-mm-yyyy hh24:mi:ss'), 322864799);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40376, to_date('03-01-2385 16:13:09', 'dd-mm-yyyy hh24:mi:ss'), 322864867);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40377, to_date('24-09-2317 05:19:49', 'dd-mm-yyyy hh24:mi:ss'), 322864924);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40378, to_date('29-12-2152 18:00:51', 'dd-mm-yyyy hh24:mi:ss'), 322864904);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40379, to_date('31-12-2347 05:46:36', 'dd-mm-yyyy hh24:mi:ss'), 322864766);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40380, to_date('02-06-2128 04:18:54', 'dd-mm-yyyy hh24:mi:ss'), 322864741);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40381, to_date('14-03-2656 19:46:07', 'dd-mm-yyyy hh24:mi:ss'), 322864860);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40382, to_date('30-06-2570 13:44:49', 'dd-mm-yyyy hh24:mi:ss'), 322864925);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40383, to_date('23-10-2064 10:52:01', 'dd-mm-yyyy hh24:mi:ss'), 322864886);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40384, to_date('04-05-2222 12:50:24', 'dd-mm-yyyy hh24:mi:ss'), 322864733);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40385, to_date('02-10-2121 07:48:25', 'dd-mm-yyyy hh24:mi:ss'), 322864749);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40386, to_date('31-08-2405 06:22:10', 'dd-mm-yyyy hh24:mi:ss'), 322864846);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40387, to_date('04-07-2160 08:56:15', 'dd-mm-yyyy hh24:mi:ss'), 322864781);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40388, to_date('26-06-2182 09:24:28', 'dd-mm-yyyy hh24:mi:ss'), 322864743);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40389, to_date('30-08-2280 18:03:27', 'dd-mm-yyyy hh24:mi:ss'), 322864852);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40390, to_date('13-11-2517 23:46:19', 'dd-mm-yyyy hh24:mi:ss'), 322864846);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40391, to_date('16-04-2221 16:13:17', 'dd-mm-yyyy hh24:mi:ss'), 322864791);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40392, to_date('04-08-2796 01:34:01', 'dd-mm-yyyy hh24:mi:ss'), 322864790);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40393, to_date('10-03-2314 01:37:20', 'dd-mm-yyyy hh24:mi:ss'), 322864778);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40394, to_date('14-02-2876 12:43:55', 'dd-mm-yyyy hh24:mi:ss'), 322864773);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40395, to_date('28-10-2408 18:30:31', 'dd-mm-yyyy hh24:mi:ss'), 322864812);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40396, to_date('30-01-3004 11:08:26', 'dd-mm-yyyy hh24:mi:ss'), 322864853);
-
-insert into Orders (OID, ORDERDATE, SID)
-values (40397, to_date('20-03-2316 04:25:49', 'dd-mm-yyyy hh24:mi:ss'), 322864817);
-
-insert into Orders (OID, ORDERDATE, SID) 
-values (40398, to_date('10-07-2639 05:45:18', 'dd-mm-yyyy hh24:mi:ss'), 111111111);
-
-commit;
-
-
--- insert Repairs
-
---helicopter
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62010, to_date('09-11-2022', 'dd-mm-yyyy'), 'safety risks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62011, to_date('08-05-2024', 'dd-mm-yyyy'), 'landing gear');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62012, to_date('15-04-2022', 'dd-mm-yyyy'), 'safety risks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62013, to_date('16-04-2024', 'dd-mm-yyyy'), 'lightning strikes');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62014, to_date('30-07-2023', 'dd-mm-yyyy'), 'communication equipment');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62015, to_date('03-10-2022', 'dd-mm-yyyy'), 'Turbulence');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62016, to_date('05-06-2023', 'dd-mm-yyyy'), 'hydraulics');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62017, to_date('18-08-2023', 'dd-mm-yyyy'), 'communication equipment');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62018, to_date('06-12-2022', 'dd-mm-yyyy'), 'hydraulics');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62019, to_date('30-06-2021', 'dd-mm-yyyy'), 'Turbulence');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62020, to_date('21-08-2021', 'dd-mm-yyyy'), 'lightning strikes');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62021, to_date('26-12-2023', 'dd-mm-yyyy'), 'Turbulence');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62022, to_date('03-06-2023', 'dd-mm-yyyy'), 'Issues with engines');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62023, to_date('06-03-2022', 'dd-mm-yyyy'), 'lightning strikes');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62024, to_date('05-02-2021', 'dd-mm-yyyy'), 'safety risks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62025, to_date('15-04-2022', 'dd-mm-yyyy'), 'Turbulence');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62026, to_date('10-08-2022', 'dd-mm-yyyy'), 'hydraulics');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62027, to_date('09-05-2022', 'dd-mm-yyyy'), 'landing gear');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62028, to_date('27-03-2023', 'dd-mm-yyyy'), 'landing gear');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62029, to_date('18-09-2021', 'dd-mm-yyyy'), 'safety risks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62030, to_date('27-03-2022', 'dd-mm-yyyy'), 'communication equipment');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62031, to_date('06-04-2023', 'dd-mm-yyyy'), 'safety risks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62032, to_date('10-12-2023', 'dd-mm-yyyy'), 'hydraulics');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62033, to_date('13-01-2023', 'dd-mm-yyyy'), 'hydraulics');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62034, to_date('04-10-2021', 'dd-mm-yyyy'), 'safety risks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62035, to_date('27-05-2023', 'dd-mm-yyyy'), 'communication equipment');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62036, to_date('05-01-2022', 'dd-mm-yyyy'), 'lightning strikes');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62037, to_date('28-01-2022', 'dd-mm-yyyy'), 'Turbulence');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62038, to_date('25-01-2023', 'dd-mm-yyyy'), 'safety risks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62039, to_date('11-08-2021', 'dd-mm-yyyy'), 'communication equipment');
-
-commit;
-
-
---ambulance
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62040, to_date('02-01-2023', 'dd-mm-yyyy'), 'slipping transmission');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62041, to_date('04-01-2021', 'dd-mm-yyyy'), 'dead batteries');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62042, to_date('24-06-2022', 'dd-mm-yyyy'), 'dead batteries');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62043, to_date('19-02-2023', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62044, to_date('31-07-2023', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62045, to_date('22-01-2024', 'dd-mm-yyyy'), 'leaking brake fluid');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62046, to_date('30-09-2021', 'dd-mm-yyyy'), 'ABS malfunctions');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62047, to_date('05-04-2022', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62048, to_date('07-08-2022', 'dd-mm-yyyy'), 'malfunctioning alternators');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62049, to_date('02-06-2023', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62050, to_date('16-10-2022', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62051, to_date('24-05-2021', 'dd-mm-yyyy'), 'shifting gears');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62052, to_date('16-10-2023', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62053, to_date('10-01-2022', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62054, to_date('28-05-2021', 'dd-mm-yyyy'), 'slipping transmission');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62055, to_date('09-04-2023', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62056, to_date('08-04-2022', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62057, to_date('12-12-2021', 'dd-mm-yyyy'), 'ABS malfunctions');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62058, to_date('12-02-2024', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62059, to_date('03-05-2023', 'dd-mm-yyyy'), 'leaking brake fluid');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62060, to_date('25-11-2022', 'dd-mm-yyyy'), 'faulty components');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62061, to_date('20-11-2023', 'dd-mm-yyyy'), 'leaking brake fluid');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62062, to_date('24-07-2022', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62063, to_date('08-12-2022', 'dd-mm-yyyy'), 'faulty components');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62064, to_date('06-02-2024', 'dd-mm-yyyy'), 'misfires');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62065, to_date('03-11-2021', 'dd-mm-yyyy'), 'ABS malfunctions');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62066, to_date('12-04-2022', 'dd-mm-yyyy'), 'electronic systems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62067, to_date('20-01-2024', 'dd-mm-yyyy'), 'dead batteries');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62068, to_date('03-03-2022', 'dd-mm-yyyy'), 'Faulty wiring');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62069, to_date('12-05-2023', 'dd-mm-yyyy'), 'malfunctioning alternators');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62070, to_date('10-04-2024', 'dd-mm-yyyy'), 'shifting gears');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62071, to_date('03-08-2022', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62072, to_date('11-08-2022', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62073, to_date('17-04-2024', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62074, to_date('02-10-2023', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62075, to_date('09-11-2023', 'dd-mm-yyyy'), 'shifting gears');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62076, to_date('03-03-2021', 'dd-mm-yyyy'), 'shifting gears');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62077, to_date('17-09-2022', 'dd-mm-yyyy'), 'Faulty wiring');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62078, to_date('04-08-2022', 'dd-mm-yyyy'), 'Faulty wiring');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62079, to_date('25-09-2022', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62080, to_date('15-05-2022', 'dd-mm-yyyy'), 'shifting gears');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62081, to_date('28-02-2021', 'dd-mm-yyyy'), 'dead batteries');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62082, to_date('21-09-2021', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62083, to_date('22-12-2022', 'dd-mm-yyyy'), 'shifting gears');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62084, to_date('05-05-2024', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62085, to_date('30-01-2024', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62086, to_date('16-11-2023', 'dd-mm-yyyy'), 'dead batteries');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62087, to_date('27-02-2021', 'dd-mm-yyyy'), 'shifting gears');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62088, to_date('31-03-2024', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62089, to_date('17-07-2023', 'dd-mm-yyyy'), 'leaking brake fluid');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62090, to_date('25-12-2022', 'dd-mm-yyyy'), 'dead batteries');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62091, to_date('18-01-2023', 'dd-mm-yyyy'), 'misfires');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62092, to_date('09-11-2023', 'dd-mm-yyyy'), 'misfires');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62093, to_date('08-03-2024', 'dd-mm-yyyy'), 'faulty components');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62094, to_date('14-04-2024', 'dd-mm-yyyy'), 'ABS malfunctions');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62095, to_date('09-03-2021', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62096, to_date('27-10-2021', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62097, to_date('12-08-2022', 'dd-mm-yyyy'), 'shifting gears');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62098, to_date('04-01-2024', 'dd-mm-yyyy'), 'leaking brake fluid');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62099, to_date('30-10-2021', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62100, to_date('05-02-2023', 'dd-mm-yyyy'), 'Faulty wiring');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62101, to_date('30-07-2022', 'dd-mm-yyyy'), 'ABS malfunctions');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62102, to_date('09-02-2023', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62103, to_date('27-12-2022', 'dd-mm-yyyy'), 'electronic systems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62104, to_date('20-06-2021', 'dd-mm-yyyy'), 'Faulty wiring');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62105, to_date('03-08-2021', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62106, to_date('19-04-2024', 'dd-mm-yyyy'), 'malfunctioning alternators');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62107, to_date('10-06-2021', 'dd-mm-yyyy'), 'leaking brake fluid');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62108, to_date('04-12-2022', 'dd-mm-yyyy'), 'ABS malfunctions');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62109, to_date('15-02-2023', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62110, to_date('15-07-2022', 'dd-mm-yyyy'), 'Faulty wiring');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62111, to_date('09-09-2021', 'dd-mm-yyyy'), 'faulty components');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62112, to_date('06-11-2021', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62113, to_date('01-09-2023', 'dd-mm-yyyy'), 'slipping transmission');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62114, to_date('09-10-2022', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62115, to_date('30-01-2023', 'dd-mm-yyyy'), 'electronic systems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62116, to_date('09-06-2021', 'dd-mm-yyyy'), 'Faulty wiring');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62117, to_date('12-12-2021', 'dd-mm-yyyy'), 'electronic systems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62118, to_date('01-02-2024', 'dd-mm-yyyy'), 'electronic systems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62119, to_date('25-05-2022', 'dd-mm-yyyy'), 'ABS malfunctions');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62120, to_date('06-11-2023', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62121, to_date('06-05-2023', 'dd-mm-yyyy'), 'slipping transmission');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62122, to_date('29-04-2024', 'dd-mm-yyyy'), 'misfires');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62123, to_date('24-09-2021', 'dd-mm-yyyy'), 'ABS malfunctions');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62124, to_date('12-12-2023', 'dd-mm-yyyy'), 'misfires');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62125, to_date('12-06-2022', 'dd-mm-yyyy'), 'slipping transmission');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62126, to_date('05-08-2021', 'dd-mm-yyyy'), 'misfires');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62127, to_date('06-05-2021', 'dd-mm-yyyy'), 'misfires');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62128, to_date('04-08-2023', 'dd-mm-yyyy'), 'faulty components');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62129, to_date('08-06-2021', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62130, to_date('13-09-2022', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62131, to_date('10-03-2021', 'dd-mm-yyyy'), 'faulty components');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62132, to_date('02-06-2022', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62133, to_date('25-03-2023', 'dd-mm-yyyy'), 'dead batteries');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62134, to_date('07-05-2021', 'dd-mm-yyyy'), 'slipping transmission');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62135, to_date('03-05-2024', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62136, to_date('23-05-2022', 'dd-mm-yyyy'), 'misfires');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62137, to_date('09-03-2023', 'dd-mm-yyyy'), 'malfunctioning alternators');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62138, to_date('19-12-2023', 'dd-mm-yyyy'), 'ABS malfunctions');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62139, to_date('02-01-2022', 'dd-mm-yyyy'), 'shifting gears');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62140, to_date('19-05-2022', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62141, to_date('30-12-2022', 'dd-mm-yyyy'), 'shifting gears');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62142, to_date('13-07-2021', 'dd-mm-yyyy'), 'Faulty wiring');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62143, to_date('10-02-2021', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62144, to_date('26-02-2023', 'dd-mm-yyyy'), 'slipping transmission');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62145, to_date('22-10-2022', 'dd-mm-yyyy'), 'Faulty wiring');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62146, to_date('10-08-2022', 'dd-mm-yyyy'), 'Faulty wiring');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62147, to_date('15-12-2022', 'dd-mm-yyyy'), 'electronic systems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62148, to_date('17-05-2022', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62149, to_date('02-01-2022', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62150, to_date('11-03-2022', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62151, to_date('02-02-2024', 'dd-mm-yyyy'), 'slipping transmission');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62152, to_date('24-05-2023', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62153, to_date('25-11-2021', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62154, to_date('19-08-2021', 'dd-mm-yyyy'), 'shifting gears');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62155, to_date('12-07-2022', 'dd-mm-yyyy'), 'malfunctioning alternators');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62156, to_date('28-11-2023', 'dd-mm-yyyy'), 'faulty components');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62157, to_date('25-07-2023', 'dd-mm-yyyy'), 'faulty components');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62158, to_date('17-08-2021', 'dd-mm-yyyy'), 'slipping transmission');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62159, to_date('07-06-2022', 'dd-mm-yyyy'), 'malfunctioning alternators');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62160, to_date('13-10-2021', 'dd-mm-yyyy'), 'slipping transmission');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62161, to_date('26-02-2024', 'dd-mm-yyyy'), 'ABS malfunctions');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62162, to_date('17-03-2022', 'dd-mm-yyyy'), 'shifting gears');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62163, to_date('17-10-2023', 'dd-mm-yyyy'), 'shifting gears');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62164, to_date('29-01-2021', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62165, to_date('15-12-2021', 'dd-mm-yyyy'), 'shifting gears');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62166, to_date('16-12-2022', 'dd-mm-yyyy'), 'shifting gears');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62167, to_date('04-03-2024', 'dd-mm-yyyy'), 'malfunctioning alternators');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62168, to_date('08-05-2021', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62169, to_date('16-04-2023', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62170, to_date('05-06-2023', 'dd-mm-yyyy'), 'ABS malfunctions');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62171, to_date('04-05-2022', 'dd-mm-yyyy'), 'Faulty wiring');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62172, to_date('03-02-2024', 'dd-mm-yyyy'), 'leaking brake fluid');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62173, to_date('02-04-2024', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62174, to_date('02-10-2023', 'dd-mm-yyyy'), 'Faulty wiring');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62175, to_date('30-10-2023', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62176, to_date('21-06-2022', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62177, to_date('19-06-2021', 'dd-mm-yyyy'), 'shifting gears');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62178, to_date('13-02-2022', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62179, to_date('18-04-2021', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62180, to_date('02-10-2021', 'dd-mm-yyyy'), 'Faulty wiring');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62181, to_date('23-04-2021', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62182, to_date('01-08-2022', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62183, to_date('14-03-2024', 'dd-mm-yyyy'), 'slipping transmission');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62184, to_date('01-09-2022', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62185, to_date('02-01-2024', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62186, to_date('15-10-2022', 'dd-mm-yyyy'), 'misfires');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62187, to_date('28-08-2022', 'dd-mm-yyyy'), 'leaking brake fluid');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62188, to_date('08-12-2021', 'dd-mm-yyyy'), 'electronic systems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62189, to_date('11-02-2023', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62190, to_date('18-03-2022', 'dd-mm-yyyy'), 'shifting gears');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62191, to_date('23-04-2024', 'dd-mm-yyyy'), 'shifting gears');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62192, to_date('05-03-2023', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62193, to_date('30-11-2023', 'dd-mm-yyyy'), 'malfunctioning alternators');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62194, to_date('09-11-2023', 'dd-mm-yyyy'), 'electronic systems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62195, to_date('29-12-2021', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62196, to_date('07-04-2024', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62197, to_date('04-01-2023', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62198, to_date('05-08-2022', 'dd-mm-yyyy'), 'dead batteries');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62199, to_date('06-04-2024', 'dd-mm-yyyy'), 'dead batteries');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62200, to_date('11-12-2021', 'dd-mm-yyyy'), 'slipping transmission');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62201, to_date('20-09-2023', 'dd-mm-yyyy'), 'misfires');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62202, to_date('21-03-2024', 'dd-mm-yyyy'), 'misfires');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62203, to_date('23-06-2023', 'dd-mm-yyyy'), 'slipping transmission');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62204, to_date('14-04-2023', 'dd-mm-yyyy'), 'dead batteries');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62205, to_date('24-11-2022', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62206, to_date('23-01-2024', 'dd-mm-yyyy'), 'shifting gears');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62207, to_date('09-05-2023', 'dd-mm-yyyy'), 'shifting gears');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62208, to_date('09-08-2023', 'dd-mm-yyyy'), 'electronic systems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62209, to_date('14-05-2023', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62210, to_date('20-01-2023', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62211, to_date('14-01-2021', 'dd-mm-yyyy'), 'electronic systems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62212, to_date('15-10-2021', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62213, to_date('26-02-2021', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62214, to_date('21-09-2023', 'dd-mm-yyyy'), 'faulty components');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62215, to_date('15-07-2021', 'dd-mm-yyyy'), 'electronic systems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62216, to_date('21-04-2022', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62217, to_date('25-09-2021', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62218, to_date('20-12-2022', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62219, to_date('29-07-2023', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62220, to_date('09-11-2023', 'dd-mm-yyyy'), 'Faulty wiring');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62221, to_date('17-04-2024', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62222, to_date('08-01-2022', 'dd-mm-yyyy'), 'malfunctioning alternators');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62223, to_date('20-04-2024', 'dd-mm-yyyy'), 'shifting gears');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62224, to_date('29-10-2021', 'dd-mm-yyyy'), 'dead batteries');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62225, to_date('24-06-2021', 'dd-mm-yyyy'), 'faulty components');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62226, to_date('12-01-2023', 'dd-mm-yyyy'), 'leaking brake fluid');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62227, to_date('13-07-2022', 'dd-mm-yyyy'), 'dead batteries');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62228, to_date('27-01-2021', 'dd-mm-yyyy'), 'leaking brake fluid');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62229, to_date('02-05-2021', 'dd-mm-yyyy'), 'dead batteries');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62230, to_date('11-07-2022', 'dd-mm-yyyy'), 'slipping transmission');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62231, to_date('02-11-2023', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62232, to_date('02-11-2021', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62233, to_date('04-10-2023', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62234, to_date('13-12-2021', 'dd-mm-yyyy'), 'slipping transmission');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62235, to_date('25-11-2023', 'dd-mm-yyyy'), 'electronic systems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62236, to_date('26-10-2022', 'dd-mm-yyyy'), 'slipping transmission');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62237, to_date('19-07-2022', 'dd-mm-yyyy'), 'ABS malfunctions');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62238, to_date('22-07-2021', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62239, to_date('16-03-2024', 'dd-mm-yyyy'), 'malfunctioning alternators');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62240, to_date('18-01-2021', 'dd-mm-yyyy'), 'Faulty wiring');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62241, to_date('04-12-2022', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62242, to_date('24-03-2021', 'dd-mm-yyyy'), 'faulty components');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62243, to_date('30-07-2022', 'dd-mm-yyyy'), 'dead batteries');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62244, to_date('01-03-2022', 'dd-mm-yyyy'), 'slipping transmission');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62245, to_date('07-09-2023', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62246, to_date('13-07-2021', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62247, to_date('10-07-2022', 'dd-mm-yyyy'), 'leaking brake fluid');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62248, to_date('12-10-2023', 'dd-mm-yyyy'), 'dead batteries');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62249, to_date('29-07-2021', 'dd-mm-yyyy'), 'faulty components');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62250, to_date('04-08-2021', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62251, to_date('08-03-2024', 'dd-mm-yyyy'), 'leaking brake fluid');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62252, to_date('11-10-2022', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62253, to_date('18-05-2024', 'dd-mm-yyyy'), 'Faulty wiring');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62254, to_date('18-12-2023', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62255, to_date('21-12-2023', 'dd-mm-yyyy'), 'faulty components');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62256, to_date('28-10-2022', 'dd-mm-yyyy'), 'malfunctioning alternators');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62257, to_date('05-11-2021', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62258, to_date('03-10-2022', 'dd-mm-yyyy'), 'dead batteries');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62259, to_date('02-11-2022', 'dd-mm-yyyy'), 'slipping transmission');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62260, to_date('06-10-2021', 'dd-mm-yyyy'), 'malfunctioning alternators');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62261, to_date('19-11-2022', 'dd-mm-yyyy'), 'misfires');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62262, to_date('25-06-2022', 'dd-mm-yyyy'), 'leaking brake fluid');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62263, to_date('21-12-2022', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62264, to_date('09-12-2022', 'dd-mm-yyyy'), 'dead batteries');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62265, to_date('15-07-2023', 'dd-mm-yyyy'), 'leaking brake fluid');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62266, to_date('23-03-2023', 'dd-mm-yyyy'), 'slipping transmission');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62267, to_date('12-12-2022', 'dd-mm-yyyy'), 'leaking brake fluid');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62268, to_date('03-01-2023', 'dd-mm-yyyy'), 'dead batteries');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62269, to_date('15-04-2024', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62270, to_date('15-12-2022', 'dd-mm-yyyy'), 'dead batteries');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62271, to_date('05-08-2021', 'dd-mm-yyyy'), 'shifting gears');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62272, to_date('10-09-2023', 'dd-mm-yyyy'), 'electronic systems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62273, to_date('05-03-2022', 'dd-mm-yyyy'), 'electronic systems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62274, to_date('19-06-2023', 'dd-mm-yyyy'), 'misfires');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62275, to_date('06-10-2023', 'dd-mm-yyyy'), 'electronic systems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62276, to_date('29-05-2023', 'dd-mm-yyyy'), 'faulty components');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62277, to_date('19-09-2021', 'dd-mm-yyyy'), 'dead batteries');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62278, to_date('09-12-2022', 'dd-mm-yyyy'), 'faulty components');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62279, to_date('08-04-2024', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62280, to_date('25-08-2022', 'dd-mm-yyyy'), 'dead batteries');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62281, to_date('28-01-2024', 'dd-mm-yyyy'), 'misfires');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62282, to_date('21-04-2022', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62283, to_date('02-04-2024', 'dd-mm-yyyy'), 'malfunctioning alternators');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62284, to_date('30-10-2022', 'dd-mm-yyyy'), 'shifting gears');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62285, to_date('26-06-2021', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62286, to_date('17-08-2021', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62287, to_date('30-04-2022', 'dd-mm-yyyy'), 'ABS malfunctions');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62288, to_date('05-12-2021', 'dd-mm-yyyy'), 'slipping transmission');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62289, to_date('01-02-2024', 'dd-mm-yyyy'), 'electronic systems');
-
-commit;
-
-
---motorcycle
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62290, to_date('19-08-2021', 'dd-mm-yyyy'), 'Battery problems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62291, to_date('16-02-2021', 'dd-mm-yyyy'), 'malfunctioning brake lines');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62292, to_date('02-12-2022', 'dd-mm-yyyy'), 'leaking brake fluid');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62293, to_date('19-06-2023', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62294, to_date('27-10-2022', 'dd-mm-yyyy'), 'electronic systems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62295, to_date('08-03-2022', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62296, to_date('06-03-2022', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62297, to_date('13-07-2021', 'dd-mm-yyyy'), 'engine failure');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62298, to_date('06-02-2024', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62299, to_date('01-01-2021', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62300, to_date('02-05-2021', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62301, to_date('13-10-2021', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62302, to_date('05-03-2023', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62303, to_date('19-04-2023', 'dd-mm-yyyy'), 'lack of maintenance');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62304, to_date('29-04-2021', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62305, to_date('30-03-2021', 'dd-mm-yyyy'), 'leaking brake fluid');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62306, to_date('20-05-2023', 'dd-mm-yyyy'), 'Battery problems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62307, to_date('28-09-2022', 'dd-mm-yyyy'), 'malfunctioning brake lines');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62308, to_date('10-08-2022', 'dd-mm-yyyy'), 'electronic systems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62309, to_date('16-11-2023', 'dd-mm-yyyy'), 'malfunctioning brake lines');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62310, to_date('26-03-2024', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62311, to_date('14-03-2021', 'dd-mm-yyyy'), 'lack of maintenance');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62312, to_date('02-05-2022', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62313, to_date('06-02-2021', 'dd-mm-yyyy'), 'lack of maintenance');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62314, to_date('07-02-2022', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62315, to_date('15-01-2022', 'dd-mm-yyyy'), 'malfunctioning brake lines');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62316, to_date('16-08-2023', 'dd-mm-yyyy'), 'Battery problems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62317, to_date('06-05-2023', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62318, to_date('22-12-2022', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62319, to_date('07-09-2023', 'dd-mm-yyyy'), 'electronic systems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62320, to_date('02-01-2023', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62321, to_date('08-01-2024', 'dd-mm-yyyy'), 'Battery problems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62322, to_date('21-03-2023', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62323, to_date('30-06-2023', 'dd-mm-yyyy'), 'leaking brake fluid');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62324, to_date('22-06-2023', 'dd-mm-yyyy'), 'Battery problems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62325, to_date('10-05-2021', 'dd-mm-yyyy'), 'Battery problems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62326, to_date('06-10-2022', 'dd-mm-yyyy'), 'brake issues');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62327, to_date('03-12-2021', 'dd-mm-yyyy'), 'engine failure');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62328, to_date('19-05-2022', 'dd-mm-yyyy'), 'leaking brake fluid');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62329, to_date('12-06-2023', 'dd-mm-yyyy'), 'Battery problems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62330, to_date('30-03-2023', 'dd-mm-yyyy'), 'leaking brake fluid');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62331, to_date('09-06-2023', 'dd-mm-yyyy'), 'Tire Problems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62332, to_date('13-07-2021', 'dd-mm-yyyy'), 'poor fuel mixture');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62333, to_date('21-01-2023', 'dd-mm-yyyy'), 'brake issues');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62334, to_date('08-04-2021', 'dd-mm-yyyy'), 'brake issues');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62335, to_date('20-02-2024', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62336, to_date('31-03-2022', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62337, to_date('18-06-2023', 'dd-mm-yyyy'), 'leaking brake fluid');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62338, to_date('02-12-2023', 'dd-mm-yyyy'), 'Battery problems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62339, to_date('17-04-2023', 'dd-mm-yyyy'), 'brake issues');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62340, to_date('06-05-2022', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62341, to_date('22-10-2023', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62342, to_date('14-02-2022', 'dd-mm-yyyy'), 'Tire Problems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62343, to_date('08-07-2021', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62344, to_date('22-10-2021', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62345, to_date('27-08-2021', 'dd-mm-yyyy'), 'Tire Problems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62346, to_date('09-07-2023', 'dd-mm-yyyy'), 'engine failure');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62347, to_date('31-07-2022', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62348, to_date('21-07-2023', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62349, to_date('05-07-2022', 'dd-mm-yyyy'), 'Battery problems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62350, to_date('07-11-2022', 'dd-mm-yyyy'), 'Tire Problems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62351, to_date('10-11-2021', 'dd-mm-yyyy'), 'Battery problems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62352, to_date('02-08-2022', 'dd-mm-yyyy'), 'poor fuel mixture');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62353, to_date('08-06-2022', 'dd-mm-yyyy'), 'poor fuel mixture');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62354, to_date('21-09-2021', 'dd-mm-yyyy'), 'engine failure');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62355, to_date('05-02-2022', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62356, to_date('24-02-2024', 'dd-mm-yyyy'), 'brake issues');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62357, to_date('29-05-2021', 'dd-mm-yyyy'), 'engine failure');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62358, to_date('13-02-2023', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62359, to_date('15-04-2022', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62360, to_date('11-02-2023', 'dd-mm-yyyy'), 'malfunctioning brake lines');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62361, to_date('15-04-2023', 'dd-mm-yyyy'), 'poor fuel mixture');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62362, to_date('05-02-2021', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62363, to_date('12-09-2023', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62364, to_date('28-07-2022', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62365, to_date('26-06-2022', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62366, to_date('03-11-2022', 'dd-mm-yyyy'), 'lack of maintenance');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62367, to_date('25-07-2022', 'dd-mm-yyyy'), 'lack of maintenance');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62368, to_date('21-10-2023', 'dd-mm-yyyy'), 'Tire Problems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62369, to_date('26-04-2021', 'dd-mm-yyyy'), 'leaking brake fluid');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62370, to_date('24-10-2021', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62371, to_date('23-04-2023', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62372, to_date('31-07-2021', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62373, to_date('11-11-2023', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62374, to_date('24-08-2023', 'dd-mm-yyyy'), 'brake issues');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62375, to_date('03-07-2021', 'dd-mm-yyyy'), 'poor fuel mixture');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62376, to_date('30-08-2021', 'dd-mm-yyyy'), 'engine failure');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62377, to_date('26-03-2023', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62378, to_date('07-02-2023', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62379, to_date('12-04-2024', 'dd-mm-yyyy'), 'electronic systems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62380, to_date('16-12-2022', 'dd-mm-yyyy'), 'Battery problems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62381, to_date('22-12-2022', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62382, to_date('07-08-2023', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62383, to_date('19-07-2023', 'dd-mm-yyyy'), 'malfunctioning brake lines');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62384, to_date('03-12-2021', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62385, to_date('20-05-2021', 'dd-mm-yyyy'), 'poor fuel mixture');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62386, to_date('19-05-2021', 'dd-mm-yyyy'), 'brake issues');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62387, to_date('10-08-2023', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62388, to_date('21-03-2022', 'dd-mm-yyyy'), 'lack of maintenance');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62389, to_date('21-02-2023', 'dd-mm-yyyy'), 'poor fuel mixture');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62390, to_date('25-01-2022', 'dd-mm-yyyy'), 'brake issues');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62391, to_date('31-07-2021', 'dd-mm-yyyy'), 'Tire Problems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62392, to_date('08-08-2022', 'dd-mm-yyyy'), 'brake issues');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62393, to_date('25-01-2024', 'dd-mm-yyyy'), 'engine failure');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62394, to_date('15-11-2021', 'dd-mm-yyyy'), 'poor fuel mixture');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62395, to_date('19-11-2021', 'dd-mm-yyyy'), ' overheating');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62396, to_date('19-08-2023', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62397, to_date('08-03-2023', 'dd-mm-yyyy'), 'Battery problems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62398, to_date('12-03-2021', 'dd-mm-yyyy'), 'lack of maintenance');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62399, to_date('09-11-2023', 'dd-mm-yyyy'), 'oil leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62400, to_date('01-10-2022', 'dd-mm-yyyy'), 'malfunctioning brake lines');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62401, to_date('04-06-2021', 'dd-mm-yyyy'), 'malfunctioning brake lines');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62402, to_date('04-03-2023', 'dd-mm-yyyy'), 'engine failure');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62403, to_date('09-02-2023', 'dd-mm-yyyy'), 'electronic systems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62404, to_date('26-05-2021', 'dd-mm-yyyy'), 'malfunctioning brake lines');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62405, to_date('25-12-2023', 'dd-mm-yyyy'), 'Worn brake pads');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62406, to_date('03-01-2024', 'dd-mm-yyyy'), 'Tire Problems');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62407, to_date('12-04-2023', 'dd-mm-yyyy'), 'poor fuel mixture');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62408, to_date('08-12-2023', 'dd-mm-yyyy'), 'fluid leaks');
-
-insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
-values (62409, to_date('29-06-2022', 'dd-mm-yyyy'), ' overheating');
 
 commit;
 
@@ -6449,1212 +5231,6 @@ values (35, 10299, 40075);
 
 commit;
 
-
--- insert EquipRepairs
-
-insert into EquipRepairs (RID, EID)
-values (62410, 10139);
-
-insert into EquipRepairs (RID, EID)
-values (62411, 10350);
-
-insert into EquipRepairs (RID, EID)
-values (62412, 10063);
-
-insert into EquipRepairs (RID, EID)
-values (62413, 10361);
-
-insert into EquipRepairs (RID, EID)
-values (62414, 10375);
-
-insert into EquipRepairs (RID, EID)
-values (62415, 10109);
-
-insert into EquipRepairs (RID, EID)
-values (62416, 10140);
-
-insert into EquipRepairs (RID, EID)
-values (62417, 10195);
-
-insert into EquipRepairs (RID, EID)
-values (62418, 10230);
-
-insert into EquipRepairs (RID, EID)
-values (62419, 10234);
-
-insert into EquipRepairs (RID, EID)
-values (62420, 10266);
-
-insert into EquipRepairs (RID, EID)
-values (62421, 10046);
-
-insert into EquipRepairs (RID, EID)
-values (62422, 10199);
-
-insert into EquipRepairs (RID, EID)
-values (62423, 10080);
-
-insert into EquipRepairs (RID, EID)
-values (62424, 10115);
-
-insert into EquipRepairs (RID, EID)
-values (62425, 10214);
-
-insert into EquipRepairs (RID, EID)
-values (62426, 10020);
-
-insert into EquipRepairs (RID, EID)
-values (62427, 10247);
-
-insert into EquipRepairs (RID, EID)
-values (62428, 10028);
-
-insert into EquipRepairs (RID, EID)
-values (62429, 10301);
-
-insert into EquipRepairs (RID, EID)
-values (62430, 10020);
-
-insert into EquipRepairs (RID, EID)
-values (62431, 10200);
-
-insert into EquipRepairs (RID, EID)
-values (62432, 10084);
-
-insert into EquipRepairs (RID, EID)
-values (62433, 10208);
-
-insert into EquipRepairs (RID, EID)
-values (62434, 10371);
-
-insert into EquipRepairs (RID, EID)
-values (62435, 10362);
-
-insert into EquipRepairs (RID, EID)
-values (62436, 10120);
-
-insert into EquipRepairs (RID, EID)
-values (62437, 10212);
-
-insert into EquipRepairs (RID, EID)
-values (62438, 10104);
-
-insert into EquipRepairs (RID, EID)
-values (62439, 10203);
-
-insert into EquipRepairs (RID, EID)
-values (62440, 10387);
-
-insert into EquipRepairs (RID, EID)
-values (62441, 10167);
-
-insert into EquipRepairs (RID, EID)
-values (62442, 10283);
-
-insert into EquipRepairs (RID, EID)
-values (62443, 10144);
-
-insert into EquipRepairs (RID, EID)
-values (62444, 10207);
-
-insert into EquipRepairs (RID, EID)
-values (62445, 10037);
-
-insert into EquipRepairs (RID, EID)
-values (62446, 10064);
-
-insert into EquipRepairs (RID, EID)
-values (62447, 10203);
-
-insert into EquipRepairs (RID, EID)
-values (62448, 10177);
-
-insert into EquipRepairs (RID, EID)
-values (62449, 10002);
-
-insert into EquipRepairs (RID, EID)
-values (62450, 10325);
-
-insert into EquipRepairs (RID, EID)
-values (62451, 10162);
-
-insert into EquipRepairs (RID, EID)
-values (62452, 10249);
-
-insert into EquipRepairs (RID, EID)
-values (62453, 10106);
-
-insert into EquipRepairs (RID, EID)
-values (62454, 10180);
-
-insert into EquipRepairs (RID, EID)
-values (62455, 10054);
-
-insert into EquipRepairs (RID, EID)
-values (62456, 10234);
-
-insert into EquipRepairs (RID, EID)
-values (62457, 10327);
-
-insert into EquipRepairs (RID, EID)
-values (62458, 10032);
-
-insert into EquipRepairs (RID, EID)
-values (62459, 10291);
-
-insert into EquipRepairs (RID, EID)
-values (62460, 10098);
-
-insert into EquipRepairs (RID, EID)
-values (62461, 10034);
-
-insert into EquipRepairs (RID, EID)
-values (62462, 10329);
-
-insert into EquipRepairs (RID, EID)
-values (62463, 10030);
-
-insert into EquipRepairs (RID, EID)
-values (62464, 10358);
-
-insert into EquipRepairs (RID, EID)
-values (62465, 10318);
-
-insert into EquipRepairs (RID, EID)
-values (62466, 10180);
-
-insert into EquipRepairs (RID, EID)
-values (62467, 10163);
-
-insert into EquipRepairs (RID, EID)
-values (62468, 10133);
-
-insert into EquipRepairs (RID, EID)
-values (62469, 10294);
-
-insert into EquipRepairs (RID, EID)
-values (62470, 10145);
-
-insert into EquipRepairs (RID, EID)
-values (62471, 10036);
-
-insert into EquipRepairs (RID, EID)
-values (62472, 10225);
-
-insert into EquipRepairs (RID, EID)
-values (62473, 10360);
-
-insert into EquipRepairs (RID, EID)
-values (62474, 10231);
-
-insert into EquipRepairs (RID, EID)
-values (62475, 10150);
-
-insert into EquipRepairs (RID, EID)
-values (62476, 10111);
-
-insert into EquipRepairs (RID, EID)
-values (62477, 10069);
-
-insert into EquipRepairs (RID, EID)
-values (62478, 10019);
-
-insert into EquipRepairs (RID, EID)
-values (62479, 10140);
-
-insert into EquipRepairs (RID, EID)
-values (62480, 10056);
-
-insert into EquipRepairs (RID, EID)
-values (62481, 10165);
-
-insert into EquipRepairs (RID, EID)
-values (62482, 10255);
-
-insert into EquipRepairs (RID, EID)
-values (62483, 10044);
-
-insert into EquipRepairs (RID, EID)
-values (62484, 10251);
-
-insert into EquipRepairs (RID, EID)
-values (62485, 10286);
-
-insert into EquipRepairs (RID, EID)
-values (62486, 10097);
-
-insert into EquipRepairs (RID, EID)
-values (62487, 10026);
-
-insert into EquipRepairs (RID, EID)
-values (62488, 10310);
-
-insert into EquipRepairs (RID, EID)
-values (62489, 10054);
-
-insert into EquipRepairs (RID, EID)
-values (62490, 10045);
-
-insert into EquipRepairs (RID, EID)
-values (62491, 10291);
-
-insert into EquipRepairs (RID, EID)
-values (62492, 10132);
-
-insert into EquipRepairs (RID, EID)
-values (62493, 10111);
-
-insert into EquipRepairs (RID, EID)
-values (62494, 10118);
-
-insert into EquipRepairs (RID, EID)
-values (62495, 10195);
-
-insert into EquipRepairs (RID, EID)
-values (62496, 10390);
-
-insert into EquipRepairs (RID, EID)
-values (62497, 10131);
-
-insert into EquipRepairs (RID, EID)
-values (62498, 10273);
-
-insert into EquipRepairs (RID, EID)
-values (62499, 10120);
-
-insert into EquipRepairs (RID, EID)
-values (62500, 10239);
-
-insert into EquipRepairs (RID, EID)
-values (62501, 10230);
-
-insert into EquipRepairs (RID, EID)
-values (62502, 10083);
-
-insert into EquipRepairs (RID, EID)
-values (62503, 10051);
-
-insert into EquipRepairs (RID, EID)
-values (62504, 10398);
-
-insert into EquipRepairs (RID, EID)
-values (62505, 10207);
-
-insert into EquipRepairs (RID, EID)
-values (62506, 10048);
-
-insert into EquipRepairs (RID, EID)
-values (62507, 10242);
-
-insert into EquipRepairs (RID, EID)
-values (62508, 10098);
-
-insert into EquipRepairs (RID, EID)
-values (62509, 10000);
-
-insert into EquipRepairs (RID, EID)
-values (62510, 10136);
-
-insert into EquipRepairs (RID, EID)
-values (62511, 10154);
-
-insert into EquipRepairs (RID, EID)
-values (62512, 10303);
-
-insert into EquipRepairs (RID, EID)
-values (62513, 10031);
-
-insert into EquipRepairs (RID, EID)
-values (62514, 10139);
-
-insert into EquipRepairs (RID, EID)
-values (62515, 10012);
-
-insert into EquipRepairs (RID, EID)
-values (62516, 10280);
-
-insert into EquipRepairs (RID, EID)
-values (62517, 10177);
-
-insert into EquipRepairs (RID, EID)
-values (62518, 10075);
-
-insert into EquipRepairs (RID, EID)
-values (62519, 10166);
-
-insert into EquipRepairs (RID, EID)
-values (62520, 10129);
-
-insert into EquipRepairs (RID, EID)
-values (62521, 10277);
-
-insert into EquipRepairs (RID, EID)
-values (62522, 10176);
-
-insert into EquipRepairs (RID, EID)
-values (62523, 10387);
-
-insert into EquipRepairs (RID, EID)
-values (62524, 10179);
-
-insert into EquipRepairs (RID, EID)
-values (62525, 10321);
-
-insert into EquipRepairs (RID, EID)
-values (62526, 10096);
-
-insert into EquipRepairs (RID, EID)
-values (62527, 10139);
-
-insert into EquipRepairs (RID, EID)
-values (62528, 10379);
-
-insert into EquipRepairs (RID, EID)
-values (62529, 10198);
-
-insert into EquipRepairs (RID, EID)
-values (62530, 10318);
-
-insert into EquipRepairs (RID, EID)
-values (62531, 10129);
-
-insert into EquipRepairs (RID, EID)
-values (62532, 10069);
-
-insert into EquipRepairs (RID, EID)
-values (62533, 10158);
-
-insert into EquipRepairs (RID, EID)
-values (62534, 10349);
-
-insert into EquipRepairs (RID, EID)
-values (62535, 10328);
-
-insert into EquipRepairs (RID, EID)
-values (62536, 10263);
-
-insert into EquipRepairs (RID, EID)
-values (62537, 10075);
-
-insert into EquipRepairs (RID, EID)
-values (62538, 10109);
-
-insert into EquipRepairs (RID, EID)
-values (62539, 10223);
-
-insert into EquipRepairs (RID, EID)
-values (62540, 10144);
-
-insert into EquipRepairs (RID, EID)
-values (62541, 10064);
-
-insert into EquipRepairs (RID, EID)
-values (62542, 10115);
-
-insert into EquipRepairs (RID, EID)
-values (62543, 10313);
-
-insert into EquipRepairs (RID, EID)
-values (62544, 10187);
-
-insert into EquipRepairs (RID, EID)
-values (62545, 10342);
-
-insert into EquipRepairs (RID, EID)
-values (62546, 10200);
-
-insert into EquipRepairs (RID, EID)
-values (62547, 10334);
-
-insert into EquipRepairs (RID, EID)
-values (62548, 10200);
-
-insert into EquipRepairs (RID, EID)
-values (62549, 10260);
-
-insert into EquipRepairs (RID, EID)
-values (62550, 10245);
-
-insert into EquipRepairs (RID, EID)
-values (62551, 10269);
-
-insert into EquipRepairs (RID, EID)
-values (62552, 10032);
-
-insert into EquipRepairs (RID, EID)
-values (62553, 10243);
-
-insert into EquipRepairs (RID, EID)
-values (62554, 10048);
-
-insert into EquipRepairs (RID, EID)
-values (62555, 10249);
-
-insert into EquipRepairs (RID, EID)
-values (62556, 10345);
-
-insert into EquipRepairs (RID, EID)
-values (62557, 10332);
-
-insert into EquipRepairs (RID, EID)
-values (62558, 10369);
-
-insert into EquipRepairs (RID, EID)
-values (62559, 10348);
-
-insert into EquipRepairs (RID, EID)
-values (62560, 10079);
-
-insert into EquipRepairs (RID, EID)
-values (62561, 10038);
-
-insert into EquipRepairs (RID, EID)
-values (62562, 10087);
-
-insert into EquipRepairs (RID, EID)
-values (62563, 10219);
-
-insert into EquipRepairs (RID, EID)
-values (62564, 10324);
-
-insert into EquipRepairs (RID, EID)
-values (62565, 10296);
-
-insert into EquipRepairs (RID, EID)
-values (62566, 10168);
-
-insert into EquipRepairs (RID, EID)
-values (62567, 10177);
-
-insert into EquipRepairs (RID, EID)
-values (62568, 10142);
-
-insert into EquipRepairs (RID, EID)
-values (62569, 10313);
-
-insert into EquipRepairs (RID, EID)
-values (62570, 10290);
-
-insert into EquipRepairs (RID, EID)
-values (62571, 10230);
-
-insert into EquipRepairs (RID, EID)
-values (62572, 10281);
-
-insert into EquipRepairs (RID, EID)
-values (62573, 10375);
-
-insert into EquipRepairs (RID, EID)
-values (62574, 10269);
-
-insert into EquipRepairs (RID, EID)
-values (62575, 10108);
-
-insert into EquipRepairs (RID, EID)
-values (62576, 10147);
-
-insert into EquipRepairs (RID, EID)
-values (62577, 10003);
-
-insert into EquipRepairs (RID, EID)
-values (62578, 10367);
-
-insert into EquipRepairs (RID, EID)
-values (62579, 10195);
-
-insert into EquipRepairs (RID, EID)
-values (62580, 10134);
-
-insert into EquipRepairs (RID, EID)
-values (62581, 10289);
-
-insert into EquipRepairs (RID, EID)
-values (62582, 10341);
-
-insert into EquipRepairs (RID, EID)
-values (62583, 10165);
-
-insert into EquipRepairs (RID, EID)
-values (62584, 10120);
-
-insert into EquipRepairs (RID, EID)
-values (62585, 10394);
-
-insert into EquipRepairs (RID, EID)
-values (62586, 10396);
-
-insert into EquipRepairs (RID, EID)
-values (62587, 10281);
-
-insert into EquipRepairs (RID, EID)
-values (62588, 10387);
-
-insert into EquipRepairs (RID, EID)
-values (62589, 10095);
-
-insert into EquipRepairs (RID, EID)
-values (62590, 10042);
-
-insert into EquipRepairs (RID, EID)
-values (62591, 10329);
-
-insert into EquipRepairs (RID, EID)
-values (62592, 10005);
-
-insert into EquipRepairs (RID, EID)
-values (62593, 10162);
-
-insert into EquipRepairs (RID, EID)
-values (62594, 10269);
-
-insert into EquipRepairs (RID, EID)
-values (62595, 10148);
-
-insert into EquipRepairs (RID, EID)
-values (62596, 10347);
-
-insert into EquipRepairs (RID, EID)
-values (62597, 10137);
-
-insert into EquipRepairs (RID, EID)
-values (62598, 10387);
-
-insert into EquipRepairs (RID, EID)
-values (62599, 10146);
-
-insert into EquipRepairs (RID, EID)
-values (62600, 10111);
-
-insert into EquipRepairs (RID, EID)
-values (62601, 10039);
-
-insert into EquipRepairs (RID, EID)
-values (62602, 10373);
-
-insert into EquipRepairs (RID, EID)
-values (62603, 10333);
-
-insert into EquipRepairs (RID, EID)
-values (62604, 10195);
-
-insert into EquipRepairs (RID, EID)
-values (62605, 10116);
-
-insert into EquipRepairs (RID, EID)
-values (62606, 10310);
-
-insert into EquipRepairs (RID, EID)
-values (62607, 10072);
-
-insert into EquipRepairs (RID, EID)
-values (62608, 10171);
-
-insert into EquipRepairs (RID, EID)
-values (62609, 10121);
-
-insert into EquipRepairs (RID, EID)
-values (62610, 10271);
-
-insert into EquipRepairs (RID, EID)
-values (62611, 10125);
-
-insert into EquipRepairs (RID, EID)
-values (62612, 10059);
-
-insert into EquipRepairs (RID, EID)
-values (62613, 10100);
-
-insert into EquipRepairs (RID, EID)
-values (62614, 10102);
-
-insert into EquipRepairs (RID, EID)
-values (62615, 10114);
-
-insert into EquipRepairs (RID, EID)
-values (62616, 10243);
-
-insert into EquipRepairs (RID, EID)
-values (62617, 10342);
-
-insert into EquipRepairs (RID, EID)
-values (62618, 10248);
-
-insert into EquipRepairs (RID, EID)
-values (62619, 10012);
-
-insert into EquipRepairs (RID, EID)
-values (62620, 10121);
-
-insert into EquipRepairs (RID, EID)
-values (62621, 10250);
-
-insert into EquipRepairs (RID, EID)
-values (62622, 10040);
-
-insert into EquipRepairs (RID, EID)
-values (62623, 10227);
-
-insert into EquipRepairs (RID, EID)
-values (62624, 10226);
-
-insert into EquipRepairs (RID, EID)
-values (62625, 10054);
-
-insert into EquipRepairs (RID, EID)
-values (62626, 10045);
-
-insert into EquipRepairs (RID, EID)
-values (62627, 10208);
-
-insert into EquipRepairs (RID, EID)
-values (62628, 10145);
-
-insert into EquipRepairs (RID, EID)
-values (62629, 10064);
-
-insert into EquipRepairs (RID, EID)
-values (62630, 10244);
-
-insert into EquipRepairs (RID, EID)
-values (62631, 10011);
-
-insert into EquipRepairs (RID, EID)
-values (62632, 10000);
-
-insert into EquipRepairs (RID, EID)
-values (62633, 10373);
-
-insert into EquipRepairs (RID, EID)
-values (62634, 10044);
-
-insert into EquipRepairs (RID, EID)
-values (62635, 10125);
-
-insert into EquipRepairs (RID, EID)
-values (62636, 10032);
-
-insert into EquipRepairs (RID, EID)
-values (62637, 10374);
-
-insert into EquipRepairs (RID, EID)
-values (62638, 10159);
-
-insert into EquipRepairs (RID, EID)
-values (62639, 10163);
-
-insert into EquipRepairs (RID, EID)
-values (62640, 10204);
-
-insert into EquipRepairs (RID, EID)
-values (62641, 10373);
-
-insert into EquipRepairs (RID, EID)
-values (62642, 10055);
-
-insert into EquipRepairs (RID, EID)
-values (62643, 10385);
-
-insert into EquipRepairs (RID, EID)
-values (62644, 10211);
-
-insert into EquipRepairs (RID, EID)
-values (62645, 10018);
-
-insert into EquipRepairs (RID, EID)
-values (62646, 10082);
-
-insert into EquipRepairs (RID, EID)
-values (62647, 10010);
-
-insert into EquipRepairs (RID, EID)
-values (62648, 10008);
-
-insert into EquipRepairs (RID, EID)
-values (62649, 10086);
-
-insert into EquipRepairs (RID, EID)
-values (62650, 10153);
-
-insert into EquipRepairs (RID, EID)
-values (62651, 10113);
-
-insert into EquipRepairs (RID, EID)
-values (62652, 10226);
-
-insert into EquipRepairs (RID, EID)
-values (62653, 10106);
-
-insert into EquipRepairs (RID, EID)
-values (62654, 10290);
-
-insert into EquipRepairs (RID, EID)
-values (62655, 10017);
-
-insert into EquipRepairs (RID, EID)
-values (62656, 10362);
-
-insert into EquipRepairs (RID, EID)
-values (62657, 10187);
-
-insert into EquipRepairs (RID, EID)
-values (62658, 10318);
-
-insert into EquipRepairs (RID, EID)
-values (62659, 10020);
-
-insert into EquipRepairs (RID, EID)
-values (62660, 10385);
-
-insert into EquipRepairs (RID, EID)
-values (62661, 10137);
-
-insert into EquipRepairs (RID, EID)
-values (62662, 10196);
-
-insert into EquipRepairs (RID, EID)
-values (62663, 10385);
-
-insert into EquipRepairs (RID, EID)
-values (62664, 10200);
-
-insert into EquipRepairs (RID, EID)
-values (62665, 10394);
-
-insert into EquipRepairs (RID, EID)
-values (62666, 10107);
-
-insert into EquipRepairs (RID, EID)
-values (62667, 10346);
-
-insert into EquipRepairs (RID, EID)
-values (62668, 10400);
-
-insert into EquipRepairs (RID, EID)
-values (62669, 10093);
-
-insert into EquipRepairs (RID, EID)
-values (62670, 10350);
-
-insert into EquipRepairs (RID, EID)
-values (62671, 10171);
-
-insert into EquipRepairs (RID, EID)
-values (62672, 10148);
-
-insert into EquipRepairs (RID, EID)
-values (62673, 10211);
-
-insert into EquipRepairs (RID, EID)
-values (62674, 10374);
-
-insert into EquipRepairs (RID, EID)
-values (62675, 10153);
-
-insert into EquipRepairs (RID, EID)
-values (62676, 10278);
-
-insert into EquipRepairs (RID, EID)
-values (62677, 10042);
-
-insert into EquipRepairs (RID, EID)
-values (62678, 10032);
-
-insert into EquipRepairs (RID, EID)
-values (62679, 10177);
-
-insert into EquipRepairs (RID, EID)
-values (62680, 10391);
-
-insert into EquipRepairs (RID, EID)
-values (62681, 10010);
-
-insert into EquipRepairs (RID, EID)
-values (62682, 10161);
-
-insert into EquipRepairs (RID, EID)
-values (62683, 10379);
-
-insert into EquipRepairs (RID, EID)
-values (62684, 10227);
-
-insert into EquipRepairs (RID, EID)
-values (62685, 10063);
-
-insert into EquipRepairs (RID, EID)
-values (62686, 10115);
-
-insert into EquipRepairs (RID, EID)
-values (62687, 10311);
-
-insert into EquipRepairs (RID, EID)
-values (62688, 10393);
-
-insert into EquipRepairs (RID, EID)
-values (62689, 10006);
-
-insert into EquipRepairs (RID, EID)
-values (62690, 10078);
-
-insert into EquipRepairs (RID, EID)
-values (62691, 10142);
-
-insert into EquipRepairs (RID, EID)
-values (62692, 10379);
-
-insert into EquipRepairs (RID, EID)
-values (62693, 10095);
-
-insert into EquipRepairs (RID, EID)
-values (62694, 10300);
-
-insert into EquipRepairs (RID, EID)
-values (62695, 10297);
-
-insert into EquipRepairs (RID, EID)
-values (62696, 10050);
-
-insert into EquipRepairs (RID, EID)
-values (62697, 10375);
-
-insert into EquipRepairs (RID, EID)
-values (62698, 10060);
-
-insert into EquipRepairs (RID, EID)
-values (62699, 10046);
-
-insert into EquipRepairs (RID, EID)
-values (62700, 10346);
-
-insert into EquipRepairs (RID, EID)
-values (62701, 10118);
-
-insert into EquipRepairs (RID, EID)
-values (62702, 10008);
-
-insert into EquipRepairs (RID, EID)
-values (62703, 10116);
-
-insert into EquipRepairs (RID, EID)
-values (62704, 10262);
-
-insert into EquipRepairs (RID, EID)
-values (62705, 10081);
-
-insert into EquipRepairs (RID, EID)
-values (62706, 10373);
-
-insert into EquipRepairs (RID, EID)
-values (62707, 10360);
-
-insert into EquipRepairs (RID, EID)
-values (62708, 10206);
-
-insert into EquipRepairs (RID, EID)
-values (62709, 10257);
-
-insert into EquipRepairs (RID, EID)
-values (62710, 10116);
-
-insert into EquipRepairs (RID, EID)
-values (62711, 10167);
-
-insert into EquipRepairs (RID, EID)
-values (62712, 10100);
-
-insert into EquipRepairs (RID, EID)
-values (62713, 10074);
-
-insert into EquipRepairs (RID, EID)
-values (62714, 10225);
-
-insert into EquipRepairs (RID, EID)
-values (62715, 10130);
-
-insert into EquipRepairs (RID, EID)
-values (62716, 10109);
-
-insert into EquipRepairs (RID, EID)
-values (62717, 10402);
-
-insert into EquipRepairs (RID, EID)
-values (62718, 10261);
-
-insert into EquipRepairs (RID, EID)
-values (62719, 10338);
-
-insert into EquipRepairs (RID, EID)
-values (62720, 10254);
-
-insert into EquipRepairs (RID, EID)
-values (62721, 10350);
-
-insert into EquipRepairs (RID, EID)
-values (62722, 10039);
-
-insert into EquipRepairs (RID, EID)
-values (62723, 10054);
-
-insert into EquipRepairs (RID, EID)
-values (62724, 10102);
-
-insert into EquipRepairs (RID, EID)
-values (62725, 10165);
-
-insert into EquipRepairs (RID, EID)
-values (62726, 10217);
-
-insert into EquipRepairs (RID, EID)
-values (62727, 10019);
-
-insert into EquipRepairs (RID, EID)
-values (62728, 10257);
-
-insert into EquipRepairs (RID, EID)
-values (62729, 10167);
-
-insert into EquipRepairs (RID, EID)
-values (62730, 10113);
-
-insert into EquipRepairs (RID, EID)
-values (62731, 10228);
-
-insert into EquipRepairs (RID, EID)
-values (62732, 10187);
-
-insert into EquipRepairs (RID, EID)
-values (62733, 10368);
-
-insert into EquipRepairs (RID, EID)
-values (62734, 10084);
-
-insert into EquipRepairs (RID, EID)
-values (62735, 10255);
-
-insert into EquipRepairs (RID, EID)
-values (62736, 10361);
-
-insert into EquipRepairs (RID, EID)
-values (62737, 10208);
-
-insert into EquipRepairs (RID, EID)
-values (62738, 10111);
-
-insert into EquipRepairs (RID, EID)
-values (62739, 10045);
-
-insert into EquipRepairs (RID, EID)
-values (62740, 10199);
-
-insert into EquipRepairs (RID, EID)
-values (62741, 10018);
-
-insert into EquipRepairs (RID, EID)
-values (62742, 10099);
-
-insert into EquipRepairs (RID, EID)
-values (62743, 10368);
-
-insert into EquipRepairs (RID, EID)
-values (62744, 10022);
-
-insert into EquipRepairs (RID, EID)
-values (62745, 10221);
-
-insert into EquipRepairs (RID, EID)
-values (62746, 10207);
-
-insert into EquipRepairs (RID, EID)
-values (62747, 10233);
-
-insert into EquipRepairs (RID, EID)
-values (62748, 10318);
-
-insert into EquipRepairs (RID, EID)
-values (62749, 10069);
-
-insert into EquipRepairs (RID, EID)
-values (62750, 10064);
-
-insert into EquipRepairs (RID, EID)
-values (62751, 10370);
-
-insert into EquipRepairs (RID, EID)
-values (62752, 10241);
-
-insert into EquipRepairs (RID, EID)
-values (62753, 10222);
-
-insert into EquipRepairs (RID, EID)
-values (62754, 10216);
-
-insert into EquipRepairs (RID, EID)
-values (62755, 10176);
-
-insert into EquipRepairs (RID, EID)
-values (62756, 10191);
-
-insert into EquipRepairs (RID, EID)
-values (62757, 10247);
-
-insert into EquipRepairs (RID, EID)
-values (62758, 10018);
-
-insert into EquipRepairs (RID, EID)
-values (62759, 10261);
-
-insert into EquipRepairs (RID, EID)
-values (62760, 10069);
-
-insert into EquipRepairs (RID, EID)
-values (62761, 10005);
-
-insert into EquipRepairs (RID, EID)
-values (62762, 10382);
-
-insert into EquipRepairs (RID, EID)
-values (62763, 10210);
-
-insert into EquipRepairs (RID, EID)
-values (62764, 10297);
-
-insert into EquipRepairs (RID, EID)
-values (62765, 10234);
-
-insert into EquipRepairs (RID, EID)
-values (62766, 10119);
-
-insert into EquipRepairs (RID, EID)
-values (62767, 10268);
-
-insert into EquipRepairs (RID, EID)
-values (62768, 10211);
-
-insert into EquipRepairs (RID, EID)
-values (62769, 10190);
-
-insert into EquipRepairs (RID, EID)
-values (62770, 10163);
-
-insert into EquipRepairs (RID, EID)
-values (62771, 10402);
-
-insert into EquipRepairs (RID, EID)
-values (62772, 10317);
-
-insert into EquipRepairs (RID, EID)
-values (62773, 10381);
-
-insert into EquipRepairs (RID, EID)
-values (62774, 10154);
-
-insert into EquipRepairs (RID, EID)
-values (62775, 10393);
-
-insert into EquipRepairs (RID, EID)
-values (62776, 10396);
-
-insert into EquipRepairs (RID, EID)
-values (62777, 10373);
-
-insert into EquipRepairs (RID, EID)
-values (62778, 10276);
-
-insert into EquipRepairs (RID, EID)
-values (62779, 10272);
-
-insert into EquipRepairs (RID, EID)
-values (62780, 10146);
-
-insert into EquipRepairs (RID, EID)
-values (62781, 10319);
-
-insert into EquipRepairs (RID, EID)
-values (62782, 10282);
-
-insert into EquipRepairs (RID, EID)
-values (62783, 10103);
-
-insert into EquipRepairs (RID, EID)
-values (62784, 10202);
-
-insert into EquipRepairs (RID, EID)
-values (62785, 10020);
-
-insert into EquipRepairs (RID, EID)
-values (62786, 10324);
-
-insert into EquipRepairs (RID, EID)
-values (62787, 10254);
-
-insert into EquipRepairs (RID, EID)
-values (62788, 10328);
-
-insert into EquipRepairs (RID, EID)
-values (62789, 10329);
-
-insert into EquipRepairs (RID, EID)
-values (62790, 10184);
-
-insert into EquipRepairs (RID, EID)
-values (62791, 10146);
-
-insert into EquipRepairs (RID, EID)
-values (62792, 10106);
-
-insert into EquipRepairs (RID, EID)
-values (62793, 10105);
-
-insert into EquipRepairs (RID, EID)
-values (62794, 10080);
-
-insert into EquipRepairs (RID, EID)
-values (62795, 10047);
-
-insert into EquipRepairs (RID, EID)
-values (62796, 10297);
-
-insert into EquipRepairs (RID, EID)
-values (62797, 10203);
-
-insert into EquipRepairs (RID, EID)
-values (62798, 10269);
-
-insert into EquipRepairs (RID, EID)
-values (62799, 10069);
-
-insert into EquipRepairs (RID, EID)
-values (62800, 10346);
-
-insert into EquipRepairs (RID, EID)
-values (62801, 10214);
-
-insert into EquipRepairs (RID, EID)
-values (62802, 10397);
-
-insert into EquipRepairs (RID, EID)
-values (62803, 10333);
-
-insert into EquipRepairs (RID, EID)
-values (62804, 10069);
-
-insert into EquipRepairs (RID, EID)
-values (62805, 10059);
-
-insert into EquipRepairs (RID, EID)
-values (62806, 10061);
-
-insert into EquipRepairs (RID, EID)
-values (62807, 10292);
-
-insert into EquipRepairs (RID, EID)
-values (62808, 10000);
-
-insert into EquipRepairs (RID, EID)
-values (62809, 10029);
-
-commit;
-
-
 -- insert Vehicles
 
 insert into Vehicles (vID, typeIs, status, dID) values (45140012, 'motorcycle', 'normal', 322498461);
@@ -8058,1213 +5634,308 @@ insert into Vehicles (vID, typeIs, status, dID) values (45140409, 'motorcycle', 
 insert into Vehicles (vID, typeIs, status, dID) values (45140410, 'ambulance', 'under repair', 322498859);
 insert into Vehicles (vID, typeIs, status, dID) values (45140411, 'motorcycle', 'not normal', 322498860);
 
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140412, 'helicopter', 'normal', 322498627);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140413, 'ambulance', 'under repair', 322498516);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140414, 'motorcycle', 'not normal', 322498487);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140415, 'motorcycle', 'under repair', 322498837);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140416, 'motorcycle', 'not normal', 322498603);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140417, 'motorcycle', 'not normal', 322498810);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140418, 'ambulance', 'not normal', 322498563);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140419, 'helicopter', 'normal', 322498822);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140420, 'helicopter', 'under repair', 322498547);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140421, 'motorcycle', 'under repair', 322498766);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140422, 'motorcycle', 'under repair', 322498498);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140423, 'motorcycle', 'not normal', 322498598);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140424, 'motorcycle', 'not normal', 322498558);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140425, 'motorcycle', 'under repair', 322498555);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140426, 'motorcycle', 'under repair', 322498688);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140427, 'ambulance', 'under repair', 322498656);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140428, 'motorcycle', 'under repair', 322498740);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140429, 'motorcycle', 'not normal', 322498770);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140430, 'motorcycle', 'not normal', 322498821);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140431, 'motorcycle', 'normal', 322498848);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140432, 'helicopter', 'normal', 322498585);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140433, 'motorcycle', 'under repair', 322498512);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140434, 'helicopter', 'not normal', 322498827);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140435, 'motorcycle', 'normal', 322498752);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140436, 'ambulance', 'normal', 322498720);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140437, 'ambulance', 'not normal', 322498494);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140438, 'helicopter', 'under repair', 322498610);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140439, 'ambulance', 'normal', 322498493);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140440, 'ambulance', 'under repair', 322498711);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140441, 'ambulance', 'not normal', 322498769);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140442, 'ambulance', 'not normal', 322498572);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140443, 'ambulance', 'normal', 322498481);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140444, 'helicopter', 'normal', 322498789);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140445, 'motorcycle', 'normal', 322498791);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140446, 'motorcycle', 'under repair', 322498587);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140447, 'ambulance', 'normal', 322498617);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140448, 'motorcycle', 'under repair', 322498600);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140449, 'motorcycle', 'normal', 322498808);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140450, 'helicopter', 'not normal', 322498822);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140451, 'helicopter', 'under repair', 322498826);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140452, 'ambulance', 'under repair', 322498637);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140453, 'ambulance', 'normal', 322498497);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140454, 'ambulance', 'under repair', 322498676);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140455, 'motorcycle', 'not normal', 322498474);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140456, 'motorcycle', 'normal', 322498466);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140457, 'motorcycle', 'normal', 322498856);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140458, 'helicopter', 'not normal', 322498629);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140459, 'motorcycle', 'not normal', 322498730);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140460, 'ambulance', 'not normal', 322498779);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140461, 'ambulance', 'normal', 322498639);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140462, 'helicopter', 'under repair', 322498666);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140463, 'motorcycle', 'normal', 322498809);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140464, 'motorcycle', 'normal', 322498820);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140465, 'ambulance', 'under repair', 322498763);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140466, 'helicopter', 'not normal', 322498674);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140467, 'helicopter', 'normal', 322498787);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140468, 'helicopter', 'under repair', 322498800);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140469, 'motorcycle', 'not normal', 322498575);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140470, 'motorcycle', 'not normal', 322498690);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140471, 'ambulance', 'normal', 322498502);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140472, 'motorcycle', 'under repair', 322498633);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140473, 'helicopter', 'under repair', 322498799);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140474, 'ambulance', 'not normal', 322498562);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140475, 'ambulance', 'not normal', 322498643);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140476, 'ambulance', 'not normal', 322498840);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140477, 'helicopter', 'not normal', 322498858);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140478, 'ambulance', 'under repair', 322498740);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140479, 'helicopter', 'not normal', 322498538);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140480, 'helicopter', 'under repair', 322498727);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140481, 'helicopter', 'under repair', 322498784);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140482, 'ambulance', 'not normal', 322498743);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140483, 'ambulance', 'not normal', 322498533);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140484, 'ambulance', 'normal', 322498694);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140485, 'ambulance', 'normal', 322498822);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140486, 'motorcycle', 'normal', 322498803);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140487, 'ambulance', 'normal', 322498500);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140488, 'helicopter', 'normal', 322498791);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140489, 'helicopter', 'normal', 322498734);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140490, 'helicopter', 'not normal', 322498665);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140491, 'motorcycle', 'under repair', 322498533);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140492, 'ambulance', 'under repair', 322498546);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140493, 'ambulance', 'not normal', 322498499);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140494, 'motorcycle', 'not normal', 322498817);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140495, 'motorcycle', 'under repair', 322498791);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140496, 'motorcycle', 'not normal', 322498825);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140497, 'motorcycle', 'not normal', 322498640);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140498, 'helicopter', 'not normal', 322498742);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140499, 'helicopter', 'not normal', 322498745);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140500, 'motorcycle', 'not normal', 322498517);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140501, 'motorcycle', 'under repair', 322498854);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140502, 'motorcycle', 'normal', 322498860);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140503, 'helicopter', 'normal', 322498577);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140504, 'motorcycle', 'not normal', 322498606);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140505, 'motorcycle', 'under repair', 322498571);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140506, 'ambulance', 'under repair', 322498554);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140507, 'ambulance', 'under repair', 322498802);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140508, 'motorcycle', 'under repair', 322498647);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140509, 'ambulance', 'normal', 322498748);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140510, 'ambulance', 'under repair', 322498756);
+
+insert into VEHICLES (VID, TYPEIS, STATUS, DID)
+values (45140511, 'helicopter', 'under repair', 322498655);
+
 commit;
 
-
--- insert VehiclesRepairs
-
-
-insert into vehiclesRepairs (RID, VID)
-values (62010, 45140289);
-
-insert into vehiclesRepairs (RID, VID)
-values (62011, 45140231);
-
-insert into vehiclesRepairs (RID, VID)
-values (62012, 45140339);
-
-insert into vehiclesRepairs (RID, VID)
-values (62013, 45140224);
-
-insert into vehiclesRepairs (RID, VID)
-values (62014, 45140076);
-
-insert into vehiclesRepairs (RID, VID)
-values (62015, 45140035);
-
-insert into vehiclesRepairs (RID, VID)
-values (62016, 45140202);
-
-insert into vehiclesRepairs (RID, VID)
-values (62017, 45140237);
-
-insert into vehiclesRepairs (RID, VID)
-values (62018, 45140408);
-
-insert into vehiclesRepairs (RID, VID)
-values (62019, 45140093);
-
-insert into vehiclesRepairs (RID, VID)
-values (62020, 45140205);
-
-insert into vehiclesRepairs (RID, VID)
-values (62021, 45140242);
-
-insert into vehiclesRepairs (RID, VID)
-values (62022, 45140343);
-
-insert into vehiclesRepairs (RID, VID)
-values (62023, 45140278);
-
-insert into vehiclesRepairs (RID, VID)
-values (62024, 45140131);
-
-insert into vehiclesRepairs (RID, VID)
-values (62025, 45140371);
-
-insert into vehiclesRepairs (RID, VID)
-values (62026, 45140120);
-
-insert into vehiclesRepairs (RID, VID)
-values (62027, 45140397);
-
-insert into vehiclesRepairs (RID, VID)
-values (62028, 45140407);
-
-insert into vehiclesRepairs (RID, VID)
-values (62029, 45140396);
-
-insert into vehiclesRepairs (RID, VID)
-values (62030, 45140286);
-
-insert into vehiclesRepairs (RID, VID)
-values (62031, 45140320);
-
-insert into vehiclesRepairs (RID, VID)
-values (62032, 45140308);
-
-insert into vehiclesRepairs (RID, VID)
-values (62033, 45140226);
-
-insert into vehiclesRepairs (RID, VID)
-values (62034, 45140346);
-
-insert into vehiclesRepairs (RID, VID)
-values (62035, 45140077);
-
-insert into vehiclesRepairs (RID, VID)
-values (62036, 45140023);
-
-insert into vehiclesRepairs (RID, VID)
-values (62037, 45140104);
-
-insert into vehiclesRepairs (RID, VID)
-values (62038, 45140338);
-
-insert into vehiclesRepairs (RID, VID)
-values (62039, 45140222);
-
-insert into vehiclesRepairs (RID, VID)
-values (62040, 45140049);
-
-insert into vehiclesRepairs (RID, VID)
-values (62041, 45140265);
-
-insert into vehiclesRepairs (RID, VID)
-values (62042, 45140062);
-
-insert into vehiclesRepairs (RID, VID)
-values (62043, 45140054);
-
-insert into vehiclesRepairs (RID, VID)
-values (62044, 45140284);
-
-insert into vehiclesRepairs (RID, VID)
-values (62045, 45140271);
-
-insert into vehiclesRepairs (RID, VID)
-values (62046, 45140382);
-
-insert into vehiclesRepairs (RID, VID)
-values (62047, 45140201);
-
-insert into vehiclesRepairs (RID, VID)
-values (62048, 45140093);
-
-insert into vehiclesRepairs (RID, VID)
-values (62049, 45140404);
-
-insert into vehiclesRepairs (RID, VID)
-values (62050, 45140316);
-
-insert into vehiclesRepairs (RID, VID)
-values (62051, 45140139);
-
-insert into vehiclesRepairs (RID, VID)
-values (62052, 45140300);
-
-insert into vehiclesRepairs (RID, VID)
-values (62053, 45140322);
-
-insert into vehiclesRepairs (RID, VID)
-values (62054, 45140132);
-
-insert into vehiclesRepairs (RID, VID)
-values (62055, 45140157);
-
-insert into vehiclesRepairs (RID, VID)
-values (62056, 45140195);
-
-insert into vehiclesRepairs (RID, VID)
-values (62057, 45140357);
-
-insert into vehiclesRepairs (RID, VID)
-values (62058, 45140375);
-
-insert into vehiclesRepairs (RID, VID)
-values (62059, 45140163);
-
-insert into vehiclesRepairs (RID, VID)
-values (62060, 45140311);
-
-insert into vehiclesRepairs (RID, VID)
-values (62061, 45140066);
-
-insert into vehiclesRepairs (RID, VID)
-values (62062, 45140038);
-
-insert into vehiclesRepairs (RID, VID)
-values (62063, 45140207);
-
-insert into vehiclesRepairs (RID, VID)
-values (62064, 45140240);
-
-insert into vehiclesRepairs (RID, VID)
-values (62065, 45140409);
-
-insert into vehiclesRepairs (RID, VID)
-values (62066, 45140397);
-
-insert into vehiclesRepairs (RID, VID)
-values (62067, 45140135);
-
-insert into vehiclesRepairs (RID, VID)
-values (62068, 45140067);
-
-insert into vehiclesRepairs (RID, VID)
-values (62069, 45140378);
-
-insert into vehiclesRepairs (RID, VID)
-values (62070, 45140326);
-
-insert into vehiclesRepairs (RID, VID)
-values (62071, 45140257);
-
-insert into vehiclesRepairs (RID, VID)
-values (62072, 45140081);
-
-insert into vehiclesRepairs (RID, VID)
-values (62073, 45140221);
-
-insert into vehiclesRepairs (RID, VID)
-values (62074, 45140225);
-
-insert into vehiclesRepairs (RID, VID)
-values (62075, 45140222);
-
-insert into vehiclesRepairs (RID, VID)
-values (62076, 45140331);
-
-insert into vehiclesRepairs (RID, VID)
-values (62077, 45140319);
-
-insert into vehiclesRepairs (RID, VID)
-values (62078, 45140152);
-
-insert into vehiclesRepairs (RID, VID)
-values (62079, 45140198);
-
-insert into vehiclesRepairs (RID, VID)
-values (62080, 45140107);
-
-insert into vehiclesRepairs (RID, VID)
-values (62081, 45140047);
-
-insert into vehiclesRepairs (RID, VID)
-values (62082, 45140311);
-
-insert into vehiclesRepairs (RID, VID)
-values (62083, 45140152);
-
-insert into vehiclesRepairs (RID, VID)
-values (62084, 45140301);
-
-insert into vehiclesRepairs (RID, VID)
-values (62085, 45140266);
-
-insert into vehiclesRepairs (RID, VID)
-values (62086, 45140086);
-
-insert into vehiclesRepairs (RID, VID)
-values (62087, 45140318);
-
-insert into vehiclesRepairs (RID, VID)
-values (62088, 45140129);
-
-insert into vehiclesRepairs (RID, VID)
-values (62089, 45140389);
-
-insert into vehiclesRepairs (RID, VID)
-values (62090, 45140360);
-
-insert into vehiclesRepairs (RID, VID)
-values (62091, 45140049);
-
-insert into vehiclesRepairs (RID, VID)
-values (62092, 45140169);
-
-insert into vehiclesRepairs (RID, VID)
-values (62093, 45140274);
-
-insert into vehiclesRepairs (RID, VID)
-values (62094, 45140324);
-
-insert into vehiclesRepairs (RID, VID)
-values (62095, 45140349);
-
-insert into vehiclesRepairs (RID, VID)
-values (62096, 45140199);
-
-insert into vehiclesRepairs (RID, VID)
-values (62097, 45140068);
-
-insert into vehiclesRepairs (RID, VID)
-values (62098, 45140103);
-
-insert into vehiclesRepairs (RID, VID)
-values (62099, 45140281);
-
-insert into vehiclesRepairs (RID, VID)
-values (62100, 45140394);
-
-insert into vehiclesRepairs (RID, VID)
-values (62101, 45140067);
-
-insert into vehiclesRepairs (RID, VID)
-values (62102, 45140217);
-
-insert into vehiclesRepairs (RID, VID)
-values (62103, 45140333);
-
-insert into vehiclesRepairs (RID, VID)
-values (62104, 45140148);
-
-insert into vehiclesRepairs (RID, VID)
-values (62105, 45140324);
-
-insert into vehiclesRepairs (RID, VID)
-values (62106, 45140190);
-
-insert into vehiclesRepairs (RID, VID)
-values (62107, 45140349);
-
-insert into vehiclesRepairs (RID, VID)
-values (62108, 45140105);
-
-insert into vehiclesRepairs (RID, VID)
-values (62109, 45140247);
-
-insert into vehiclesRepairs (RID, VID)
-values (62110, 45140333);
-
-insert into vehiclesRepairs (RID, VID)
-values (62111, 45140116);
-
-insert into vehiclesRepairs (RID, VID)
-values (62112, 45140248);
-
-insert into vehiclesRepairs (RID, VID)
-values (62113, 45140141);
-
-insert into vehiclesRepairs (RID, VID)
-values (62114, 45140014);
-
-insert into vehiclesRepairs (RID, VID)
-values (62115, 45140389);
-
-insert into vehiclesRepairs (RID, VID)
-values (62116, 45140230);
-
-insert into vehiclesRepairs (RID, VID)
-values (62117, 45140328);
-
-insert into vehiclesRepairs (RID, VID)
-values (62118, 45140238);
-
-insert into vehiclesRepairs (RID, VID)
-values (62119, 45140266);
-
-insert into vehiclesRepairs (RID, VID)
-values (62120, 45140208);
-
-insert into vehiclesRepairs (RID, VID)
-values (62121, 45140395);
-
-insert into vehiclesRepairs (RID, VID)
-values (62122, 45140054);
-
-insert into vehiclesRepairs (RID, VID)
-values (62123, 45140098);
-
-insert into vehiclesRepairs (RID, VID)
-values (62124, 45140148);
-
-insert into vehiclesRepairs (RID, VID)
-values (62125, 45140404);
-
-insert into vehiclesRepairs (RID, VID)
-values (62126, 45140407);
-
-insert into vehiclesRepairs (RID, VID)
-values (62127, 45140016);
-
-insert into vehiclesRepairs (RID, VID)
-values (62128, 45140082);
-
-insert into vehiclesRepairs (RID, VID)
-values (62129, 45140029);
-
-insert into vehiclesRepairs (RID, VID)
-values (62130, 45140352);
-
-insert into vehiclesRepairs (RID, VID)
-values (62131, 45140297);
-
-insert into vehiclesRepairs (RID, VID)
-values (62132, 45140264);
-
-insert into vehiclesRepairs (RID, VID)
-values (62133, 45140031);
-
-insert into vehiclesRepairs (RID, VID)
-values (62134, 45140257);
-
-insert into vehiclesRepairs (RID, VID)
-values (62135, 45140231);
-
-insert into vehiclesRepairs (RID, VID)
-values (62136, 45140315);
-
-insert into vehiclesRepairs (RID, VID)
-values (62137, 45140253);
-
-insert into vehiclesRepairs (RID, VID)
-values (62138, 45140303);
-
-insert into vehiclesRepairs (RID, VID)
-values (62139, 45140308);
-
-insert into vehiclesRepairs (RID, VID)
-values (62140, 45140114);
-
-insert into vehiclesRepairs (RID, VID)
-values (62141, 45140340);
-
-insert into vehiclesRepairs (RID, VID)
-values (62142, 45140304);
-
-insert into vehiclesRepairs (RID, VID)
-values (62143, 45140202);
-
-insert into vehiclesRepairs (RID, VID)
-values (62144, 45140104);
-
-insert into vehiclesRepairs (RID, VID)
-values (62145, 45140365);
-
-insert into vehiclesRepairs (RID, VID)
-values (62146, 45140176);
-
-insert into vehiclesRepairs (RID, VID)
-values (62147, 45140358);
-
-insert into vehiclesRepairs (RID, VID)
-values (62148, 45140390);
-
-insert into vehiclesRepairs (RID, VID)
-values (62149, 45140173);
-
-insert into vehiclesRepairs (RID, VID)
-values (62150, 45140049);
-
-insert into vehiclesRepairs (RID, VID)
-values (62151, 45140263);
-
-insert into vehiclesRepairs (RID, VID)
-values (62152, 45140088);
-
-insert into vehiclesRepairs (RID, VID)
-values (62153, 45140405);
-
-insert into vehiclesRepairs (RID, VID)
-values (62154, 45140367);
-
-insert into vehiclesRepairs (RID, VID)
-values (62155, 45140210);
-
-insert into vehiclesRepairs (RID, VID)
-values (62156, 45140096);
-
-insert into vehiclesRepairs (RID, VID)
-values (62157, 45140246);
-
-insert into vehiclesRepairs (RID, VID)
-values (62158, 45140383);
-
-insert into vehiclesRepairs (RID, VID)
-values (62159, 45140235);
-
-insert into vehiclesRepairs (RID, VID)
-values (62160, 45140165);
-
-insert into vehiclesRepairs (RID, VID)
-values (62161, 45140226);
-
-insert into vehiclesRepairs (RID, VID)
-values (62162, 45140362);
-
-insert into vehiclesRepairs (RID, VID)
-values (62163, 45140023);
-
-insert into vehiclesRepairs (RID, VID)
-values (62164, 45140021);
-
-insert into vehiclesRepairs (RID, VID)
-values (62165, 45140136);
-
-insert into vehiclesRepairs (RID, VID)
-values (62166, 45140125);
-
-insert into vehiclesRepairs (RID, VID)
-values (62167, 45140093);
-
-insert into vehiclesRepairs (RID, VID)
-values (62168, 45140030);
-
-insert into vehiclesRepairs (RID, VID)
-values (62169, 45140192);
-
-insert into vehiclesRepairs (RID, VID)
-values (62170, 45140238);
-
-insert into vehiclesRepairs (RID, VID)
-values (62171, 45140226);
-
-insert into vehiclesRepairs (RID, VID)
-values (62172, 45140145);
-
-insert into vehiclesRepairs (RID, VID)
-values (62173, 45140091);
-
-insert into vehiclesRepairs (RID, VID)
-values (62174, 45140277);
-
-insert into vehiclesRepairs (RID, VID)
-values (62175, 45140060);
-
-insert into vehiclesRepairs (RID, VID)
-values (62176, 45140040);
-
-insert into vehiclesRepairs (RID, VID)
-values (62177, 45140306);
-
-insert into vehiclesRepairs (RID, VID)
-values (62178, 45140282);
-
-insert into vehiclesRepairs (RID, VID)
-values (62179, 45140026);
-
-insert into vehiclesRepairs (RID, VID)
-values (62180, 45140164);
-
-insert into vehiclesRepairs (RID, VID)
-values (62181, 45140067);
-
-insert into vehiclesRepairs (RID, VID)
-values (62182, 45140012);
-
-insert into vehiclesRepairs (RID, VID)
-values (62183, 45140125);
-
-insert into vehiclesRepairs (RID, VID)
-values (62184, 45140407);
-
-insert into vehiclesRepairs (RID, VID)
-values (62185, 45140159);
-
-insert into vehiclesRepairs (RID, VID)
-values (62186, 45140339);
-
-insert into vehiclesRepairs (RID, VID)
-values (62187, 45140141);
-
-insert into vehiclesRepairs (RID, VID)
-values (62188, 45140342);
-
-insert into vehiclesRepairs (RID, VID)
-values (62189, 45140393);
-
-insert into vehiclesRepairs (RID, VID)
-values (62190, 45140376);
-
-insert into vehiclesRepairs (RID, VID)
-values (62191, 45140185);
-
-insert into vehiclesRepairs (RID, VID)
-values (62192, 45140305);
-
-insert into vehiclesRepairs (RID, VID)
-values (62193, 45140098);
-
-insert into vehiclesRepairs (RID, VID)
-values (62194, 45140080);
-
-insert into vehiclesRepairs (RID, VID)
-values (62195, 45140153);
-
-insert into vehiclesRepairs (RID, VID)
-values (62196, 45140290);
-
-insert into vehiclesRepairs (RID, VID)
-values (62197, 45140052);
-
-insert into vehiclesRepairs (RID, VID)
-values (62198, 45140128);
-
-insert into vehiclesRepairs (RID, VID)
-values (62199, 45140012);
-
-insert into vehiclesRepairs (RID, VID)
-values (62200, 45140120);
-
-insert into vehiclesRepairs (RID, VID)
-values (62201, 45140033);
-
-insert into vehiclesRepairs (RID, VID)
-values (62202, 45140202);
-
-insert into vehiclesRepairs (RID, VID)
-values (62203, 45140086);
-
-insert into vehiclesRepairs (RID, VID)
-values (62204, 45140070);
-
-insert into vehiclesRepairs (RID, VID)
-values (62205, 45140198);
-
-insert into vehiclesRepairs (RID, VID)
-values (62206, 45140094);
-
-insert into vehiclesRepairs (RID, VID)
-values (62207, 45140249);
-
-insert into vehiclesRepairs (RID, VID)
-values (62208, 45140407);
-
-insert into vehiclesRepairs (RID, VID)
-values (62209, 45140258);
-
-insert into vehiclesRepairs (RID, VID)
-values (62210, 45140146);
-
-insert into vehiclesRepairs (RID, VID)
-values (62211, 45140217);
-
-insert into vehiclesRepairs (RID, VID)
-values (62212, 45140017);
-
-insert into vehiclesRepairs (RID, VID)
-values (62213, 45140088);
-
-insert into vehiclesRepairs (RID, VID)
-values (62214, 45140053);
-
-insert into vehiclesRepairs (RID, VID)
-values (62215, 45140027);
-
-insert into vehiclesRepairs (RID, VID)
-values (62216, 45140383);
-
-insert into vehiclesRepairs (RID, VID)
-values (62217, 45140300);
-
-insert into vehiclesRepairs (RID, VID)
-values (62218, 45140343);
-
-insert into vehiclesRepairs (RID, VID)
-values (62219, 45140304);
-
-insert into vehiclesRepairs (RID, VID)
-values (62220, 45140095);
-
-insert into vehiclesRepairs (RID, VID)
-values (62221, 45140248);
-
-insert into vehiclesRepairs (RID, VID)
-values (62222, 45140146);
-
-insert into vehiclesRepairs (RID, VID)
-values (62223, 45140405);
-
-insert into vehiclesRepairs (RID, VID)
-values (62224, 45140343);
-
-insert into vehiclesRepairs (RID, VID)
-values (62225, 45140191);
-
-insert into vehiclesRepairs (RID, VID)
-values (62226, 45140188);
-
-insert into vehiclesRepairs (RID, VID)
-values (62227, 45140238);
-
-insert into vehiclesRepairs (RID, VID)
-values (62228, 45140376);
-
-insert into vehiclesRepairs (RID, VID)
-values (62229, 45140059);
-
-insert into vehiclesRepairs (RID, VID)
-values (62230, 45140408);
-
-insert into vehiclesRepairs (RID, VID)
-values (62231, 45140041);
-
-insert into vehiclesRepairs (RID, VID)
-values (62232, 45140396);
-
-insert into vehiclesRepairs (RID, VID)
-values (62233, 45140174);
-
-insert into vehiclesRepairs (RID, VID)
-values (62234, 45140134);
-
-insert into vehiclesRepairs (RID, VID)
-values (62235, 45140129);
-
-insert into vehiclesRepairs (RID, VID)
-values (62236, 45140238);
-
-insert into vehiclesRepairs (RID, VID)
-values (62237, 45140165);
-
-insert into vehiclesRepairs (RID, VID)
-values (62238, 45140027);
-
-insert into vehiclesRepairs (RID, VID)
-values (62239, 45140286);
-
-insert into vehiclesRepairs (RID, VID)
-values (62240, 45140333);
-
-insert into vehiclesRepairs (RID, VID)
-values (62241, 45140019);
-
-insert into vehiclesRepairs (RID, VID)
-values (62242, 45140313);
-
-insert into vehiclesRepairs (RID, VID)
-values (62243, 45140210);
-
-insert into vehiclesRepairs (RID, VID)
-values (62244, 45140295);
-
-insert into vehiclesRepairs (RID, VID)
-values (62245, 45140114);
-
-insert into vehiclesRepairs (RID, VID)
-values (62246, 45140328);
-
-insert into vehiclesRepairs (RID, VID)
-values (62247, 45140098);
-
-insert into vehiclesRepairs (RID, VID)
-values (62248, 45140218);
-
-insert into vehiclesRepairs (RID, VID)
-values (62249, 45140379);
-
-insert into vehiclesRepairs (RID, VID)
-values (62250, 45140083);
-
-insert into vehiclesRepairs (RID, VID)
-values (62251, 45140165);
-
-insert into vehiclesRepairs (RID, VID)
-values (62252, 45140248);
-
-insert into vehiclesRepairs (RID, VID)
-values (62253, 45140019);
-
-insert into vehiclesRepairs (RID, VID)
-values (62254, 45140281);
-
-insert into vehiclesRepairs (RID, VID)
-values (62255, 45140389);
-
-insert into vehiclesRepairs (RID, VID)
-values (62256, 45140098);
-
-insert into vehiclesRepairs (RID, VID)
-values (62257, 45140159);
-
-insert into vehiclesRepairs (RID, VID)
-values (62258, 45140097);
-
-insert into vehiclesRepairs (RID, VID)
-values (62259, 45140285);
-
-insert into vehiclesRepairs (RID, VID)
-values (62260, 45140266);
-
-insert into vehiclesRepairs (RID, VID)
-values (62261, 45140240);
-
-insert into vehiclesRepairs (RID, VID)
-values (62262, 45140137);
-
-insert into vehiclesRepairs (RID, VID)
-values (62263, 45140189);
-
-insert into vehiclesRepairs (RID, VID)
-values (62264, 45140047);
-
-insert into vehiclesRepairs (RID, VID)
-values (62265, 45140318);
-
-insert into vehiclesRepairs (RID, VID)
-values (62266, 45140103);
-
-insert into vehiclesRepairs (RID, VID)
-values (62267, 45140052);
-
-insert into vehiclesRepairs (RID, VID)
-values (62268, 45140282);
-
-insert into vehiclesRepairs (RID, VID)
-values (62269, 45140304);
-
-insert into vehiclesRepairs (RID, VID)
-values (62270, 45140381);
-
-insert into vehiclesRepairs (RID, VID)
-values (62271, 45140243);
-
-insert into vehiclesRepairs (RID, VID)
-values (62272, 45140130);
-
-insert into vehiclesRepairs (RID, VID)
-values (62273, 45140095);
-
-insert into vehiclesRepairs (RID, VID)
-values (62274, 45140062);
-
-insert into vehiclesRepairs (RID, VID)
-values (62275, 45140141);
-
-insert into vehiclesRepairs (RID, VID)
-values (62276, 45140026);
-
-insert into vehiclesRepairs (RID, VID)
-values (62277, 45140235);
-
-insert into vehiclesRepairs (RID, VID)
-values (62278, 45140023);
-
-insert into vehiclesRepairs (RID, VID)
-values (62279, 45140026);
-
-insert into vehiclesRepairs (RID, VID)
-values (62280, 45140292);
-
-insert into vehiclesRepairs (RID, VID)
-values (62281, 45140053);
-
-insert into vehiclesRepairs (RID, VID)
-values (62282, 45140193);
-
-insert into vehiclesRepairs (RID, VID)
-values (62283, 45140250);
-
-insert into vehiclesRepairs (RID, VID)
-values (62284, 45140174);
-
-insert into vehiclesRepairs (RID, VID)
-values (62285, 45140319);
-
-insert into vehiclesRepairs (RID, VID)
-values (62286, 45140201);
-
-insert into vehiclesRepairs (RID, VID)
-values (62287, 45140188);
-
-insert into vehiclesRepairs (RID, VID)
-values (62288, 45140172);
-
-insert into vehiclesRepairs (RID, VID)
-values (62289, 45140359);
-
-insert into vehiclesRepairs (RID, VID)
-values (62290, 45140349);
-
-insert into vehiclesRepairs (RID, VID)
-values (62291, 45140359);
-
-insert into vehiclesRepairs (RID, VID)
-values (62292, 45140228);
-
-insert into vehiclesRepairs (RID, VID)
-values (62293, 45140087);
-
-insert into vehiclesRepairs (RID, VID)
-values (62294, 45140316);
-
-insert into vehiclesRepairs (RID, VID)
-values (62295, 45140019);
-
-insert into vehiclesRepairs (RID, VID)
-values (62296, 45140046);
-
-insert into vehiclesRepairs (RID, VID)
-values (62297, 45140277);
-
-insert into vehiclesRepairs (RID, VID)
-values (62298, 45140309);
-
-insert into vehiclesRepairs (RID, VID)
-values (62299, 45140207);
-
-insert into vehiclesRepairs (RID, VID)
-values (62300, 45140315);
-
-insert into vehiclesRepairs (RID, VID)
-values (62301, 45140132);
-
-insert into vehiclesRepairs (RID, VID)
-values (62302, 45140292);
-
-insert into vehiclesRepairs (RID, VID)
-values (62303, 45140348);
-
-insert into vehiclesRepairs (RID, VID)
-values (62304, 45140090);
-
-insert into vehiclesRepairs (RID, VID)
-values (62305, 45140098);
-
-insert into vehiclesRepairs (RID, VID)
-values (62306, 45140199);
-
-insert into vehiclesRepairs (RID, VID)
-values (62307, 45140200);
-
-insert into vehiclesRepairs (RID, VID)
-values (62308, 45140118);
-
-insert into vehiclesRepairs (RID, VID)
-values (62309, 45140344);
-
-insert into vehiclesRepairs (RID, VID)
-values (62310, 45140158);
-
-insert into vehiclesRepairs (RID, VID)
-values (62311, 45140252);
-
-insert into vehiclesRepairs (RID, VID)
-values (62312, 45140367);
-
-insert into vehiclesRepairs (RID, VID)
-values (62313, 45140287);
-
-insert into vehiclesRepairs (RID, VID)
-values (62314, 45140240);
-
-insert into vehiclesRepairs (RID, VID)
-values (62315, 45140140);
-
-insert into vehiclesRepairs (RID, VID)
-values (62316, 45140126);
-
-insert into vehiclesRepairs (RID, VID)
-values (62317, 45140168);
-
-insert into vehiclesRepairs (RID, VID)
-values (62318, 45140157);
-
-insert into vehiclesRepairs (RID, VID)
-values (62319, 45140407);
-
-insert into vehiclesRepairs (RID, VID)
-values (62320, 45140348);
-
-insert into vehiclesRepairs (RID, VID)
-values (62321, 45140256);
-
-insert into vehiclesRepairs (RID, VID)
-values (62322, 45140219);
-
-insert into vehiclesRepairs (RID, VID)
-values (62323, 45140179);
-
-insert into vehiclesRepairs (RID, VID)
-values (62324, 45140411);
-
-insert into vehiclesRepairs (RID, VID)
-values (62325, 45140095);
-
-insert into vehiclesRepairs (RID, VID)
-values (62326, 45140181);
-
-insert into vehiclesRepairs (RID, VID)
-values (62327, 45140253);
-
-insert into vehiclesRepairs (RID, VID)
-values (62328, 45140347);
-
-insert into vehiclesRepairs (RID, VID)
-values (62329, 45140365);
-
-insert into vehiclesRepairs (RID, VID)
-values (62330, 45140284);
-
-insert into vehiclesRepairs (RID, VID)
-values (62331, 45140403);
-
-insert into vehiclesRepairs (RID, VID)
-values (62332, 45140132);
-
-insert into vehiclesRepairs (RID, VID)
-values (62333, 45140373);
-
-insert into vehiclesRepairs (RID, VID)
-values (62334, 45140127);
-
-insert into vehiclesRepairs (RID, VID)
-values (62335, 45140185);
-
-insert into vehiclesRepairs (RID, VID)
-values (62336, 45140086);
-
-insert into vehiclesRepairs (RID, VID)
-values (62337, 45140345);
-
-insert into vehiclesRepairs (RID, VID)
-values (62338, 45140265);
-
-insert into vehiclesRepairs (RID, VID)
-values (62339, 45140237);
-
-insert into vehiclesRepairs (RID, VID)
-values (62340, 45140162);
-
-insert into vehiclesRepairs (RID, VID)
-values (62341, 45140141);
-
-insert into vehiclesRepairs (RID, VID)
-values (62342, 45140382);
-
-insert into vehiclesRepairs (RID, VID)
-values (62343, 45140375);
-
-insert into vehiclesRepairs (RID, VID)
-values (62344, 45140389);
-
-insert into vehiclesRepairs (RID, VID)
-values (62345, 45140148);
-
-insert into vehiclesRepairs (RID, VID)
-values (62346, 45140322);
-
-insert into vehiclesRepairs (RID, VID)
-values (62347, 45140071);
-
-insert into vehiclesRepairs (RID, VID)
-values (62348, 45140040);
-
-insert into vehiclesRepairs (RID, VID)
-values (62349, 45140194);
-
-insert into vehiclesRepairs (RID, VID)
-values (62350, 45140032);
-
-insert into vehiclesRepairs (RID, VID)
-values (62351, 45140211);
-
-insert into vehiclesRepairs (RID, VID)
-values (62352, 45140391);
-
-insert into vehiclesRepairs (RID, VID)
-values (62353, 45140021);
-
-insert into vehiclesRepairs (RID, VID)
-values (62354, 45140112);
-
-insert into vehiclesRepairs (RID, VID)
-values (62355, 45140321);
-
-insert into vehiclesRepairs (RID, VID)
-values (62356, 45140046);
-
-insert into vehiclesRepairs (RID, VID)
-values (62357, 45140169);
-
-insert into vehiclesRepairs (RID, VID)
-values (62358, 45140396);
-
-insert into vehiclesRepairs (RID, VID)
-values (62359, 45140367);
-
-insert into vehiclesRepairs (RID, VID)
-values (62360, 45140283);
-
-insert into vehiclesRepairs (RID, VID)
-values (62361, 45140205);
-
-insert into vehiclesRepairs (RID, VID)
-values (62362, 45140091);
-
-insert into vehiclesRepairs (RID, VID)
-values (62363, 45140306);
-
-insert into vehiclesRepairs (RID, VID)
-values (62364, 45140409);
-
-insert into vehiclesRepairs (RID, VID)
-values (62365, 45140155);
-
-insert into vehiclesRepairs (RID, VID)
-values (62366, 45140283);
-
-insert into vehiclesRepairs (RID, VID)
-values (62367, 45140297);
-
-insert into vehiclesRepairs (RID, VID)
-values (62368, 45140374);
-
-insert into vehiclesRepairs (RID, VID)
-values (62369, 45140260);
-
-insert into vehiclesRepairs (RID, VID)
-values (62370, 45140131);
-
-insert into vehiclesRepairs (RID, VID)
-values (62371, 45140155);
-
-insert into vehiclesRepairs (RID, VID)
-values (62372, 45140029);
-
-insert into vehiclesRepairs (RID, VID)
-values (62373, 45140331);
-
-insert into vehiclesRepairs (RID, VID)
-values (62374, 45140175);
-
-insert into vehiclesRepairs (RID, VID)
-values (62375, 45140350);
-
-insert into vehiclesRepairs (RID, VID)
-values (62376, 45140081);
-
-insert into vehiclesRepairs (RID, VID)
-values (62377, 45140013);
-
-insert into vehiclesRepairs (RID, VID)
-values (62378, 45140266);
-
-insert into vehiclesRepairs (RID, VID)
-values (62379, 45140137);
-
-insert into vehiclesRepairs (RID, VID)
-values (62380, 45140331);
-
-insert into vehiclesRepairs (RID, VID)
-values (62381, 45140229);
-
-insert into vehiclesRepairs (RID, VID)
-values (62382, 45140140);
-
-insert into vehiclesRepairs (RID, VID)
-values (62383, 45140117);
-
-insert into vehiclesRepairs (RID, VID)
-values (62384, 45140046);
-
-insert into vehiclesRepairs (RID, VID)
-values (62385, 45140132);
-
-insert into vehiclesRepairs (RID, VID)
-values (62386, 45140364);
-
-insert into vehiclesRepairs (RID, VID)
-values (62387, 45140217);
-
-insert into vehiclesRepairs (RID, VID)
-values (62388, 45140245);
-
-insert into vehiclesRepairs (RID, VID)
-values (62389, 45140017);
-
-insert into vehiclesRepairs (RID, VID)
-values (62390, 45140259);
-
-insert into vehiclesRepairs (RID, VID)
-values (62391, 45140194);
-
-insert into vehiclesRepairs (RID, VID)
-values (62392, 45140171);
-
-insert into vehiclesRepairs (RID, VID)
-values (62393, 45140327);
-
-insert into vehiclesRepairs (RID, VID)
-values (62394, 45140325);
-
-insert into vehiclesRepairs (RID, VID)
-values (62395, 45140236);
-
-insert into vehiclesRepairs (RID, VID)
-values (62396, 45140303);
-
-insert into vehiclesRepairs (RID, VID)
-values (62397, 45140214);
-
-insert into vehiclesRepairs (RID, VID)
-values (62398, 45140391);
-
-insert into vehiclesRepairs (RID, VID)
-values (62399, 45140179);
-
-insert into vehiclesRepairs (RID, VID)
-values (62400, 45140390);
-
-insert into vehiclesRepairs (RID, VID)
-values (62401, 45140375);
-
-insert into vehiclesRepairs (RID, VID)
-values (62402, 45140399);
-
-insert into vehiclesRepairs (RID, VID)
-values (62403, 45140315);
-
-insert into vehiclesRepairs (RID, VID)
-values (62404, 45140271);
-
-insert into vehiclesRepairs (RID, VID)
-values (62405, 45140228);
-
-insert into vehiclesRepairs (RID, VID)
-values (62406, 45140052);
-
-insert into vehiclesRepairs (RID, VID)
-values (62407, 45140089);
-
-insert into vehiclesRepairs (RID, VID)
-values (62408, 45140151);
-
-insert into vehiclesRepairs (RID, VID)
-values (62409, 45140363);
-
-commit;
 
 
 -- insert vehicle_equip
@@ -10472,7 +7143,5192 @@ values (7, 10292, 45140174);
 commit;
 
 
+-- insert Repairs
+
+--helicopter
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62010, to_date('09-11-2022', 'dd-mm-yyyy'), 'safety risks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62011, to_date('08-05-2024', 'dd-mm-yyyy'), 'landing gear');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62012, to_date('15-04-2022', 'dd-mm-yyyy'), 'safety risks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62013, to_date('16-04-2024', 'dd-mm-yyyy'), 'lightning strikes');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62014, to_date('30-07-2023', 'dd-mm-yyyy'), 'communication equipment');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62015, to_date('03-10-2022', 'dd-mm-yyyy'), 'Turbulence');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62016, to_date('05-06-2023', 'dd-mm-yyyy'), 'hydraulics');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62017, to_date('18-08-2023', 'dd-mm-yyyy'), 'communication equipment');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62018, to_date('06-12-2022', 'dd-mm-yyyy'), 'hydraulics');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62019, to_date('30-06-2021', 'dd-mm-yyyy'), 'Turbulence');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62020, to_date('21-08-2021', 'dd-mm-yyyy'), 'lightning strikes');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62021, to_date('26-12-2023', 'dd-mm-yyyy'), 'Turbulence');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62022, to_date('03-06-2023', 'dd-mm-yyyy'), 'Issues with engines');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62023, to_date('06-03-2022', 'dd-mm-yyyy'), 'lightning strikes');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62024, to_date('05-02-2021', 'dd-mm-yyyy'), 'safety risks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62025, to_date('15-04-2022', 'dd-mm-yyyy'), 'Turbulence');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62026, to_date('10-08-2022', 'dd-mm-yyyy'), 'hydraulics');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62027, to_date('09-05-2022', 'dd-mm-yyyy'), 'landing gear');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62028, to_date('27-03-2023', 'dd-mm-yyyy'), 'landing gear');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62029, to_date('18-09-2021', 'dd-mm-yyyy'), 'safety risks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62030, to_date('27-03-2022', 'dd-mm-yyyy'), 'communication equipment');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62031, to_date('06-04-2023', 'dd-mm-yyyy'), 'safety risks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62032, to_date('10-12-2023', 'dd-mm-yyyy'), 'hydraulics');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62033, to_date('13-01-2023', 'dd-mm-yyyy'), 'hydraulics');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62034, to_date('04-10-2021', 'dd-mm-yyyy'), 'safety risks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62035, to_date('27-05-2023', 'dd-mm-yyyy'), 'communication equipment');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62036, to_date('05-01-2022', 'dd-mm-yyyy'), 'lightning strikes');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62037, to_date('28-01-2022', 'dd-mm-yyyy'), 'Turbulence');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62038, to_date('25-01-2023', 'dd-mm-yyyy'), 'safety risks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62039, to_date('11-08-2021', 'dd-mm-yyyy'), 'communication equipment');
+
+commit;
 
 
+--ambulance
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62040, to_date('02-01-2023', 'dd-mm-yyyy'), 'slipping transmission');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62041, to_date('04-01-2021', 'dd-mm-yyyy'), 'dead batteries');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62042, to_date('24-06-2022', 'dd-mm-yyyy'), 'dead batteries');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62043, to_date('19-02-2023', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62044, to_date('31-07-2023', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62045, to_date('22-01-2024', 'dd-mm-yyyy'), 'leaking brake fluid');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62046, to_date('30-09-2021', 'dd-mm-yyyy'), 'ABS malfunctions');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62047, to_date('05-04-2022', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62048, to_date('07-08-2022', 'dd-mm-yyyy'), 'malfunctioning alternators');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62049, to_date('02-06-2023', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62050, to_date('16-10-2022', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62051, to_date('24-05-2021', 'dd-mm-yyyy'), 'shifting gears');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62052, to_date('16-10-2023', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62053, to_date('10-01-2022', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62054, to_date('28-05-2021', 'dd-mm-yyyy'), 'slipping transmission');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62055, to_date('09-04-2023', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62056, to_date('08-04-2022', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62057, to_date('12-12-2021', 'dd-mm-yyyy'), 'ABS malfunctions');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62058, to_date('12-02-2024', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62059, to_date('03-05-2023', 'dd-mm-yyyy'), 'leaking brake fluid');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62060, to_date('25-11-2022', 'dd-mm-yyyy'), 'faulty components');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62061, to_date('20-11-2023', 'dd-mm-yyyy'), 'leaking brake fluid');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62062, to_date('24-07-2022', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62063, to_date('08-12-2022', 'dd-mm-yyyy'), 'faulty components');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62064, to_date('06-02-2024', 'dd-mm-yyyy'), 'misfires');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62065, to_date('03-11-2021', 'dd-mm-yyyy'), 'ABS malfunctions');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62066, to_date('12-04-2022', 'dd-mm-yyyy'), 'electronic systems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62067, to_date('20-01-2024', 'dd-mm-yyyy'), 'dead batteries');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62068, to_date('03-03-2022', 'dd-mm-yyyy'), 'Faulty wiring');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62069, to_date('12-05-2023', 'dd-mm-yyyy'), 'malfunctioning alternators');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62070, to_date('10-04-2024', 'dd-mm-yyyy'), 'shifting gears');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62071, to_date('03-08-2022', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62072, to_date('11-08-2022', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62073, to_date('17-04-2024', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62074, to_date('02-10-2023', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62075, to_date('09-11-2023', 'dd-mm-yyyy'), 'shifting gears');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62076, to_date('03-03-2021', 'dd-mm-yyyy'), 'shifting gears');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62077, to_date('17-09-2022', 'dd-mm-yyyy'), 'Faulty wiring');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62078, to_date('04-08-2022', 'dd-mm-yyyy'), 'Faulty wiring');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62079, to_date('25-09-2022', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62080, to_date('15-05-2022', 'dd-mm-yyyy'), 'shifting gears');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62081, to_date('28-02-2021', 'dd-mm-yyyy'), 'dead batteries');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62082, to_date('21-09-2021', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62083, to_date('22-12-2022', 'dd-mm-yyyy'), 'shifting gears');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62084, to_date('05-05-2024', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62085, to_date('30-01-2024', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62086, to_date('16-11-2023', 'dd-mm-yyyy'), 'dead batteries');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62087, to_date('27-02-2021', 'dd-mm-yyyy'), 'shifting gears');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62088, to_date('31-03-2024', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62089, to_date('17-07-2023', 'dd-mm-yyyy'), 'leaking brake fluid');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62090, to_date('25-12-2022', 'dd-mm-yyyy'), 'dead batteries');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62091, to_date('18-01-2023', 'dd-mm-yyyy'), 'misfires');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62092, to_date('09-11-2023', 'dd-mm-yyyy'), 'misfires');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62093, to_date('08-03-2024', 'dd-mm-yyyy'), 'faulty components');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62094, to_date('14-04-2024', 'dd-mm-yyyy'), 'ABS malfunctions');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62095, to_date('09-03-2021', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62096, to_date('27-10-2021', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62097, to_date('12-08-2022', 'dd-mm-yyyy'), 'shifting gears');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62098, to_date('04-01-2024', 'dd-mm-yyyy'), 'leaking brake fluid');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62099, to_date('30-10-2021', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62100, to_date('05-02-2023', 'dd-mm-yyyy'), 'Faulty wiring');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62101, to_date('30-07-2022', 'dd-mm-yyyy'), 'ABS malfunctions');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62102, to_date('09-02-2023', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62103, to_date('27-12-2022', 'dd-mm-yyyy'), 'electronic systems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62104, to_date('20-06-2021', 'dd-mm-yyyy'), 'Faulty wiring');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62105, to_date('03-08-2021', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62106, to_date('19-04-2024', 'dd-mm-yyyy'), 'malfunctioning alternators');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62107, to_date('10-06-2021', 'dd-mm-yyyy'), 'leaking brake fluid');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62108, to_date('04-12-2022', 'dd-mm-yyyy'), 'ABS malfunctions');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62109, to_date('15-02-2023', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62110, to_date('15-07-2022', 'dd-mm-yyyy'), 'Faulty wiring');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62111, to_date('09-09-2021', 'dd-mm-yyyy'), 'faulty components');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62112, to_date('06-11-2021', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62113, to_date('01-09-2023', 'dd-mm-yyyy'), 'slipping transmission');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62114, to_date('09-10-2022', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62115, to_date('30-01-2023', 'dd-mm-yyyy'), 'electronic systems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62116, to_date('09-06-2021', 'dd-mm-yyyy'), 'Faulty wiring');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62117, to_date('12-12-2021', 'dd-mm-yyyy'), 'electronic systems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62118, to_date('01-02-2024', 'dd-mm-yyyy'), 'electronic systems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62119, to_date('25-05-2022', 'dd-mm-yyyy'), 'ABS malfunctions');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62120, to_date('06-11-2023', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62121, to_date('06-05-2023', 'dd-mm-yyyy'), 'slipping transmission');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62122, to_date('29-04-2024', 'dd-mm-yyyy'), 'misfires');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62123, to_date('24-09-2021', 'dd-mm-yyyy'), 'ABS malfunctions');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62124, to_date('12-12-2023', 'dd-mm-yyyy'), 'misfires');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62125, to_date('12-06-2022', 'dd-mm-yyyy'), 'slipping transmission');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62126, to_date('05-08-2021', 'dd-mm-yyyy'), 'misfires');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62127, to_date('06-05-2021', 'dd-mm-yyyy'), 'misfires');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62128, to_date('04-08-2023', 'dd-mm-yyyy'), 'faulty components');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62129, to_date('08-06-2021', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62130, to_date('13-09-2022', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62131, to_date('10-03-2021', 'dd-mm-yyyy'), 'faulty components');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62132, to_date('02-06-2022', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62133, to_date('25-03-2023', 'dd-mm-yyyy'), 'dead batteries');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62134, to_date('07-05-2021', 'dd-mm-yyyy'), 'slipping transmission');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62135, to_date('03-05-2024', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62136, to_date('23-05-2022', 'dd-mm-yyyy'), 'misfires');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62137, to_date('09-03-2023', 'dd-mm-yyyy'), 'malfunctioning alternators');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62138, to_date('19-12-2023', 'dd-mm-yyyy'), 'ABS malfunctions');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62139, to_date('02-01-2022', 'dd-mm-yyyy'), 'shifting gears');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62140, to_date('19-05-2022', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62141, to_date('30-12-2022', 'dd-mm-yyyy'), 'shifting gears');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62142, to_date('13-07-2021', 'dd-mm-yyyy'), 'Faulty wiring');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62143, to_date('10-02-2021', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62144, to_date('26-02-2023', 'dd-mm-yyyy'), 'slipping transmission');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62145, to_date('22-10-2022', 'dd-mm-yyyy'), 'Faulty wiring');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62146, to_date('10-08-2022', 'dd-mm-yyyy'), 'Faulty wiring');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62147, to_date('15-12-2022', 'dd-mm-yyyy'), 'electronic systems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62148, to_date('17-05-2022', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62149, to_date('02-01-2022', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62150, to_date('11-03-2022', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62151, to_date('02-02-2024', 'dd-mm-yyyy'), 'slipping transmission');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62152, to_date('24-05-2023', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62153, to_date('25-11-2021', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62154, to_date('19-08-2021', 'dd-mm-yyyy'), 'shifting gears');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62155, to_date('12-07-2022', 'dd-mm-yyyy'), 'malfunctioning alternators');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62156, to_date('28-11-2023', 'dd-mm-yyyy'), 'faulty components');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62157, to_date('25-07-2023', 'dd-mm-yyyy'), 'faulty components');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62158, to_date('17-08-2021', 'dd-mm-yyyy'), 'slipping transmission');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62159, to_date('07-06-2022', 'dd-mm-yyyy'), 'malfunctioning alternators');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62160, to_date('13-10-2021', 'dd-mm-yyyy'), 'slipping transmission');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62161, to_date('26-02-2024', 'dd-mm-yyyy'), 'ABS malfunctions');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62162, to_date('17-03-2022', 'dd-mm-yyyy'), 'shifting gears');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62163, to_date('17-10-2023', 'dd-mm-yyyy'), 'shifting gears');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62164, to_date('29-01-2021', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62165, to_date('15-12-2021', 'dd-mm-yyyy'), 'shifting gears');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62166, to_date('16-12-2022', 'dd-mm-yyyy'), 'shifting gears');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62167, to_date('04-03-2024', 'dd-mm-yyyy'), 'malfunctioning alternators');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62168, to_date('08-05-2021', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62169, to_date('16-04-2023', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62170, to_date('05-06-2023', 'dd-mm-yyyy'), 'ABS malfunctions');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62171, to_date('04-05-2022', 'dd-mm-yyyy'), 'Faulty wiring');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62172, to_date('03-02-2024', 'dd-mm-yyyy'), 'leaking brake fluid');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62173, to_date('02-04-2024', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62174, to_date('02-10-2023', 'dd-mm-yyyy'), 'Faulty wiring');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62175, to_date('30-10-2023', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62176, to_date('21-06-2022', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62177, to_date('19-06-2021', 'dd-mm-yyyy'), 'shifting gears');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62178, to_date('13-02-2022', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62179, to_date('18-04-2021', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62180, to_date('02-10-2021', 'dd-mm-yyyy'), 'Faulty wiring');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62181, to_date('23-04-2021', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62182, to_date('01-08-2022', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62183, to_date('14-03-2024', 'dd-mm-yyyy'), 'slipping transmission');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62184, to_date('01-09-2022', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62185, to_date('02-01-2024', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62186, to_date('15-10-2022', 'dd-mm-yyyy'), 'misfires');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62187, to_date('28-08-2022', 'dd-mm-yyyy'), 'leaking brake fluid');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62188, to_date('08-12-2021', 'dd-mm-yyyy'), 'electronic systems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62189, to_date('11-02-2023', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62190, to_date('18-03-2022', 'dd-mm-yyyy'), 'shifting gears');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62191, to_date('23-04-2024', 'dd-mm-yyyy'), 'shifting gears');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62192, to_date('05-03-2023', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62193, to_date('30-11-2023', 'dd-mm-yyyy'), 'malfunctioning alternators');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62194, to_date('09-11-2023', 'dd-mm-yyyy'), 'electronic systems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62195, to_date('29-12-2021', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62196, to_date('07-04-2024', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62197, to_date('04-01-2023', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62198, to_date('05-08-2022', 'dd-mm-yyyy'), 'dead batteries');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62199, to_date('06-04-2024', 'dd-mm-yyyy'), 'dead batteries');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62200, to_date('11-12-2021', 'dd-mm-yyyy'), 'slipping transmission');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62201, to_date('20-09-2023', 'dd-mm-yyyy'), 'misfires');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62202, to_date('21-03-2024', 'dd-mm-yyyy'), 'misfires');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62203, to_date('23-06-2023', 'dd-mm-yyyy'), 'slipping transmission');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62204, to_date('14-04-2023', 'dd-mm-yyyy'), 'dead batteries');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62205, to_date('24-11-2022', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62206, to_date('23-01-2024', 'dd-mm-yyyy'), 'shifting gears');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62207, to_date('09-05-2023', 'dd-mm-yyyy'), 'shifting gears');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62208, to_date('09-08-2023', 'dd-mm-yyyy'), 'electronic systems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62209, to_date('14-05-2023', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62210, to_date('20-01-2023', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62211, to_date('14-01-2021', 'dd-mm-yyyy'), 'electronic systems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62212, to_date('15-10-2021', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62213, to_date('26-02-2021', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62214, to_date('21-09-2023', 'dd-mm-yyyy'), 'faulty components');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62215, to_date('15-07-2021', 'dd-mm-yyyy'), 'electronic systems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62216, to_date('21-04-2022', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62217, to_date('25-09-2021', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62218, to_date('20-12-2022', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62219, to_date('29-07-2023', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62220, to_date('09-11-2023', 'dd-mm-yyyy'), 'Faulty wiring');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62221, to_date('17-04-2024', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62222, to_date('08-01-2022', 'dd-mm-yyyy'), 'malfunctioning alternators');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62223, to_date('20-04-2024', 'dd-mm-yyyy'), 'shifting gears');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62224, to_date('29-10-2021', 'dd-mm-yyyy'), 'dead batteries');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62225, to_date('24-06-2021', 'dd-mm-yyyy'), 'faulty components');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62226, to_date('12-01-2023', 'dd-mm-yyyy'), 'leaking brake fluid');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62227, to_date('13-07-2022', 'dd-mm-yyyy'), 'dead batteries');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62228, to_date('27-01-2021', 'dd-mm-yyyy'), 'leaking brake fluid');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62229, to_date('02-05-2021', 'dd-mm-yyyy'), 'dead batteries');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62230, to_date('11-07-2022', 'dd-mm-yyyy'), 'slipping transmission');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62231, to_date('02-11-2023', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62232, to_date('02-11-2021', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62233, to_date('04-10-2023', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62234, to_date('13-12-2021', 'dd-mm-yyyy'), 'slipping transmission');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62235, to_date('25-11-2023', 'dd-mm-yyyy'), 'electronic systems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62236, to_date('26-10-2022', 'dd-mm-yyyy'), 'slipping transmission');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62237, to_date('19-07-2022', 'dd-mm-yyyy'), 'ABS malfunctions');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62238, to_date('22-07-2021', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62239, to_date('16-03-2024', 'dd-mm-yyyy'), 'malfunctioning alternators');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62240, to_date('18-01-2021', 'dd-mm-yyyy'), 'Faulty wiring');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62241, to_date('04-12-2022', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62242, to_date('24-03-2021', 'dd-mm-yyyy'), 'faulty components');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62243, to_date('30-07-2022', 'dd-mm-yyyy'), 'dead batteries');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62244, to_date('01-03-2022', 'dd-mm-yyyy'), 'slipping transmission');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62245, to_date('07-09-2023', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62246, to_date('13-07-2021', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62247, to_date('10-07-2022', 'dd-mm-yyyy'), 'leaking brake fluid');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62248, to_date('12-10-2023', 'dd-mm-yyyy'), 'dead batteries');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62249, to_date('29-07-2021', 'dd-mm-yyyy'), 'faulty components');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62250, to_date('04-08-2021', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62251, to_date('08-03-2024', 'dd-mm-yyyy'), 'leaking brake fluid');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62252, to_date('11-10-2022', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62253, to_date('18-05-2024', 'dd-mm-yyyy'), 'Faulty wiring');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62254, to_date('18-12-2023', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62255, to_date('21-12-2023', 'dd-mm-yyyy'), 'faulty components');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62256, to_date('28-10-2022', 'dd-mm-yyyy'), 'malfunctioning alternators');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62257, to_date('05-11-2021', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62258, to_date('03-10-2022', 'dd-mm-yyyy'), 'dead batteries');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62259, to_date('02-11-2022', 'dd-mm-yyyy'), 'slipping transmission');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62260, to_date('06-10-2021', 'dd-mm-yyyy'), 'malfunctioning alternators');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62261, to_date('19-11-2022', 'dd-mm-yyyy'), 'misfires');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62262, to_date('25-06-2022', 'dd-mm-yyyy'), 'leaking brake fluid');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62263, to_date('21-12-2022', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62264, to_date('09-12-2022', 'dd-mm-yyyy'), 'dead batteries');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62265, to_date('15-07-2023', 'dd-mm-yyyy'), 'leaking brake fluid');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62266, to_date('23-03-2023', 'dd-mm-yyyy'), 'slipping transmission');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62267, to_date('12-12-2022', 'dd-mm-yyyy'), 'leaking brake fluid');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62268, to_date('03-01-2023', 'dd-mm-yyyy'), 'dead batteries');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62269, to_date('15-04-2024', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62270, to_date('15-12-2022', 'dd-mm-yyyy'), 'dead batteries');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62271, to_date('05-08-2021', 'dd-mm-yyyy'), 'shifting gears');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62272, to_date('10-09-2023', 'dd-mm-yyyy'), 'electronic systems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62273, to_date('05-03-2022', 'dd-mm-yyyy'), 'electronic systems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62274, to_date('19-06-2023', 'dd-mm-yyyy'), 'misfires');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62275, to_date('06-10-2023', 'dd-mm-yyyy'), 'electronic systems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62276, to_date('29-05-2023', 'dd-mm-yyyy'), 'faulty components');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62277, to_date('19-09-2021', 'dd-mm-yyyy'), 'dead batteries');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62278, to_date('09-12-2022', 'dd-mm-yyyy'), 'faulty components');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62279, to_date('08-04-2024', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62280, to_date('25-08-2022', 'dd-mm-yyyy'), 'dead batteries');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62281, to_date('28-01-2024', 'dd-mm-yyyy'), 'misfires');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62282, to_date('21-04-2022', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62283, to_date('02-04-2024', 'dd-mm-yyyy'), 'malfunctioning alternators');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62284, to_date('30-10-2022', 'dd-mm-yyyy'), 'shifting gears');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62285, to_date('26-06-2021', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62286, to_date('17-08-2021', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62287, to_date('30-04-2022', 'dd-mm-yyyy'), 'ABS malfunctions');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62288, to_date('05-12-2021', 'dd-mm-yyyy'), 'slipping transmission');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62289, to_date('01-02-2024', 'dd-mm-yyyy'), 'electronic systems');
+
+commit;
 
 
+--motorcycle
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62290, to_date('19-08-2021', 'dd-mm-yyyy'), 'Battery problems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62291, to_date('16-02-2021', 'dd-mm-yyyy'), 'malfunctioning brake lines');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62292, to_date('02-12-2022', 'dd-mm-yyyy'), 'leaking brake fluid');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62293, to_date('19-06-2023', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62294, to_date('27-10-2022', 'dd-mm-yyyy'), 'electronic systems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62295, to_date('08-03-2022', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62296, to_date('06-03-2022', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62297, to_date('13-07-2021', 'dd-mm-yyyy'), 'engine failure');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62298, to_date('06-02-2024', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62299, to_date('01-01-2021', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62300, to_date('02-05-2021', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62301, to_date('13-10-2021', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62302, to_date('05-03-2023', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62303, to_date('19-04-2023', 'dd-mm-yyyy'), 'lack of maintenance');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62304, to_date('29-04-2021', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62305, to_date('30-03-2021', 'dd-mm-yyyy'), 'leaking brake fluid');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62306, to_date('20-05-2023', 'dd-mm-yyyy'), 'Battery problems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62307, to_date('28-09-2022', 'dd-mm-yyyy'), 'malfunctioning brake lines');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62308, to_date('10-08-2022', 'dd-mm-yyyy'), 'electronic systems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62309, to_date('16-11-2023', 'dd-mm-yyyy'), 'malfunctioning brake lines');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62310, to_date('26-03-2024', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62311, to_date('14-03-2021', 'dd-mm-yyyy'), 'lack of maintenance');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62312, to_date('02-05-2022', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62313, to_date('06-02-2021', 'dd-mm-yyyy'), 'lack of maintenance');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62314, to_date('07-02-2022', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62315, to_date('15-01-2022', 'dd-mm-yyyy'), 'malfunctioning brake lines');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62316, to_date('16-08-2023', 'dd-mm-yyyy'), 'Battery problems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62317, to_date('06-05-2023', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62318, to_date('22-12-2022', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62319, to_date('07-09-2023', 'dd-mm-yyyy'), 'electronic systems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62320, to_date('02-01-2023', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62321, to_date('08-01-2024', 'dd-mm-yyyy'), 'Battery problems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62322, to_date('21-03-2023', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62323, to_date('30-06-2023', 'dd-mm-yyyy'), 'leaking brake fluid');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62324, to_date('22-06-2023', 'dd-mm-yyyy'), 'Battery problems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62325, to_date('10-05-2021', 'dd-mm-yyyy'), 'Battery problems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62326, to_date('06-10-2022', 'dd-mm-yyyy'), 'brake issues');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62327, to_date('03-12-2021', 'dd-mm-yyyy'), 'engine failure');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62328, to_date('19-05-2022', 'dd-mm-yyyy'), 'leaking brake fluid');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62329, to_date('12-06-2023', 'dd-mm-yyyy'), 'Battery problems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62330, to_date('30-03-2023', 'dd-mm-yyyy'), 'leaking brake fluid');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62331, to_date('09-06-2023', 'dd-mm-yyyy'), 'Tire Problems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62332, to_date('13-07-2021', 'dd-mm-yyyy'), 'poor fuel mixture');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62333, to_date('21-01-2023', 'dd-mm-yyyy'), 'brake issues');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62334, to_date('08-04-2021', 'dd-mm-yyyy'), 'brake issues');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62335, to_date('20-02-2024', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62336, to_date('31-03-2022', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62337, to_date('18-06-2023', 'dd-mm-yyyy'), 'leaking brake fluid');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62338, to_date('02-12-2023', 'dd-mm-yyyy'), 'Battery problems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62339, to_date('17-04-2023', 'dd-mm-yyyy'), 'brake issues');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62340, to_date('06-05-2022', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62341, to_date('22-10-2023', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62342, to_date('14-02-2022', 'dd-mm-yyyy'), 'Tire Problems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62343, to_date('08-07-2021', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62344, to_date('22-10-2021', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62345, to_date('27-08-2021', 'dd-mm-yyyy'), 'Tire Problems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62346, to_date('09-07-2023', 'dd-mm-yyyy'), 'engine failure');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62347, to_date('31-07-2022', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62348, to_date('21-07-2023', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62349, to_date('05-07-2022', 'dd-mm-yyyy'), 'Battery problems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62350, to_date('07-11-2022', 'dd-mm-yyyy'), 'Tire Problems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62351, to_date('10-11-2021', 'dd-mm-yyyy'), 'Battery problems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62352, to_date('02-08-2022', 'dd-mm-yyyy'), 'poor fuel mixture');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62353, to_date('08-06-2022', 'dd-mm-yyyy'), 'poor fuel mixture');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62354, to_date('21-09-2021', 'dd-mm-yyyy'), 'engine failure');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62355, to_date('05-02-2022', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62356, to_date('24-02-2024', 'dd-mm-yyyy'), 'brake issues');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62357, to_date('29-05-2021', 'dd-mm-yyyy'), 'engine failure');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62358, to_date('13-02-2023', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62359, to_date('15-04-2022', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62360, to_date('11-02-2023', 'dd-mm-yyyy'), 'malfunctioning brake lines');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62361, to_date('15-04-2023', 'dd-mm-yyyy'), 'poor fuel mixture');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62362, to_date('05-02-2021', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62363, to_date('12-09-2023', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62364, to_date('28-07-2022', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62365, to_date('26-06-2022', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62366, to_date('03-11-2022', 'dd-mm-yyyy'), 'lack of maintenance');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62367, to_date('25-07-2022', 'dd-mm-yyyy'), 'lack of maintenance');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62368, to_date('21-10-2023', 'dd-mm-yyyy'), 'Tire Problems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62369, to_date('26-04-2021', 'dd-mm-yyyy'), 'leaking brake fluid');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62370, to_date('24-10-2021', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62371, to_date('23-04-2023', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62372, to_date('31-07-2021', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62373, to_date('11-11-2023', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62374, to_date('24-08-2023', 'dd-mm-yyyy'), 'brake issues');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62375, to_date('03-07-2021', 'dd-mm-yyyy'), 'poor fuel mixture');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62376, to_date('30-08-2021', 'dd-mm-yyyy'), 'engine failure');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62377, to_date('26-03-2023', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62378, to_date('07-02-2023', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62379, to_date('12-04-2024', 'dd-mm-yyyy'), 'electronic systems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62380, to_date('16-12-2022', 'dd-mm-yyyy'), 'Battery problems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62381, to_date('22-12-2022', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62382, to_date('07-08-2023', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62383, to_date('19-07-2023', 'dd-mm-yyyy'), 'malfunctioning brake lines');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62384, to_date('03-12-2021', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62385, to_date('20-05-2021', 'dd-mm-yyyy'), 'poor fuel mixture');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62386, to_date('19-05-2021', 'dd-mm-yyyy'), 'brake issues');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62387, to_date('10-08-2023', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62388, to_date('21-03-2022', 'dd-mm-yyyy'), 'lack of maintenance');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62389, to_date('21-02-2023', 'dd-mm-yyyy'), 'poor fuel mixture');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62390, to_date('25-01-2022', 'dd-mm-yyyy'), 'brake issues');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62391, to_date('31-07-2021', 'dd-mm-yyyy'), 'Tire Problems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62392, to_date('08-08-2022', 'dd-mm-yyyy'), 'brake issues');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62393, to_date('25-01-2024', 'dd-mm-yyyy'), 'engine failure');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62394, to_date('15-11-2021', 'dd-mm-yyyy'), 'poor fuel mixture');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62395, to_date('19-11-2021', 'dd-mm-yyyy'), ' overheating');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62396, to_date('19-08-2023', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62397, to_date('08-03-2023', 'dd-mm-yyyy'), 'Battery problems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62398, to_date('12-03-2021', 'dd-mm-yyyy'), 'lack of maintenance');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62399, to_date('09-11-2023', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62400, to_date('01-10-2022', 'dd-mm-yyyy'), 'malfunctioning brake lines');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62401, to_date('04-06-2021', 'dd-mm-yyyy'), 'malfunctioning brake lines');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62402, to_date('04-03-2023', 'dd-mm-yyyy'), 'engine failure');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62403, to_date('09-02-2023', 'dd-mm-yyyy'), 'electronic systems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62404, to_date('26-05-2021', 'dd-mm-yyyy'), 'malfunctioning brake lines');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62405, to_date('25-12-2023', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62406, to_date('03-01-2024', 'dd-mm-yyyy'), 'Tire Problems');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62407, to_date('12-04-2023', 'dd-mm-yyyy'), 'poor fuel mixture');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62408, to_date('08-12-2023', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION) values (62409, to_date('29-06-2022', 'dd-mm-yyyy'), ' overheating');
+
+---equipment--
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62410, to_date('26-08-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62411, to_date('31-03-2022', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62412, to_date('10-03-2024', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62413, to_date('04-03-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62414, to_date('14-01-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62415, to_date('12-06-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62416, to_date('03-02-2024', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62417, to_date('06-05-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62418, to_date('28-08-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62419, to_date('28-04-2024', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62420, to_date('16-11-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62421, to_date('16-07-2023', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62422, to_date('29-12-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62423, to_date('06-05-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62424, to_date('09-02-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62425, to_date('11-02-2022', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62426, to_date('04-02-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62427, to_date('03-12-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62428, to_date('20-05-2024', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62429, to_date('18-09-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62430, to_date('28-03-2021', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62431, to_date('24-06-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62432, to_date('29-11-2021', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62433, to_date('25-04-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62434, to_date('27-06-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62435, to_date('25-02-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62436, to_date('05-07-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62437, to_date('17-06-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62438, to_date('18-04-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62439, to_date('02-09-2022', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62440, to_date('06-05-2022', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62441, to_date('26-10-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62442, to_date('20-03-2024', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62443, to_date('21-04-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62444, to_date('17-01-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62445, to_date('14-05-2024', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62446, to_date('12-02-2023', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62447, to_date('09-03-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62448, to_date('22-05-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62449, to_date('26-06-2021', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62450, to_date('22-05-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62451, to_date('27-05-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62452, to_date('27-05-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62453, to_date('16-02-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62454, to_date('11-07-2023', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62455, to_date('15-07-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62456, to_date('27-05-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62457, to_date('12-10-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62458, to_date('06-11-2022', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62459, to_date('05-09-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62460, to_date('19-03-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62461, to_date('06-05-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62462, to_date('07-08-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62463, to_date('27-11-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62464, to_date('10-12-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62465, to_date('23-07-2022', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62466, to_date('26-03-2024', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62467, to_date('07-02-2024', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62468, to_date('03-08-2022', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62469, to_date('15-06-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62470, to_date('28-12-2022', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62471, to_date('22-04-2024', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62472, to_date('05-09-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62473, to_date('05-08-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62474, to_date('14-12-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62475, to_date('22-12-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62476, to_date('20-02-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62477, to_date('11-02-2022', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62478, to_date('10-11-2022', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62479, to_date('22-11-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62480, to_date('02-09-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62481, to_date('24-05-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62482, to_date('09-06-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62483, to_date('29-04-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62484, to_date('23-11-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62485, to_date('26-07-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62486, to_date('21-12-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62487, to_date('09-07-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62488, to_date('28-12-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62489, to_date('21-07-2022', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62490, to_date('15-09-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62491, to_date('28-06-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62492, to_date('09-03-2024', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62493, to_date('29-03-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62494, to_date('29-05-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62495, to_date('02-03-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62496, to_date('14-04-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62497, to_date('21-02-2022', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62498, to_date('03-08-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62499, to_date('01-05-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62500, to_date('24-09-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62501, to_date('23-07-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62502, to_date('24-12-2022', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62503, to_date('31-01-2024', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62504, to_date('16-10-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62505, to_date('02-07-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62506, to_date('27-01-2021', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62507, to_date('01-08-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62508, to_date('10-04-2024', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62509, to_date('17-11-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62510, to_date('15-08-2023', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62511, to_date('30-08-2021', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62512, to_date('13-04-2024', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62513, to_date('31-03-2021', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62514, to_date('09-02-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62515, to_date('07-04-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62516, to_date('25-12-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62517, to_date('06-05-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62518, to_date('15-10-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62519, to_date('05-02-2024', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62520, to_date('27-02-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62521, to_date('25-05-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62522, to_date('12-03-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62523, to_date('01-09-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62524, to_date('19-08-2022', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62525, to_date('03-01-2024', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62526, to_date('10-03-2024', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62527, to_date('25-11-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62528, to_date('31-03-2024', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62529, to_date('17-01-2024', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62530, to_date('15-05-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62531, to_date('19-09-2021', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62532, to_date('05-12-2022', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62533, to_date('28-08-2022', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62534, to_date('12-11-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62535, to_date('20-10-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62536, to_date('02-06-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62537, to_date('28-06-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62538, to_date('23-12-2021', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62539, to_date('15-03-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62540, to_date('18-03-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62541, to_date('11-03-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62542, to_date('01-09-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62543, to_date('14-05-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62544, to_date('19-07-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62545, to_date('25-03-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62546, to_date('01-12-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62547, to_date('21-09-2021', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62548, to_date('29-04-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62549, to_date('18-03-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62550, to_date('24-02-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62551, to_date('07-03-2022', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62552, to_date('27-11-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62553, to_date('18-07-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62554, to_date('17-02-2022', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62555, to_date('15-09-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62556, to_date('10-02-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62557, to_date('26-12-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62558, to_date('11-11-2021', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62559, to_date('07-11-2022', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62560, to_date('08-03-2024', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62561, to_date('01-05-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62562, to_date('10-09-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62563, to_date('21-12-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62564, to_date('15-11-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62565, to_date('23-04-2023', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62566, to_date('25-03-2024', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62567, to_date('30-07-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62568, to_date('15-03-2024', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62569, to_date('12-08-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62570, to_date('08-07-2022', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62571, to_date('29-09-2023', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62572, to_date('06-12-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62573, to_date('26-12-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62574, to_date('10-04-2024', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62575, to_date('11-12-2021', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62576, to_date('05-01-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62577, to_date('12-08-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62578, to_date('07-01-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62579, to_date('29-10-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62580, to_date('25-10-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62581, to_date('21-04-2022', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62582, to_date('05-11-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62583, to_date('12-09-2022', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62584, to_date('29-11-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62585, to_date('12-11-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62586, to_date('17-10-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62587, to_date('01-03-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62588, to_date('13-01-2023', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62589, to_date('05-10-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62590, to_date('13-02-2022', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62591, to_date('25-02-2024', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62592, to_date('25-01-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62593, to_date('17-06-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62594, to_date('16-12-2023', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62595, to_date('22-06-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62596, to_date('09-02-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62597, to_date('19-04-2024', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62598, to_date('13-07-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62599, to_date('26-12-2022', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62600, to_date('04-04-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62601, to_date('18-05-2021', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62602, to_date('23-05-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62603, to_date('01-06-2021', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62604, to_date('20-11-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62605, to_date('26-06-2023', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62606, to_date('18-08-2022', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62607, to_date('06-03-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62608, to_date('19-06-2021', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62609, to_date('20-09-2022', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62610, to_date('05-01-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62611, to_date('09-10-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62612, to_date('11-01-2024', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62613, to_date('23-01-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62614, to_date('10-05-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62615, to_date('03-04-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62616, to_date('04-02-2022', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62617, to_date('24-11-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62618, to_date('22-04-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62619, to_date('03-11-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62620, to_date('01-07-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62621, to_date('03-10-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62622, to_date('08-05-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62623, to_date('29-03-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62624, to_date('11-02-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62625, to_date('30-07-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62626, to_date('13-03-2023', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62627, to_date('16-08-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62628, to_date('29-05-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62629, to_date('19-11-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62630, to_date('15-01-2022', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62631, to_date('21-01-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62632, to_date('22-04-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62633, to_date('30-11-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62634, to_date('15-07-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62635, to_date('21-03-2023', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62636, to_date('24-12-2023', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62637, to_date('17-07-2022', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62638, to_date('22-04-2022', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62639, to_date('23-04-2022', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62640, to_date('08-10-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62641, to_date('24-11-2023', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62642, to_date('10-05-2023', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62643, to_date('28-12-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62644, to_date('12-10-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62645, to_date('08-12-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62646, to_date('22-05-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62647, to_date('11-09-2021', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62648, to_date('11-08-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62649, to_date('14-03-2022', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62650, to_date('10-01-2024', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62651, to_date('28-12-2022', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62652, to_date('19-03-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62653, to_date('29-03-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62654, to_date('22-05-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62655, to_date('10-12-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62656, to_date('18-03-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62657, to_date('02-09-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62658, to_date('15-04-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62659, to_date('01-07-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62660, to_date('14-08-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62661, to_date('25-02-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62662, to_date('16-04-2024', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62663, to_date('11-06-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62664, to_date('23-02-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62665, to_date('14-01-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62666, to_date('05-05-2023', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62667, to_date('18-01-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62668, to_date('18-12-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62669, to_date('07-11-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62670, to_date('17-12-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62671, to_date('17-03-2024', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62672, to_date('26-03-2024', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62673, to_date('04-03-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62674, to_date('27-07-2023', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62675, to_date('07-08-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62676, to_date('10-02-2024', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62677, to_date('22-01-2024', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62678, to_date('11-02-2023', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62679, to_date('17-09-2022', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62680, to_date('05-09-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62681, to_date('02-01-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62682, to_date('29-12-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62683, to_date('30-04-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62684, to_date('02-10-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62685, to_date('26-07-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62686, to_date('02-02-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62687, to_date('21-05-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62688, to_date('29-06-2022', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62689, to_date('11-03-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62690, to_date('24-07-2023', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62691, to_date('31-05-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62692, to_date('18-03-2022', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62693, to_date('31-10-2022', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62694, to_date('04-02-2022', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62695, to_date('16-11-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62696, to_date('26-10-2021', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62697, to_date('09-03-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62698, to_date('11-04-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62699, to_date('28-10-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62700, to_date('18-03-2024', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62701, to_date('06-03-2024', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62702, to_date('15-09-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62703, to_date('15-01-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62704, to_date('03-06-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62705, to_date('11-03-2024', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62706, to_date('30-05-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62707, to_date('09-02-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62708, to_date('02-10-2022', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62709, to_date('29-05-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62710, to_date('10-12-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62711, to_date('24-01-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62712, to_date('14-05-2024', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62713, to_date('07-03-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62714, to_date('07-04-2021', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62715, to_date('11-03-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62716, to_date('18-02-2024', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62717, to_date('22-04-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62718, to_date('08-08-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62719, to_date('28-04-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62720, to_date('06-12-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62721, to_date('08-08-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62722, to_date('15-03-2024', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62723, to_date('01-12-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62724, to_date('23-09-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62725, to_date('07-12-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62726, to_date('03-09-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62727, to_date('16-07-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62728, to_date('25-10-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62729, to_date('14-11-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62730, to_date('14-03-2024', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62731, to_date('01-12-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62732, to_date('05-01-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62733, to_date('22-02-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62734, to_date('10-04-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62735, to_date('30-09-2022', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62736, to_date('21-09-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62737, to_date('18-04-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62738, to_date('05-04-2024', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62739, to_date('20-09-2023', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62740, to_date('22-01-2021', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62741, to_date('23-12-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62742, to_date('06-05-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62743, to_date('12-07-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62744, to_date('19-03-2021', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62745, to_date('27-08-2023', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62746, to_date('06-05-2024', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62747, to_date('16-05-2024', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62748, to_date('14-06-2022', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62749, to_date('20-11-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62750, to_date('10-09-2021', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62751, to_date('28-07-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62752, to_date('09-05-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62753, to_date('28-08-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62754, to_date('08-11-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62755, to_date('07-11-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62756, to_date('01-03-2022', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62757, to_date('04-02-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62758, to_date('25-04-2023', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62759, to_date('28-03-2021', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62760, to_date('22-06-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62761, to_date('11-06-2021', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62762, to_date('03-07-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62763, to_date('09-10-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62764, to_date('27-10-2023', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62765, to_date('15-05-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62766, to_date('31-01-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62767, to_date('10-03-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62768, to_date('21-05-2024', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62769, to_date('16-03-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62770, to_date('01-06-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62771, to_date('31-01-2022', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62772, to_date('25-03-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62773, to_date('17-01-2024', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62774, to_date('03-06-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62775, to_date('02-03-2024', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62776, to_date('01-10-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62777, to_date('16-03-2024', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62778, to_date('17-01-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62779, to_date('12-05-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62780, to_date('24-10-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62781, to_date('11-03-2024', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62782, to_date('25-12-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62783, to_date('30-07-2023', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62784, to_date('25-08-2022', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62785, to_date('26-09-2023', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62786, to_date('22-05-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62787, to_date('19-06-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62788, to_date('23-02-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62789, to_date('31-05-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62790, to_date('16-05-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62791, to_date('30-03-2023', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62792, to_date('06-08-2021', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62793, to_date('19-11-2023', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62794, to_date('26-09-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62795, to_date('24-01-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62796, to_date('23-03-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62797, to_date('22-05-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62798, to_date('05-03-2024', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62799, to_date('04-11-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62800, to_date('07-05-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62801, to_date('25-07-2022', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62802, to_date('01-03-2021', 'dd-mm-yyyy'), 'product lubrication');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62803, to_date('15-11-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62804, to_date('13-07-2023', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62805, to_date('20-02-2024', 'dd-mm-yyyy'), 'Replacing a broken component');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62806, to_date('06-05-2022', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62807, to_date('16-04-2021', 'dd-mm-yyyy'), 'health check');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62808, to_date('15-03-2024', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+insert into Repairs (RID, REPAIRDATE, DESCRIPTION)
+values (62809, to_date('19-06-2023', 'dd-mm-yyyy'), 'Replacing electrical wires');
+
+--new for queries
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62810, to_date('14-09-2022', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62811, to_date('07-03-2022', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62812, to_date('12-09-2023', 'dd-mm-yyyy'), 'Battery problems');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62813, to_date('09-02-2021', 'dd-mm-yyyy'), 'electronic systems');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62814, to_date('05-04-2023', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62815, to_date('09-05-2023', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62816, to_date('22-07-2023', 'dd-mm-yyyy'), 'engine failure');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62817, to_date('05-08-2022', 'dd-mm-yyyy'), 'malfunctioning brake lines');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62818, to_date('09-04-2024', 'dd-mm-yyyy'), 'lack of maintenance');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62819, to_date('09-08-2022', 'dd-mm-yyyy'), 'Battery problems');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62820, to_date('21-08-2023', 'dd-mm-yyyy'), ' overheating');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62821, to_date('17-12-2023', 'dd-mm-yyyy'), 'Tire Problems');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62822, to_date('24-03-2024', 'dd-mm-yyyy'), ' overheating');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62823, to_date('21-10-2022', 'dd-mm-yyyy'), 'Battery problems');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62824, to_date('12-06-2022', 'dd-mm-yyyy'), 'Battery problems');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62825, to_date('20-11-2021', 'dd-mm-yyyy'), 'poor fuel mixture');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62826, to_date('02-12-2022', 'dd-mm-yyyy'), 'Tire Problems');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62827, to_date('07-05-2024', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62828, to_date('05-09-2021', 'dd-mm-yyyy'), 'poor fuel mixture');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62829, to_date('17-04-2022', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62830, to_date('26-04-2021', 'dd-mm-yyyy'), 'malfunctioning brake lines');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62831, to_date('17-06-2023', 'dd-mm-yyyy'), 'poor fuel mixture');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62832, to_date('21-09-2023', 'dd-mm-yyyy'), 'Battery problems');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62833, to_date('12-05-2021', 'dd-mm-yyyy'), 'engine failure');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62834, to_date('04-04-2021', 'dd-mm-yyyy'), 'poor fuel mixture');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62835, to_date('23-08-2021', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62836, to_date('12-09-2021', 'dd-mm-yyyy'), 'malfunctioning brake lines');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62837, to_date('28-06-2021', 'dd-mm-yyyy'), 'poor fuel mixture');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62838, to_date('18-02-2021', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62839, to_date('25-09-2022', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62840, to_date('17-10-2022', 'dd-mm-yyyy'), 'Battery problems');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62841, to_date('14-03-2021', 'dd-mm-yyyy'), ' overheating');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62842, to_date('05-02-2021', 'dd-mm-yyyy'), 'malfunctioning brake lines');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62843, to_date('20-02-2024', 'dd-mm-yyyy'), 'Battery problems');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62844, to_date('28-06-2023', 'dd-mm-yyyy'), 'Tire Problems');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62845, to_date('14-01-2023', 'dd-mm-yyyy'), 'fluid leaks');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62846, to_date('29-03-2024', 'dd-mm-yyyy'), 'leaking brake fluid');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62847, to_date('08-10-2022', 'dd-mm-yyyy'), ' overheating');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62848, to_date('16-06-2021', 'dd-mm-yyyy'), 'brake issues');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62849, to_date('24-03-2022', 'dd-mm-yyyy'), 'brake issues');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62850, to_date('10-08-2023', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62851, to_date('20-12-2021', 'dd-mm-yyyy'), 'engine failure');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62852, to_date('24-05-2023', 'dd-mm-yyyy'), 'lack of maintenance');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62853, to_date('17-06-2023', 'dd-mm-yyyy'), 'brake issues');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62854, to_date('31-05-2022', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62855, to_date('09-08-2022', 'dd-mm-yyyy'), 'brake issues');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62856, to_date('06-10-2021', 'dd-mm-yyyy'), 'Tire Problems');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62857, to_date('25-06-2021', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62858, to_date('04-03-2023', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62859, to_date('17-12-2021', 'dd-mm-yyyy'), 'engine failure');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62860, to_date('17-09-2021', 'dd-mm-yyyy'), 'lack of maintenance');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62861, to_date('03-06-2023', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62862, to_date('17-12-2022', 'dd-mm-yyyy'), 'brake issues');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62863, to_date('19-11-2023', 'dd-mm-yyyy'), 'poor fuel mixture');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62864, to_date('11-04-2023', 'dd-mm-yyyy'), 'Tire Problems');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62865, to_date('23-04-2021', 'dd-mm-yyyy'), 'oil leaks');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62866, to_date('28-07-2021', 'dd-mm-yyyy'), 'Worn brake pads');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62867, to_date('10-11-2022', 'dd-mm-yyyy'), 'leaking brake fluid');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62868, to_date('05-05-2023', 'dd-mm-yyyy'), 'Tire Problems');
+
+insert into REPAIRS (RID, REPAIRDATE, DESCRIPTION)
+values (62869, to_date('19-04-2023', 'dd-mm-yyyy'), 'lack of maintenance');
+
+commit;
+
+
+-- insert VehiclesRepairs
+
+
+insert into vehiclesRepairs (RID, VID)
+values (62010, 45140289);
+
+insert into vehiclesRepairs (RID, VID)
+values (62011, 45140231);
+
+insert into vehiclesRepairs (RID, VID)
+values (62012, 45140339);
+
+insert into vehiclesRepairs (RID, VID)
+values (62013, 45140224);
+
+insert into vehiclesRepairs (RID, VID)
+values (62014, 45140076);
+
+insert into vehiclesRepairs (RID, VID)
+values (62015, 45140035);
+
+insert into vehiclesRepairs (RID, VID)
+values (62016, 45140202);
+
+insert into vehiclesRepairs (RID, VID)
+values (62017, 45140237);
+
+insert into vehiclesRepairs (RID, VID)
+values (62018, 45140408);
+
+insert into vehiclesRepairs (RID, VID)
+values (62019, 45140093);
+
+insert into vehiclesRepairs (RID, VID)
+values (62020, 45140205);
+
+insert into vehiclesRepairs (RID, VID)
+values (62021, 45140242);
+
+insert into vehiclesRepairs (RID, VID)
+values (62022, 45140343);
+
+insert into vehiclesRepairs (RID, VID)
+values (62023, 45140278);
+
+insert into vehiclesRepairs (RID, VID)
+values (62024, 45140131);
+
+insert into vehiclesRepairs (RID, VID)
+values (62025, 45140371);
+
+insert into vehiclesRepairs (RID, VID)
+values (62026, 45140120);
+
+insert into vehiclesRepairs (RID, VID)
+values (62027, 45140397);
+
+insert into vehiclesRepairs (RID, VID)
+values (62028, 45140407);
+
+insert into vehiclesRepairs (RID, VID)
+values (62029, 45140396);
+
+insert into vehiclesRepairs (RID, VID)
+values (62030, 45140286);
+
+insert into vehiclesRepairs (RID, VID)
+values (62031, 45140320);
+
+insert into vehiclesRepairs (RID, VID)
+values (62032, 45140308);
+
+insert into vehiclesRepairs (RID, VID)
+values (62033, 45140226);
+
+insert into vehiclesRepairs (RID, VID)
+values (62034, 45140346);
+
+insert into vehiclesRepairs (RID, VID)
+values (62035, 45140077);
+
+insert into vehiclesRepairs (RID, VID)
+values (62036, 45140023);
+
+insert into vehiclesRepairs (RID, VID)
+values (62037, 45140104);
+
+insert into vehiclesRepairs (RID, VID)
+values (62038, 45140338);
+
+insert into vehiclesRepairs (RID, VID)
+values (62039, 45140222);
+
+insert into vehiclesRepairs (RID, VID)
+values (62040, 45140049);
+
+insert into vehiclesRepairs (RID, VID)
+values (62041, 45140265);
+
+insert into vehiclesRepairs (RID, VID)
+values (62042, 45140062);
+
+insert into vehiclesRepairs (RID, VID)
+values (62043, 45140054);
+
+insert into vehiclesRepairs (RID, VID)
+values (62044, 45140284);
+
+insert into vehiclesRepairs (RID, VID)
+values (62045, 45140271);
+
+insert into vehiclesRepairs (RID, VID)
+values (62046, 45140382);
+
+insert into vehiclesRepairs (RID, VID)
+values (62047, 45140201);
+
+insert into vehiclesRepairs (RID, VID)
+values (62048, 45140093);
+
+insert into vehiclesRepairs (RID, VID)
+values (62049, 45140404);
+
+insert into vehiclesRepairs (RID, VID)
+values (62050, 45140316);
+
+insert into vehiclesRepairs (RID, VID)
+values (62051, 45140139);
+
+insert into vehiclesRepairs (RID, VID)
+values (62052, 45140300);
+
+insert into vehiclesRepairs (RID, VID)
+values (62053, 45140322);
+
+insert into vehiclesRepairs (RID, VID)
+values (62054, 45140132);
+
+insert into vehiclesRepairs (RID, VID)
+values (62055, 45140157);
+
+insert into vehiclesRepairs (RID, VID)
+values (62056, 45140195);
+
+insert into vehiclesRepairs (RID, VID)
+values (62057, 45140357);
+
+insert into vehiclesRepairs (RID, VID)
+values (62058, 45140375);
+
+insert into vehiclesRepairs (RID, VID)
+values (62059, 45140163);
+
+insert into vehiclesRepairs (RID, VID)
+values (62060, 45140311);
+
+insert into vehiclesRepairs (RID, VID)
+values (62061, 45140066);
+
+insert into vehiclesRepairs (RID, VID)
+values (62062, 45140038);
+
+insert into vehiclesRepairs (RID, VID)
+values (62063, 45140207);
+
+insert into vehiclesRepairs (RID, VID)
+values (62064, 45140240);
+
+insert into vehiclesRepairs (RID, VID)
+values (62065, 45140409);
+
+insert into vehiclesRepairs (RID, VID)
+values (62066, 45140397);
+
+insert into vehiclesRepairs (RID, VID)
+values (62067, 45140135);
+
+insert into vehiclesRepairs (RID, VID)
+values (62068, 45140067);
+
+insert into vehiclesRepairs (RID, VID)
+values (62069, 45140378);
+
+insert into vehiclesRepairs (RID, VID)
+values (62070, 45140326);
+
+insert into vehiclesRepairs (RID, VID)
+values (62071, 45140257);
+
+insert into vehiclesRepairs (RID, VID)
+values (62072, 45140081);
+
+insert into vehiclesRepairs (RID, VID)
+values (62073, 45140221);
+
+insert into vehiclesRepairs (RID, VID)
+values (62074, 45140225);
+
+insert into vehiclesRepairs (RID, VID)
+values (62075, 45140222);
+
+insert into vehiclesRepairs (RID, VID)
+values (62076, 45140331);
+
+insert into vehiclesRepairs (RID, VID)
+values (62077, 45140319);
+
+insert into vehiclesRepairs (RID, VID)
+values (62078, 45140152);
+
+insert into vehiclesRepairs (RID, VID)
+values (62079, 45140198);
+
+insert into vehiclesRepairs (RID, VID)
+values (62080, 45140107);
+
+insert into vehiclesRepairs (RID, VID)
+values (62081, 45140047);
+
+insert into vehiclesRepairs (RID, VID)
+values (62082, 45140311);
+
+insert into vehiclesRepairs (RID, VID)
+values (62083, 45140152);
+
+insert into vehiclesRepairs (RID, VID)
+values (62084, 45140301);
+
+insert into vehiclesRepairs (RID, VID)
+values (62085, 45140266);
+
+insert into vehiclesRepairs (RID, VID)
+values (62086, 45140086);
+
+insert into vehiclesRepairs (RID, VID)
+values (62087, 45140318);
+
+insert into vehiclesRepairs (RID, VID)
+values (62088, 45140129);
+
+insert into vehiclesRepairs (RID, VID)
+values (62089, 45140389);
+
+insert into vehiclesRepairs (RID, VID)
+values (62090, 45140360);
+
+insert into vehiclesRepairs (RID, VID)
+values (62091, 45140049);
+
+insert into vehiclesRepairs (RID, VID)
+values (62092, 45140169);
+
+insert into vehiclesRepairs (RID, VID)
+values (62093, 45140274);
+
+insert into vehiclesRepairs (RID, VID)
+values (62094, 45140324);
+
+insert into vehiclesRepairs (RID, VID)
+values (62095, 45140349);
+
+insert into vehiclesRepairs (RID, VID)
+values (62096, 45140199);
+
+insert into vehiclesRepairs (RID, VID)
+values (62097, 45140068);
+
+insert into vehiclesRepairs (RID, VID)
+values (62098, 45140103);
+
+insert into vehiclesRepairs (RID, VID)
+values (62099, 45140281);
+
+insert into vehiclesRepairs (RID, VID)
+values (62100, 45140394);
+
+insert into vehiclesRepairs (RID, VID)
+values (62101, 45140067);
+
+insert into vehiclesRepairs (RID, VID)
+values (62102, 45140217);
+
+insert into vehiclesRepairs (RID, VID)
+values (62103, 45140333);
+
+insert into vehiclesRepairs (RID, VID)
+values (62104, 45140148);
+
+insert into vehiclesRepairs (RID, VID)
+values (62105, 45140324);
+
+insert into vehiclesRepairs (RID, VID)
+values (62106, 45140190);
+
+insert into vehiclesRepairs (RID, VID)
+values (62107, 45140349);
+
+insert into vehiclesRepairs (RID, VID)
+values (62108, 45140105);
+
+insert into vehiclesRepairs (RID, VID)
+values (62109, 45140247);
+
+insert into vehiclesRepairs (RID, VID)
+values (62110, 45140333);
+
+insert into vehiclesRepairs (RID, VID)
+values (62111, 45140116);
+
+insert into vehiclesRepairs (RID, VID)
+values (62112, 45140248);
+
+insert into vehiclesRepairs (RID, VID)
+values (62113, 45140141);
+
+insert into vehiclesRepairs (RID, VID)
+values (62114, 45140014);
+
+insert into vehiclesRepairs (RID, VID)
+values (62115, 45140389);
+
+insert into vehiclesRepairs (RID, VID)
+values (62116, 45140230);
+
+insert into vehiclesRepairs (RID, VID)
+values (62117, 45140328);
+
+insert into vehiclesRepairs (RID, VID)
+values (62118, 45140238);
+
+insert into vehiclesRepairs (RID, VID)
+values (62119, 45140266);
+
+insert into vehiclesRepairs (RID, VID)
+values (62120, 45140208);
+
+insert into vehiclesRepairs (RID, VID)
+values (62121, 45140395);
+
+insert into vehiclesRepairs (RID, VID)
+values (62122, 45140054);
+
+insert into vehiclesRepairs (RID, VID)
+values (62123, 45140098);
+
+insert into vehiclesRepairs (RID, VID)
+values (62124, 45140148);
+
+insert into vehiclesRepairs (RID, VID)
+values (62125, 45140404);
+
+insert into vehiclesRepairs (RID, VID)
+values (62126, 45140407);
+
+insert into vehiclesRepairs (RID, VID)
+values (62127, 45140016);
+
+insert into vehiclesRepairs (RID, VID)
+values (62128, 45140082);
+
+insert into vehiclesRepairs (RID, VID)
+values (62129, 45140029);
+
+insert into vehiclesRepairs (RID, VID)
+values (62130, 45140352);
+
+insert into vehiclesRepairs (RID, VID)
+values (62131, 45140297);
+
+insert into vehiclesRepairs (RID, VID)
+values (62132, 45140264);
+
+insert into vehiclesRepairs (RID, VID)
+values (62133, 45140031);
+
+insert into vehiclesRepairs (RID, VID)
+values (62134, 45140257);
+
+insert into vehiclesRepairs (RID, VID)
+values (62135, 45140231);
+
+insert into vehiclesRepairs (RID, VID)
+values (62136, 45140315);
+
+insert into vehiclesRepairs (RID, VID)
+values (62137, 45140253);
+
+insert into vehiclesRepairs (RID, VID)
+values (62138, 45140303);
+
+insert into vehiclesRepairs (RID, VID)
+values (62139, 45140308);
+
+insert into vehiclesRepairs (RID, VID)
+values (62140, 45140114);
+
+insert into vehiclesRepairs (RID, VID)
+values (62141, 45140340);
+
+insert into vehiclesRepairs (RID, VID)
+values (62142, 45140304);
+
+insert into vehiclesRepairs (RID, VID)
+values (62143, 45140202);
+
+insert into vehiclesRepairs (RID, VID)
+values (62144, 45140104);
+
+insert into vehiclesRepairs (RID, VID)
+values (62145, 45140365);
+
+insert into vehiclesRepairs (RID, VID)
+values (62146, 45140176);
+
+insert into vehiclesRepairs (RID, VID)
+values (62147, 45140358);
+
+insert into vehiclesRepairs (RID, VID)
+values (62148, 45140390);
+
+insert into vehiclesRepairs (RID, VID)
+values (62149, 45140173);
+
+insert into vehiclesRepairs (RID, VID)
+values (62150, 45140049);
+
+insert into vehiclesRepairs (RID, VID)
+values (62151, 45140263);
+
+insert into vehiclesRepairs (RID, VID)
+values (62152, 45140088);
+
+insert into vehiclesRepairs (RID, VID)
+values (62153, 45140405);
+
+insert into vehiclesRepairs (RID, VID)
+values (62154, 45140367);
+
+insert into vehiclesRepairs (RID, VID)
+values (62155, 45140210);
+
+insert into vehiclesRepairs (RID, VID)
+values (62156, 45140096);
+
+insert into vehiclesRepairs (RID, VID)
+values (62157, 45140246);
+
+insert into vehiclesRepairs (RID, VID)
+values (62158, 45140383);
+
+insert into vehiclesRepairs (RID, VID)
+values (62159, 45140235);
+
+insert into vehiclesRepairs (RID, VID)
+values (62160, 45140165);
+
+insert into vehiclesRepairs (RID, VID)
+values (62161, 45140226);
+
+insert into vehiclesRepairs (RID, VID)
+values (62162, 45140362);
+
+insert into vehiclesRepairs (RID, VID)
+values (62163, 45140023);
+
+insert into vehiclesRepairs (RID, VID)
+values (62164, 45140021);
+
+insert into vehiclesRepairs (RID, VID)
+values (62165, 45140136);
+
+insert into vehiclesRepairs (RID, VID)
+values (62166, 45140125);
+
+insert into vehiclesRepairs (RID, VID)
+values (62167, 45140093);
+
+insert into vehiclesRepairs (RID, VID)
+values (62168, 45140030);
+
+insert into vehiclesRepairs (RID, VID)
+values (62169, 45140192);
+
+insert into vehiclesRepairs (RID, VID)
+values (62170, 45140238);
+
+insert into vehiclesRepairs (RID, VID)
+values (62171, 45140226);
+
+insert into vehiclesRepairs (RID, VID)
+values (62172, 45140145);
+
+insert into vehiclesRepairs (RID, VID)
+values (62173, 45140091);
+
+insert into vehiclesRepairs (RID, VID)
+values (62174, 45140277);
+
+insert into vehiclesRepairs (RID, VID)
+values (62175, 45140060);
+
+insert into vehiclesRepairs (RID, VID)
+values (62176, 45140040);
+
+insert into vehiclesRepairs (RID, VID)
+values (62177, 45140306);
+
+insert into vehiclesRepairs (RID, VID)
+values (62178, 45140282);
+
+insert into vehiclesRepairs (RID, VID)
+values (62179, 45140026);
+
+insert into vehiclesRepairs (RID, VID)
+values (62180, 45140164);
+
+insert into vehiclesRepairs (RID, VID)
+values (62181, 45140067);
+
+insert into vehiclesRepairs (RID, VID)
+values (62182, 45140012);
+
+insert into vehiclesRepairs (RID, VID)
+values (62183, 45140125);
+
+insert into vehiclesRepairs (RID, VID)
+values (62184, 45140407);
+
+insert into vehiclesRepairs (RID, VID)
+values (62185, 45140159);
+
+insert into vehiclesRepairs (RID, VID)
+values (62186, 45140339);
+
+insert into vehiclesRepairs (RID, VID)
+values (62187, 45140141);
+
+insert into vehiclesRepairs (RID, VID)
+values (62188, 45140342);
+
+insert into vehiclesRepairs (RID, VID)
+values (62189, 45140393);
+
+insert into vehiclesRepairs (RID, VID)
+values (62190, 45140376);
+
+insert into vehiclesRepairs (RID, VID)
+values (62191, 45140185);
+
+insert into vehiclesRepairs (RID, VID)
+values (62192, 45140305);
+
+insert into vehiclesRepairs (RID, VID)
+values (62193, 45140098);
+
+insert into vehiclesRepairs (RID, VID)
+values (62194, 45140080);
+
+insert into vehiclesRepairs (RID, VID)
+values (62195, 45140153);
+
+insert into vehiclesRepairs (RID, VID)
+values (62196, 45140290);
+
+insert into vehiclesRepairs (RID, VID)
+values (62197, 45140052);
+
+insert into vehiclesRepairs (RID, VID)
+values (62198, 45140128);
+
+insert into vehiclesRepairs (RID, VID)
+values (62199, 45140012);
+
+insert into vehiclesRepairs (RID, VID)
+values (62200, 45140120);
+
+insert into vehiclesRepairs (RID, VID)
+values (62201, 45140033);
+
+insert into vehiclesRepairs (RID, VID)
+values (62202, 45140202);
+
+insert into vehiclesRepairs (RID, VID)
+values (62203, 45140086);
+
+insert into vehiclesRepairs (RID, VID)
+values (62204, 45140070);
+
+insert into vehiclesRepairs (RID, VID)
+values (62205, 45140198);
+
+insert into vehiclesRepairs (RID, VID)
+values (62206, 45140094);
+
+insert into vehiclesRepairs (RID, VID)
+values (62207, 45140249);
+
+insert into vehiclesRepairs (RID, VID)
+values (62208, 45140407);
+
+insert into vehiclesRepairs (RID, VID)
+values (62209, 45140258);
+
+insert into vehiclesRepairs (RID, VID)
+values (62210, 45140146);
+
+insert into vehiclesRepairs (RID, VID)
+values (62211, 45140217);
+
+insert into vehiclesRepairs (RID, VID)
+values (62212, 45140017);
+
+insert into vehiclesRepairs (RID, VID)
+values (62213, 45140088);
+
+insert into vehiclesRepairs (RID, VID)
+values (62214, 45140053);
+
+insert into vehiclesRepairs (RID, VID)
+values (62215, 45140027);
+
+insert into vehiclesRepairs (RID, VID)
+values (62216, 45140383);
+
+insert into vehiclesRepairs (RID, VID)
+values (62217, 45140300);
+
+insert into vehiclesRepairs (RID, VID)
+values (62218, 45140343);
+
+insert into vehiclesRepairs (RID, VID)
+values (62219, 45140304);
+
+insert into vehiclesRepairs (RID, VID)
+values (62220, 45140095);
+
+insert into vehiclesRepairs (RID, VID)
+values (62221, 45140248);
+
+insert into vehiclesRepairs (RID, VID)
+values (62222, 45140146);
+
+insert into vehiclesRepairs (RID, VID)
+values (62223, 45140405);
+
+insert into vehiclesRepairs (RID, VID)
+values (62224, 45140343);
+
+insert into vehiclesRepairs (RID, VID)
+values (62225, 45140191);
+
+insert into vehiclesRepairs (RID, VID)
+values (62226, 45140188);
+
+insert into vehiclesRepairs (RID, VID)
+values (62227, 45140238);
+
+insert into vehiclesRepairs (RID, VID)
+values (62228, 45140376);
+
+insert into vehiclesRepairs (RID, VID)
+values (62229, 45140059);
+
+insert into vehiclesRepairs (RID, VID)
+values (62230, 45140408);
+
+insert into vehiclesRepairs (RID, VID)
+values (62231, 45140041);
+
+insert into vehiclesRepairs (RID, VID)
+values (62232, 45140396);
+
+insert into vehiclesRepairs (RID, VID)
+values (62233, 45140174);
+
+insert into vehiclesRepairs (RID, VID)
+values (62234, 45140134);
+
+insert into vehiclesRepairs (RID, VID)
+values (62235, 45140129);
+
+insert into vehiclesRepairs (RID, VID)
+values (62236, 45140238);
+
+insert into vehiclesRepairs (RID, VID)
+values (62237, 45140165);
+
+insert into vehiclesRepairs (RID, VID)
+values (62238, 45140027);
+
+insert into vehiclesRepairs (RID, VID)
+values (62239, 45140286);
+
+insert into vehiclesRepairs (RID, VID)
+values (62240, 45140333);
+
+insert into vehiclesRepairs (RID, VID)
+values (62241, 45140019);
+
+insert into vehiclesRepairs (RID, VID)
+values (62242, 45140313);
+
+insert into vehiclesRepairs (RID, VID)
+values (62243, 45140210);
+
+insert into vehiclesRepairs (RID, VID)
+values (62244, 45140295);
+
+insert into vehiclesRepairs (RID, VID)
+values (62245, 45140114);
+
+insert into vehiclesRepairs (RID, VID)
+values (62246, 45140328);
+
+insert into vehiclesRepairs (RID, VID)
+values (62247, 45140098);
+
+insert into vehiclesRepairs (RID, VID)
+values (62248, 45140218);
+
+insert into vehiclesRepairs (RID, VID)
+values (62249, 45140379);
+
+insert into vehiclesRepairs (RID, VID)
+values (62250, 45140083);
+
+insert into vehiclesRepairs (RID, VID)
+values (62251, 45140165);
+
+insert into vehiclesRepairs (RID, VID)
+values (62252, 45140248);
+
+insert into vehiclesRepairs (RID, VID)
+values (62253, 45140019);
+
+insert into vehiclesRepairs (RID, VID)
+values (62254, 45140281);
+
+insert into vehiclesRepairs (RID, VID)
+values (62255, 45140389);
+
+insert into vehiclesRepairs (RID, VID)
+values (62256, 45140098);
+
+insert into vehiclesRepairs (RID, VID)
+values (62257, 45140159);
+
+insert into vehiclesRepairs (RID, VID)
+values (62258, 45140097);
+
+insert into vehiclesRepairs (RID, VID)
+values (62259, 45140285);
+
+insert into vehiclesRepairs (RID, VID)
+values (62260, 45140266);
+
+insert into vehiclesRepairs (RID, VID)
+values (62261, 45140240);
+
+insert into vehiclesRepairs (RID, VID)
+values (62262, 45140137);
+
+insert into vehiclesRepairs (RID, VID)
+values (62263, 45140189);
+
+insert into vehiclesRepairs (RID, VID)
+values (62264, 45140047);
+
+insert into vehiclesRepairs (RID, VID)
+values (62265, 45140318);
+
+insert into vehiclesRepairs (RID, VID)
+values (62266, 45140103);
+
+insert into vehiclesRepairs (RID, VID)
+values (62267, 45140052);
+
+insert into vehiclesRepairs (RID, VID)
+values (62268, 45140282);
+
+insert into vehiclesRepairs (RID, VID)
+values (62269, 45140304);
+
+insert into vehiclesRepairs (RID, VID)
+values (62270, 45140381);
+
+insert into vehiclesRepairs (RID, VID)
+values (62271, 45140243);
+
+insert into vehiclesRepairs (RID, VID)
+values (62272, 45140130);
+
+insert into vehiclesRepairs (RID, VID)
+values (62273, 45140095);
+
+insert into vehiclesRepairs (RID, VID)
+values (62274, 45140062);
+
+insert into vehiclesRepairs (RID, VID)
+values (62275, 45140141);
+
+insert into vehiclesRepairs (RID, VID)
+values (62276, 45140026);
+
+insert into vehiclesRepairs (RID, VID)
+values (62277, 45140235);
+
+insert into vehiclesRepairs (RID, VID)
+values (62278, 45140023);
+
+insert into vehiclesRepairs (RID, VID)
+values (62279, 45140026);
+
+insert into vehiclesRepairs (RID, VID)
+values (62280, 45140292);
+
+insert into vehiclesRepairs (RID, VID)
+values (62281, 45140053);
+
+insert into vehiclesRepairs (RID, VID)
+values (62282, 45140193);
+
+insert into vehiclesRepairs (RID, VID)
+values (62283, 45140250);
+
+insert into vehiclesRepairs (RID, VID)
+values (62284, 45140174);
+
+insert into vehiclesRepairs (RID, VID)
+values (62285, 45140319);
+
+insert into vehiclesRepairs (RID, VID)
+values (62286, 45140201);
+
+insert into vehiclesRepairs (RID, VID)
+values (62287, 45140188);
+
+insert into vehiclesRepairs (RID, VID)
+values (62288, 45140172);
+
+insert into vehiclesRepairs (RID, VID)
+values (62289, 45140359);
+
+insert into vehiclesRepairs (RID, VID)
+values (62290, 45140349);
+
+insert into vehiclesRepairs (RID, VID)
+values (62291, 45140359);
+
+insert into vehiclesRepairs (RID, VID)
+values (62292, 45140228);
+
+insert into vehiclesRepairs (RID, VID)
+values (62293, 45140087);
+
+insert into vehiclesRepairs (RID, VID)
+values (62294, 45140316);
+
+insert into vehiclesRepairs (RID, VID)
+values (62295, 45140019);
+
+insert into vehiclesRepairs (RID, VID)
+values (62296, 45140046);
+
+insert into vehiclesRepairs (RID, VID)
+values (62297, 45140277);
+
+insert into vehiclesRepairs (RID, VID)
+values (62298, 45140309);
+
+insert into vehiclesRepairs (RID, VID)
+values (62299, 45140207);
+
+insert into vehiclesRepairs (RID, VID)
+values (62300, 45140315);
+
+insert into vehiclesRepairs (RID, VID)
+values (62301, 45140132);
+
+insert into vehiclesRepairs (RID, VID)
+values (62302, 45140292);
+
+insert into vehiclesRepairs (RID, VID)
+values (62303, 45140348);
+
+insert into vehiclesRepairs (RID, VID)
+values (62304, 45140090);
+
+insert into vehiclesRepairs (RID, VID)
+values (62305, 45140098);
+
+insert into vehiclesRepairs (RID, VID)
+values (62306, 45140199);
+
+insert into vehiclesRepairs (RID, VID)
+values (62307, 45140200);
+
+insert into vehiclesRepairs (RID, VID)
+values (62308, 45140118);
+
+insert into vehiclesRepairs (RID, VID)
+values (62309, 45140344);
+
+insert into vehiclesRepairs (RID, VID)
+values (62310, 45140158);
+
+insert into vehiclesRepairs (RID, VID)
+values (62311, 45140252);
+
+insert into vehiclesRepairs (RID, VID)
+values (62312, 45140367);
+
+insert into vehiclesRepairs (RID, VID)
+values (62313, 45140287);
+
+insert into vehiclesRepairs (RID, VID)
+values (62314, 45140240);
+
+insert into vehiclesRepairs (RID, VID)
+values (62315, 45140140);
+
+insert into vehiclesRepairs (RID, VID)
+values (62316, 45140126);
+
+insert into vehiclesRepairs (RID, VID)
+values (62317, 45140168);
+
+insert into vehiclesRepairs (RID, VID)
+values (62318, 45140157);
+
+insert into vehiclesRepairs (RID, VID)
+values (62319, 45140407);
+
+insert into vehiclesRepairs (RID, VID)
+values (62320, 45140348);
+
+insert into vehiclesRepairs (RID, VID)
+values (62321, 45140256);
+
+insert into vehiclesRepairs (RID, VID)
+values (62322, 45140219);
+
+insert into vehiclesRepairs (RID, VID)
+values (62323, 45140179);
+
+insert into vehiclesRepairs (RID, VID)
+values (62324, 45140411);
+
+insert into vehiclesRepairs (RID, VID)
+values (62325, 45140095);
+
+insert into vehiclesRepairs (RID, VID)
+values (62326, 45140181);
+
+insert into vehiclesRepairs (RID, VID)
+values (62327, 45140253);
+
+insert into vehiclesRepairs (RID, VID)
+values (62328, 45140347);
+
+insert into vehiclesRepairs (RID, VID)
+values (62329, 45140365);
+
+insert into vehiclesRepairs (RID, VID)
+values (62330, 45140284);
+
+insert into vehiclesRepairs (RID, VID)
+values (62331, 45140403);
+
+insert into vehiclesRepairs (RID, VID)
+values (62332, 45140132);
+
+insert into vehiclesRepairs (RID, VID)
+values (62333, 45140373);
+
+insert into vehiclesRepairs (RID, VID)
+values (62334, 45140127);
+
+insert into vehiclesRepairs (RID, VID)
+values (62335, 45140185);
+
+insert into vehiclesRepairs (RID, VID)
+values (62336, 45140086);
+
+insert into vehiclesRepairs (RID, VID)
+values (62337, 45140345);
+
+insert into vehiclesRepairs (RID, VID)
+values (62338, 45140265);
+
+insert into vehiclesRepairs (RID, VID)
+values (62339, 45140237);
+
+insert into vehiclesRepairs (RID, VID)
+values (62340, 45140162);
+
+insert into vehiclesRepairs (RID, VID)
+values (62341, 45140141);
+
+insert into vehiclesRepairs (RID, VID)
+values (62342, 45140382);
+
+insert into vehiclesRepairs (RID, VID)
+values (62343, 45140375);
+
+insert into vehiclesRepairs (RID, VID)
+values (62344, 45140389);
+
+insert into vehiclesRepairs (RID, VID)
+values (62345, 45140148);
+
+insert into vehiclesRepairs (RID, VID)
+values (62346, 45140322);
+
+insert into vehiclesRepairs (RID, VID)
+values (62347, 45140071);
+
+insert into vehiclesRepairs (RID, VID)
+values (62348, 45140040);
+
+insert into vehiclesRepairs (RID, VID)
+values (62349, 45140194);
+
+insert into vehiclesRepairs (RID, VID)
+values (62350, 45140032);
+
+insert into vehiclesRepairs (RID, VID)
+values (62351, 45140211);
+
+insert into vehiclesRepairs (RID, VID)
+values (62352, 45140391);
+
+insert into vehiclesRepairs (RID, VID)
+values (62353, 45140021);
+
+insert into vehiclesRepairs (RID, VID)
+values (62354, 45140112);
+
+insert into vehiclesRepairs (RID, VID)
+values (62355, 45140321);
+
+insert into vehiclesRepairs (RID, VID)
+values (62356, 45140046);
+
+insert into vehiclesRepairs (RID, VID)
+values (62357, 45140169);
+
+insert into vehiclesRepairs (RID, VID)
+values (62358, 45140396);
+
+insert into vehiclesRepairs (RID, VID)
+values (62359, 45140367);
+
+insert into vehiclesRepairs (RID, VID)
+values (62360, 45140283);
+
+insert into vehiclesRepairs (RID, VID)
+values (62361, 45140205);
+
+insert into vehiclesRepairs (RID, VID)
+values (62362, 45140091);
+
+insert into vehiclesRepairs (RID, VID)
+values (62363, 45140306);
+
+insert into vehiclesRepairs (RID, VID)
+values (62364, 45140409);
+
+insert into vehiclesRepairs (RID, VID)
+values (62365, 45140155);
+
+insert into vehiclesRepairs (RID, VID)
+values (62366, 45140283);
+
+insert into vehiclesRepairs (RID, VID)
+values (62367, 45140297);
+
+insert into vehiclesRepairs (RID, VID)
+values (62368, 45140374);
+
+insert into vehiclesRepairs (RID, VID)
+values (62369, 45140260);
+
+insert into vehiclesRepairs (RID, VID)
+values (62370, 45140131);
+
+insert into vehiclesRepairs (RID, VID)
+values (62371, 45140155);
+
+insert into vehiclesRepairs (RID, VID)
+values (62372, 45140029);
+
+insert into vehiclesRepairs (RID, VID)
+values (62373, 45140331);
+
+insert into vehiclesRepairs (RID, VID)
+values (62374, 45140175);
+
+insert into vehiclesRepairs (RID, VID)
+values (62375, 45140350);
+
+insert into vehiclesRepairs (RID, VID)
+values (62376, 45140081);
+
+insert into vehiclesRepairs (RID, VID)
+values (62377, 45140013);
+
+insert into vehiclesRepairs (RID, VID)
+values (62378, 45140266);
+
+insert into vehiclesRepairs (RID, VID)
+values (62379, 45140137);
+
+insert into vehiclesRepairs (RID, VID)
+values (62380, 45140331);
+
+insert into vehiclesRepairs (RID, VID)
+values (62381, 45140229);
+
+insert into vehiclesRepairs (RID, VID)
+values (62382, 45140140);
+
+insert into vehiclesRepairs (RID, VID)
+values (62383, 45140117);
+
+insert into vehiclesRepairs (RID, VID)
+values (62384, 45140046);
+
+insert into vehiclesRepairs (RID, VID)
+values (62385, 45140132);
+
+insert into vehiclesRepairs (RID, VID)
+values (62386, 45140364);
+
+insert into vehiclesRepairs (RID, VID)
+values (62387, 45140217);
+
+insert into vehiclesRepairs (RID, VID)
+values (62388, 45140245);
+
+insert into vehiclesRepairs (RID, VID)
+values (62389, 45140017);
+
+insert into vehiclesRepairs (RID, VID)
+values (62390, 45140259);
+
+insert into vehiclesRepairs (RID, VID)
+values (62391, 45140194);
+
+insert into vehiclesRepairs (RID, VID)
+values (62392, 45140171);
+
+insert into vehiclesRepairs (RID, VID)
+values (62393, 45140327);
+
+insert into vehiclesRepairs (RID, VID)
+values (62394, 45140325);
+
+insert into vehiclesRepairs (RID, VID)
+values (62395, 45140236);
+
+insert into vehiclesRepairs (RID, VID)
+values (62396, 45140303);
+
+insert into vehiclesRepairs (RID, VID)
+values (62397, 45140214);
+
+insert into vehiclesRepairs (RID, VID)
+values (62398, 45140391);
+
+insert into vehiclesRepairs (RID, VID)
+values (62399, 45140179);
+
+insert into vehiclesRepairs (RID, VID)
+values (62400, 45140390);
+
+insert into vehiclesRepairs (RID, VID)
+values (62401, 45140375);
+
+insert into vehiclesRepairs (RID, VID)
+values (62402, 45140399);
+
+insert into vehiclesRepairs (RID, VID)
+values (62403, 45140315);
+
+insert into vehiclesRepairs (RID, VID)
+values (62404, 45140271);
+
+insert into vehiclesRepairs (RID, VID)
+values (62405, 45140228);
+
+insert into vehiclesRepairs (RID, VID)
+values (62406, 45140052);
+
+insert into vehiclesRepairs (RID, VID)
+values (62407, 45140089);
+
+insert into vehiclesRepairs (RID, VID)
+values (62408, 45140151);
+
+insert into vehiclesRepairs (RID, VID)
+values (62409, 45140363);
+
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62810, 45140316);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62811, 45140317);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62812, 45140306);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62813, 45140304);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62814, 45140313);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62815, 45140308);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62816, 45140300);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62817, 45140310);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62818, 45140318);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62819, 45140314);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62820, 45140311);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62821, 45140301);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62822, 45140310);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62823, 45140300);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62824, 45140318);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62825, 45140309);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62826, 45140308);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62827, 45140307);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62828, 45140311);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62829, 45140315);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62830, 45140318);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62831, 45140303);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62832, 45140305);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62833, 45140319);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62834, 45140319);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62835, 45140316);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62836, 45140312);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62837, 45140318);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62838, 45140308);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62839, 45140304);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62840, 45140312);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62841, 45140304);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62842, 45140307);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62843, 45140306);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62844, 45140320);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62845, 45140317);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62846, 45140311);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62847, 45140320);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62848, 45140315);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62849, 45140307);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62850, 45140316);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62851, 45140307);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62852, 45140310);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62853, 45140318);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62854, 45140309);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62855, 45140306);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62856, 45140309);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62857, 45140311);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62858, 45140311);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62859, 45140318);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62860, 45140311);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62861, 45140309);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62862, 45140303);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62863, 45140310);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62864, 45140310);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62865, 45140315);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62866, 45140317);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62867, 45140317);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62868, 45140309);
+
+insert into VEHICLESREPAIRS (RID, VID)
+values (62869, 45140307);
+
+commit;
+
+
+-- insert EquipRepairs
+
+insert into EquipRepairs (RID, EID)
+values (62410, 10139);
+
+insert into EquipRepairs (RID, EID)
+values (62411, 10350);
+
+insert into EquipRepairs (RID, EID)
+values (62412, 10063);
+
+insert into EquipRepairs (RID, EID)
+values (62413, 10361);
+
+insert into EquipRepairs (RID, EID)
+values (62414, 10375);
+
+insert into EquipRepairs (RID, EID)
+values (62415, 10109);
+
+insert into EquipRepairs (RID, EID)
+values (62416, 10140);
+
+insert into EquipRepairs (RID, EID)
+values (62417, 10195);
+
+insert into EquipRepairs (RID, EID)
+values (62418, 10230);
+
+insert into EquipRepairs (RID, EID)
+values (62419, 10234);
+
+insert into EquipRepairs (RID, EID)
+values (62420, 10266);
+
+insert into EquipRepairs (RID, EID)
+values (62421, 10046);
+
+insert into EquipRepairs (RID, EID)
+values (62422, 10199);
+
+insert into EquipRepairs (RID, EID)
+values (62423, 10080);
+
+insert into EquipRepairs (RID, EID)
+values (62424, 10115);
+
+insert into EquipRepairs (RID, EID)
+values (62425, 10214);
+
+insert into EquipRepairs (RID, EID)
+values (62426, 10020);
+
+insert into EquipRepairs (RID, EID)
+values (62427, 10247);
+
+insert into EquipRepairs (RID, EID)
+values (62428, 10028);
+
+insert into EquipRepairs (RID, EID)
+values (62429, 10301);
+
+insert into EquipRepairs (RID, EID)
+values (62430, 10020);
+
+insert into EquipRepairs (RID, EID)
+values (62431, 10200);
+
+insert into EquipRepairs (RID, EID)
+values (62432, 10084);
+
+insert into EquipRepairs (RID, EID)
+values (62433, 10208);
+
+insert into EquipRepairs (RID, EID)
+values (62434, 10371);
+
+insert into EquipRepairs (RID, EID)
+values (62435, 10362);
+
+insert into EquipRepairs (RID, EID)
+values (62436, 10120);
+
+insert into EquipRepairs (RID, EID)
+values (62437, 10212);
+
+insert into EquipRepairs (RID, EID)
+values (62438, 10104);
+
+insert into EquipRepairs (RID, EID)
+values (62439, 10203);
+
+insert into EquipRepairs (RID, EID)
+values (62440,10387); 
+
+insert into EquipRepairs (RID, EID)
+values (62441, 10167);
+
+insert into EquipRepairs (RID, EID)
+values (62442, 10283);
+
+insert into EquipRepairs (RID, EID)
+values (62443, 10144);
+
+insert into EquipRepairs (RID, EID)
+values (62444, 10207);
+
+insert into EquipRepairs (RID, EID)
+values (62445, 10037);
+
+insert into EquipRepairs (RID, EID)
+values (62446, 10064);
+
+insert into EquipRepairs (RID, EID)
+values (62447, 10203);
+
+insert into EquipRepairs (RID, EID)
+values (62448, 10177);
+
+insert into EquipRepairs (RID, EID)
+values (62449, 10002);
+
+insert into EquipRepairs (RID, EID)
+values (62450, 10325);
+
+insert into EquipRepairs (RID, EID)
+values (62451, 10162);
+
+insert into EquipRepairs (RID, EID)
+values (62452, 10249);
+
+insert into EquipRepairs (RID, EID)
+values (62453, 10106);
+
+insert into EquipRepairs (RID, EID)
+values (62454, 10180);
+
+insert into EquipRepairs (RID, EID)
+values (62455, 10054);
+
+insert into EquipRepairs (RID, EID)
+values (62456, 10234);
+
+insert into EquipRepairs (RID, EID)
+values (62457, 10327);
+
+insert into EquipRepairs (RID, EID)
+values (62458, 10032);
+
+insert into EquipRepairs (RID, EID)
+values (62459, 10291);
+
+insert into EquipRepairs (RID, EID)
+values (62460, 10098);
+
+insert into EquipRepairs (RID, EID)
+values (62461, 10034);
+
+insert into EquipRepairs (RID, EID)
+values (62462, 10329);
+
+insert into EquipRepairs (RID, EID)
+values (62463, 10030);
+
+insert into EquipRepairs (RID, EID)
+values (62464, 10358);
+
+insert into EquipRepairs (RID, EID)
+values (62465, 10318);
+
+insert into EquipRepairs (RID, EID)
+values (62466, 10180);
+
+insert into EquipRepairs (RID, EID)
+values (62467, 10163);
+
+insert into EquipRepairs (RID, EID)
+values (62468, 10133);
+
+insert into EquipRepairs (RID, EID)
+values (62469, 10294);
+
+insert into EquipRepairs (RID, EID)
+values (62470, 10145);
+
+insert into EquipRepairs (RID, EID)
+values (62471, 10036);
+
+insert into EquipRepairs (RID, EID)
+values (62472, 10225);
+
+insert into EquipRepairs (RID, EID)
+values (62473, 10360);
+
+insert into EquipRepairs (RID, EID)
+values (62474, 10231);
+
+insert into EquipRepairs (RID, EID)
+values (62475, 10150);
+
+insert into EquipRepairs (RID, EID)
+values (62476, 10111);
+
+insert into EquipRepairs (RID, EID)
+values (62477, 10069);
+
+insert into EquipRepairs (RID, EID)
+values (62478, 10019);
+
+insert into EquipRepairs (RID, EID)
+values (62479, 10140);
+
+insert into EquipRepairs (RID, EID)
+values (62480, 10056);
+
+insert into EquipRepairs (RID, EID)
+values (62481, 10165);
+
+insert into EquipRepairs (RID, EID)
+values (62482, 10255);
+
+insert into EquipRepairs (RID, EID)
+values (62483, 10044);
+
+insert into EquipRepairs (RID, EID)
+values (62484, 10251);
+
+insert into EquipRepairs (RID, EID)
+values (62485, 10286);
+
+insert into EquipRepairs (RID, EID)
+values (62486, 10097);
+
+insert into EquipRepairs (RID, EID)
+values (62487, 10026);
+
+insert into EquipRepairs (RID, EID)
+values (62488, 10310);
+
+insert into EquipRepairs (RID, EID)
+values (62489, 10054);
+
+insert into EquipRepairs (RID, EID)
+values (62490, 10045);
+
+insert into EquipRepairs (RID, EID)
+values (62491, 10291);
+
+insert into EquipRepairs (RID, EID)
+values (62492, 10132);
+
+insert into EquipRepairs (RID, EID)
+values (62493, 10111);
+
+insert into EquipRepairs (RID, EID)
+values (62494, 10118);
+
+insert into EquipRepairs (RID, EID)
+values (62495, 10195);
+
+insert into EquipRepairs (RID, EID)
+values (62496, 10390);
+
+insert into EquipRepairs (RID, EID)
+values (62497, 10131);
+
+insert into EquipRepairs (RID, EID)
+values (62498, 10273);
+
+insert into EquipRepairs (RID, EID)
+values (62499, 10120);
+
+insert into EquipRepairs (RID, EID)
+values (62500, 10239);
+
+insert into EquipRepairs (RID, EID)
+values (62501, 10230);
+
+insert into EquipRepairs (RID, EID)
+values (62502, 10083);
+
+insert into EquipRepairs (RID, EID)
+values (62503, 10051);
+
+insert into EquipRepairs (RID, EID)
+values (62504, 10398);
+
+insert into EquipRepairs (RID, EID)
+values (62505, 10207);
+
+insert into EquipRepairs (RID, EID)
+values (62506, 10048);
+
+insert into EquipRepairs (RID, EID)
+values (62507, 10242);
+
+insert into EquipRepairs (RID, EID)
+values (62508, 10098);
+
+insert into EquipRepairs (RID, EID)
+values (62509, 10000);
+
+insert into EquipRepairs (RID, EID)
+values (62510, 10136);
+
+insert into EquipRepairs (RID, EID)
+values (62511, 10154);
+
+insert into EquipRepairs (RID, EID)
+values (62512, 10303);
+
+insert into EquipRepairs (RID, EID)
+values (62513, 10031);
+
+insert into EquipRepairs (RID, EID)
+values (62514, 10139);
+
+insert into EquipRepairs (RID, EID)
+values (62515, 10012);
+
+insert into EquipRepairs (RID, EID)
+values (62516, 10280);
+
+insert into EquipRepairs (RID, EID)
+values (62517, 10177);
+
+insert into EquipRepairs (RID, EID)
+values (62518, 10075);
+
+insert into EquipRepairs (RID, EID)
+values (62519, 10166);
+
+insert into EquipRepairs (RID, EID)
+values (62520, 10129);
+
+insert into EquipRepairs (RID, EID)
+values (62521, 10277);
+
+insert into EquipRepairs (RID, EID)
+values (62522, 10176);
+
+insert into EquipRepairs (RID, EID)
+values (62523, 10387);
+
+insert into EquipRepairs (RID, EID)
+values (62524, 10179);
+
+insert into EquipRepairs (RID, EID)
+values (62525, 10321);
+
+insert into EquipRepairs (RID, EID)
+values (62526, 10096);
+
+insert into EquipRepairs (RID, EID)
+values (62527, 10139);
+
+insert into EquipRepairs (RID, EID)
+values (62528, 10379);
+
+insert into EquipRepairs (RID, EID)
+values (62529, 10198);
+
+insert into EquipRepairs (RID, EID)
+values (62530, 10318);
+
+insert into EquipRepairs (RID, EID)
+values (62531, 10129);
+
+insert into EquipRepairs (RID, EID)
+values (62532, 10069);
+
+insert into EquipRepairs (RID, EID)
+values (62533, 10158);
+
+insert into EquipRepairs (RID, EID)
+values (62534, 10349);
+
+insert into EquipRepairs (RID, EID)
+values (62535, 10328);
+
+insert into EquipRepairs (RID, EID)
+values (62536, 10263);
+
+insert into EquipRepairs (RID, EID)
+values (62537, 10075);
+
+insert into EquipRepairs (RID, EID)
+values (62538, 10109);
+
+insert into EquipRepairs (RID, EID)
+values (62539, 10223);
+
+insert into EquipRepairs (RID, EID)
+values (62540, 10144);
+
+insert into EquipRepairs (RID, EID)
+values (62541, 10064);
+
+insert into EquipRepairs (RID, EID)
+values (62542, 10115);
+
+insert into EquipRepairs (RID, EID)
+values (62543, 10313);
+
+insert into EquipRepairs (RID, EID)
+values (62544, 10187);
+
+insert into EquipRepairs (RID, EID)
+values (62545, 10342);
+
+insert into EquipRepairs (RID, EID)
+values (62546, 10200);
+
+insert into EquipRepairs (RID, EID)
+values (62547, 10334);
+
+insert into EquipRepairs (RID, EID)
+values (62548, 10200);
+
+insert into EquipRepairs (RID, EID)
+values (62549, 10260);
+
+insert into EquipRepairs (RID, EID)
+values (62550, 10245);
+
+insert into EquipRepairs (RID, EID)
+values (62551, 10269);
+
+insert into EquipRepairs (RID, EID)
+values (62552, 10032);
+
+insert into EquipRepairs (RID, EID)
+values (62553, 10243);
+
+insert into EquipRepairs (RID, EID)
+values (62554, 10048);
+
+insert into EquipRepairs (RID, EID)
+values (62555, 10249);
+
+insert into EquipRepairs (RID, EID)
+values (62556, 10345);
+
+insert into EquipRepairs (RID, EID)
+values (62557, 10332);
+
+insert into EquipRepairs (RID, EID)
+values (62558, 10369);
+
+insert into EquipRepairs (RID, EID)
+values (62559, 10348);
+
+insert into EquipRepairs (RID, EID)
+values (62560, 10079);
+
+insert into EquipRepairs (RID, EID)
+values (62561, 10038);
+
+insert into EquipRepairs (RID, EID)
+values (62562, 10087);
+
+insert into EquipRepairs (RID, EID)
+values (62563, 10219);
+
+insert into EquipRepairs (RID, EID)
+values (62564, 10324);
+
+insert into EquipRepairs (RID, EID)
+values (62565, 10296);
+
+insert into EquipRepairs (RID, EID)
+values (62566, 10168);
+
+insert into EquipRepairs (RID, EID)
+values (62567, 10177);
+
+insert into EquipRepairs (RID, EID)
+values (62568, 10142);
+
+insert into EquipRepairs (RID, EID)
+values (62569, 10313);
+
+insert into EquipRepairs (RID, EID)
+values (62570, 10290);
+
+insert into EquipRepairs (RID, EID)
+values (62571, 10230);
+
+insert into EquipRepairs (RID, EID)
+values (62572, 10281);
+
+insert into EquipRepairs (RID, EID)
+values (62573, 10375);
+
+insert into EquipRepairs (RID, EID)
+values (62574, 10269);
+
+insert into EquipRepairs (RID, EID)
+values (62575, 10108);
+
+insert into EquipRepairs (RID, EID)
+values (62576, 10147);
+
+insert into EquipRepairs (RID, EID)
+values (62577, 10003);
+
+insert into EquipRepairs (RID, EID)
+values (62578, 10367);
+
+insert into EquipRepairs (RID, EID)
+values (62579, 10195);
+
+insert into EquipRepairs (RID, EID)
+values (62580, 10134);
+
+insert into EquipRepairs (RID, EID)
+values (62581, 10289);
+
+insert into EquipRepairs (RID, EID)
+values (62582, 10341);
+
+insert into EquipRepairs (RID, EID)
+values (62583, 10165);
+
+insert into EquipRepairs (RID, EID)
+values (62584, 10120);
+
+insert into EquipRepairs (RID, EID)
+values (62585, 10394);
+
+insert into EquipRepairs (RID, EID)
+values (62586, 10396);
+
+insert into EquipRepairs (RID, EID)
+values (62587, 10281);
+
+insert into EquipRepairs (RID, EID)
+values (62588, 10387);
+
+insert into EquipRepairs (RID, EID)
+values (62589, 10095);
+
+insert into EquipRepairs (RID, EID)
+values (62590, 10042);
+
+insert into EquipRepairs (RID, EID)
+values (62591, 10329);
+
+insert into EquipRepairs (RID, EID)
+values (62592, 10005);
+
+insert into EquipRepairs (RID, EID)
+values (62593, 10162);
+
+insert into EquipRepairs (RID, EID)
+values (62594, 10269);
+
+insert into EquipRepairs (RID, EID)
+values (62595, 10148);
+
+insert into EquipRepairs (RID, EID)
+values (62596, 10347);
+
+insert into EquipRepairs (RID, EID)
+values (62597, 10137);
+
+insert into EquipRepairs (RID, EID)
+values (62598, 10387);
+
+insert into EquipRepairs (RID, EID)
+values (62599, 10146);
+
+insert into EquipRepairs (RID, EID)
+values (62600, 10111);
+
+insert into EquipRepairs (RID, EID)
+values (62601, 10039);
+
+insert into EquipRepairs (RID, EID)
+values (62602, 10373);
+
+insert into EquipRepairs (RID, EID)
+values (62603, 10333);
+
+insert into EquipRepairs (RID, EID)
+values (62604, 10195);
+
+insert into EquipRepairs (RID, EID)
+values (62605, 10116);
+
+insert into EquipRepairs (RID, EID)
+values (62606, 10310);
+
+insert into EquipRepairs (RID, EID)
+values (62607, 10072);
+
+insert into EquipRepairs (RID, EID)
+values (62608, 10171);
+
+insert into EquipRepairs (RID, EID)
+values (62609, 10121);
+
+insert into EquipRepairs (RID, EID)
+values (62610, 10271);
+
+insert into EquipRepairs (RID, EID)
+values (62611, 10125);
+
+insert into EquipRepairs (RID, EID)
+values (62612, 10059);
+
+insert into EquipRepairs (RID, EID)
+values (62613, 10100);
+
+insert into EquipRepairs (RID, EID)
+values (62614, 10102);
+
+insert into EquipRepairs (RID, EID)
+values (62615, 10114);
+
+insert into EquipRepairs (RID, EID)
+values (62616, 10243);
+
+insert into EquipRepairs (RID, EID)
+values (62617, 10342);
+
+insert into EquipRepairs (RID, EID)
+values (62618, 10248);
+
+insert into EquipRepairs (RID, EID)
+values (62619, 10012);
+
+insert into EquipRepairs (RID, EID)
+values (62620, 10121);
+
+insert into EquipRepairs (RID, EID)
+values (62621, 10250);
+
+insert into EquipRepairs (RID, EID)
+values (62622, 10040);
+
+insert into EquipRepairs (RID, EID)
+values (62623, 10227);
+
+insert into EquipRepairs (RID, EID)
+values (62624, 10226);
+
+insert into EquipRepairs (RID, EID)
+values (62625, 10054);
+
+insert into EquipRepairs (RID, EID)
+values (62626, 10045);
+
+insert into EquipRepairs (RID, EID)
+values (62627, 10208);
+
+insert into EquipRepairs (RID, EID)
+values (62628, 10145);
+
+insert into EquipRepairs (RID, EID)
+values (62629, 10064);
+
+insert into EquipRepairs (RID, EID)
+values (62630, 10244);
+
+insert into EquipRepairs (RID, EID)
+values (62631, 10011);
+
+insert into EquipRepairs (RID, EID)
+values (62632, 10000);
+
+insert into EquipRepairs (RID, EID)
+values (62633, 10373);
+
+insert into EquipRepairs (RID, EID)
+values (62634, 10044);
+
+insert into EquipRepairs (RID, EID)
+values (62635, 10125);
+
+insert into EquipRepairs (RID, EID)
+values (62636, 10032);
+
+insert into EquipRepairs (RID, EID)
+values (62637, 10374);
+
+insert into EquipRepairs (RID, EID)
+values (62638, 10159);
+
+insert into EquipRepairs (RID, EID)
+values (62639, 10163);
+
+insert into EquipRepairs (RID, EID)
+values (62640, 10204);
+
+insert into EquipRepairs (RID, EID)
+values (62641, 10373);
+
+insert into EquipRepairs (RID, EID)
+values (62642, 10055);
+
+insert into EquipRepairs (RID, EID)
+values (62643, 10385);
+
+insert into EquipRepairs (RID, EID)
+values (62644, 10211);
+
+insert into EquipRepairs (RID, EID)
+values (62645, 10018);
+
+insert into EquipRepairs (RID, EID)
+values (62646, 10082);
+
+insert into EquipRepairs (RID, EID)
+values (62647, 10010);
+
+insert into EquipRepairs (RID, EID)
+values (62648, 10008);
+
+insert into EquipRepairs (RID, EID)
+values (62649, 10086);
+
+insert into EquipRepairs (RID, EID)
+values (62650, 10153);
+
+insert into EquipRepairs (RID, EID)
+values (62651, 10113);
+
+insert into EquipRepairs (RID, EID)
+values (62652, 10226);
+
+insert into EquipRepairs (RID, EID)
+values (62653, 10106);
+
+insert into EquipRepairs (RID, EID)
+values (62654, 10290);
+
+insert into EquipRepairs (RID, EID)
+values (62655, 10017);
+
+insert into EquipRepairs (RID, EID)
+values (62656, 10362);
+
+insert into EquipRepairs (RID, EID)
+values (62657, 10187);
+
+insert into EquipRepairs (RID, EID)
+values (62658, 10318);
+
+insert into EquipRepairs (RID, EID)
+values (62659, 10020);
+
+insert into EquipRepairs (RID, EID)
+values (62660, 10385);
+
+insert into EquipRepairs (RID, EID)
+values (62661, 10137);
+
+insert into EquipRepairs (RID, EID)
+values (62662, 10196);
+
+insert into EquipRepairs (RID, EID)
+values (62663, 10385);
+
+insert into EquipRepairs (RID, EID)
+values (62664, 10200);
+
+insert into EquipRepairs (RID, EID)
+values (62665, 10394);
+
+insert into EquipRepairs (RID, EID)
+values (62666, 10107);
+
+insert into EquipRepairs (RID, EID)
+values (62667, 10346);
+
+insert into EquipRepairs (RID, EID)
+values (62668, 10400);
+
+insert into EquipRepairs (RID, EID)
+values (62669, 10093);
+
+insert into EquipRepairs (RID, EID)
+values (62670, 10350);
+
+insert into EquipRepairs (RID, EID)
+values (62671, 10171);
+
+insert into EquipRepairs (RID, EID)
+values (62672, 10148);
+
+insert into EquipRepairs (RID, EID)
+values (62673, 10211);
+
+insert into EquipRepairs (RID, EID)
+values (62674, 10374);
+
+insert into EquipRepairs (RID, EID)
+values (62675, 10153);
+
+insert into EquipRepairs (RID, EID)
+values (62676, 10278);
+
+insert into EquipRepairs (RID, EID)
+values (62677, 10042);
+
+insert into EquipRepairs (RID, EID)
+values (62678, 10032);
+
+insert into EquipRepairs (RID, EID)
+values (62679, 10177);
+
+insert into EquipRepairs (RID, EID)
+values (62680, 10391);
+
+insert into EquipRepairs (RID, EID)
+values (62681, 10010);
+
+insert into EquipRepairs (RID, EID)
+values (62682, 10161);
+
+insert into EquipRepairs (RID, EID)
+values (62683, 10379);
+
+insert into EquipRepairs (RID, EID)
+values (62684, 10227);
+
+insert into EquipRepairs (RID, EID)
+values (62685, 10063);
+
+insert into EquipRepairs (RID, EID)
+values (62686, 10115);
+
+insert into EquipRepairs (RID, EID)
+values (62687, 10311);
+
+insert into EquipRepairs (RID, EID)
+values (62688, 10393);
+
+insert into EquipRepairs (RID, EID)
+values (62689, 10006);
+
+insert into EquipRepairs (RID, EID)
+values (62690, 10078);
+
+insert into EquipRepairs (RID, EID)
+values (62691, 10142);
+
+insert into EquipRepairs (RID, EID)
+values (62692, 10379);
+
+insert into EquipRepairs (RID, EID)
+values (62693, 10095);
+
+insert into EquipRepairs (RID, EID)
+values (62694, 10300);
+
+insert into EquipRepairs (RID, EID)
+values (62695, 10297);
+
+insert into EquipRepairs (RID, EID)
+values (62696, 10050);
+
+insert into EquipRepairs (RID, EID)
+values (62697, 10375);
+
+insert into EquipRepairs (RID, EID)
+values (62698, 10060);
+
+insert into EquipRepairs (RID, EID)
+values (62699, 10046);
+
+insert into EquipRepairs (RID, EID)
+values (62700, 10346);
+
+insert into EquipRepairs (RID, EID)
+values (62701, 10118);
+
+insert into EquipRepairs (RID, EID)
+values (62702, 10008);
+
+insert into EquipRepairs (RID, EID)
+values (62703, 10116);
+
+insert into EquipRepairs (RID, EID)
+values (62704, 10262);
+
+insert into EquipRepairs (RID, EID)
+values (62705, 10081);
+
+insert into EquipRepairs (RID, EID)
+values (62706, 10373);
+
+insert into EquipRepairs (RID, EID)
+values (62707, 10360);
+
+insert into EquipRepairs (RID, EID)
+values (62708, 10206);
+
+insert into EquipRepairs (RID, EID)
+values (62709, 10257);
+
+insert into EquipRepairs (RID, EID)
+values (62710, 10116);
+
+insert into EquipRepairs (RID, EID)
+values (62711, 10167);
+
+insert into EquipRepairs (RID, EID)
+values (62712, 10100);
+
+insert into EquipRepairs (RID, EID)
+values (62713, 10074);
+
+insert into EquipRepairs (RID, EID)
+values (62714, 10225);
+
+insert into EquipRepairs (RID, EID)
+values (62715, 10130);
+
+insert into EquipRepairs (RID, EID)
+values (62716, 10109);
+
+insert into EquipRepairs (RID, EID)
+values (62717, 10402);
+
+insert into EquipRepairs (RID, EID)
+values (62718, 10261);
+
+insert into EquipRepairs (RID, EID)
+values (62719, 10338);
+
+insert into EquipRepairs (RID, EID)
+values (62720, 10254);
+
+insert into EquipRepairs (RID, EID)
+values (62721, 10350);
+
+insert into EquipRepairs (RID, EID)
+values (62722, 10039);
+
+insert into EquipRepairs (RID, EID)
+values (62723, 10054);
+
+insert into EquipRepairs (RID, EID)
+values (62724, 10102);
+
+insert into EquipRepairs (RID, EID)
+values (62725, 10165);
+
+insert into EquipRepairs (RID, EID)
+values (62726, 10217);
+
+insert into EquipRepairs (RID, EID)
+values (62727, 10019);
+
+insert into EquipRepairs (RID, EID)
+values (62728, 10257);
+
+insert into EquipRepairs (RID, EID)
+values (62729, 10167);
+
+insert into EquipRepairs (RID, EID)
+values (62730, 10113);
+
+insert into EquipRepairs (RID, EID)
+values (62731, 10228);
+
+insert into EquipRepairs (RID, EID)
+values (62732, 10187);
+
+insert into EquipRepairs (RID, EID)
+values (62733, 10368);
+
+insert into EquipRepairs (RID, EID)
+values (62734, 10084);
+
+insert into EquipRepairs (RID, EID)
+values (62735, 10255);
+
+insert into EquipRepairs (RID, EID)
+values (62736, 10361);
+
+insert into EquipRepairs (RID, EID)
+values (62737, 10208);
+
+insert into EquipRepairs (RID, EID)
+values (62738, 10111);
+
+insert into EquipRepairs (RID, EID)
+values (62739, 10045);
+
+insert into EquipRepairs (RID, EID)
+values (62740, 10199);
+
+insert into EquipRepairs (RID, EID)
+values (62741, 10018);
+
+insert into EquipRepairs (RID, EID)
+values (62742, 10099);
+
+insert into EquipRepairs (RID, EID)
+values (62743, 10368);
+
+insert into EquipRepairs (RID, EID)
+values (62744, 10022);
+
+insert into EquipRepairs (RID, EID)
+values (62745, 10221);
+
+insert into EquipRepairs (RID, EID)
+values (62746, 10207);
+
+insert into EquipRepairs (RID, EID)
+values (62747, 10233);
+
+insert into EquipRepairs (RID, EID)
+values (62748, 10318);
+
+insert into EquipRepairs (RID, EID)
+values (62749, 10069);
+
+insert into EquipRepairs (RID, EID)
+values (62750, 10064);
+
+insert into EquipRepairs (RID, EID)
+values (62751, 10370);
+
+insert into EquipRepairs (RID, EID)
+values (62752, 10241);
+
+insert into EquipRepairs (RID, EID)
+values (62753, 10222);
+
+insert into EquipRepairs (RID, EID)
+values (62754, 10216);
+
+insert into EquipRepairs (RID, EID)
+values (62755, 10176);
+
+insert into EquipRepairs (RID, EID)
+values (62756, 10191);
+
+insert into EquipRepairs (RID, EID)
+values (62757, 10247);
+
+insert into EquipRepairs (RID, EID)
+values (62758, 10018);
+
+insert into EquipRepairs (RID, EID)
+values (62759, 10261);
+
+insert into EquipRepairs (RID, EID)
+values (62760, 10069);
+
+insert into EquipRepairs (RID, EID)
+values (62761, 10005);
+
+insert into EquipRepairs (RID, EID)
+values (62762, 10382);
+
+insert into EquipRepairs (RID, EID)
+values (62763, 10210);
+
+insert into EquipRepairs (RID, EID)
+values (62764, 10297);
+
+insert into EquipRepairs (RID, EID)
+values (62765, 10234);
+
+insert into EquipRepairs (RID, EID)
+values (62766, 10119);
+
+insert into EquipRepairs (RID, EID)
+values (62767, 10268);
+
+insert into EquipRepairs (RID, EID)
+values (62768, 10211);
+
+insert into EquipRepairs (RID, EID)
+values (62769, 10190);
+
+insert into EquipRepairs (RID, EID)
+values (62770, 10163);
+
+insert into EquipRepairs (RID, EID)
+values (62771, 10402);
+
+insert into EquipRepairs (RID, EID)
+values (62772, 10317);
+
+insert into EquipRepairs (RID, EID)
+values (62773, 10381);
+
+insert into EquipRepairs (RID, EID)
+values (62774, 10154);
+
+insert into EquipRepairs (RID, EID)
+values (62775, 10393);
+
+insert into EquipRepairs (RID, EID)
+values (62776, 10396);
+
+insert into EquipRepairs (RID, EID)
+values (62777, 10373);
+
+insert into EquipRepairs (RID, EID)
+values (62778, 10276);
+
+insert into EquipRepairs (RID, EID)
+values (62779, 10272);
+
+insert into EquipRepairs (RID, EID)
+values (62780, 10146);
+
+insert into EquipRepairs (RID, EID)
+values (62781, 10319);
+
+insert into EquipRepairs (RID, EID)
+values (62782, 10282);
+
+insert into EquipRepairs (RID, EID)
+values (62783, 10103);
+
+insert into EquipRepairs (RID, EID)
+values (62784, 10202);
+
+insert into EquipRepairs (RID, EID)
+values (62785, 10020);
+
+insert into EquipRepairs (RID, EID)
+values (62786, 10324);
+
+insert into EquipRepairs (RID, EID)
+values (62787, 10254);
+
+insert into EquipRepairs (RID, EID)
+values (62788, 10328);
+
+insert into EquipRepairs (RID, EID)
+values (62789, 10329);
+
+insert into EquipRepairs (RID, EID)
+values (62790, 10184);
+
+insert into EquipRepairs (RID, EID)
+values (62791, 10146);
+
+insert into EquipRepairs (RID, EID)
+values (62792, 10106);
+
+insert into EquipRepairs (RID, EID)
+values (62793, 10105);
+
+insert into EquipRepairs (RID, EID)
+values (62794, 10080);
+
+insert into EquipRepairs (RID, EID)
+values (62795, 10047);
+
+insert into EquipRepairs (RID, EID)
+values (62796, 10297);
+
+insert into EquipRepairs (RID, EID)
+values (62797, 10203);
+
+insert into EquipRepairs (RID, EID)
+values (62798, 10269);
+
+insert into EquipRepairs (RID, EID)
+values (62799, 10069);
+
+insert into EquipRepairs (RID, EID)
+values (62800, 10346);
+
+insert into EquipRepairs (RID, EID)
+values (62801, 10214);
+
+insert into EquipRepairs (RID, EID)
+values (62802, 10397);
+
+insert into EquipRepairs (RID, EID)
+values (62803, 10333);
+
+insert into EquipRepairs (RID, EID)
+values (62804, 10069);
+
+insert into EquipRepairs (RID, EID)
+values (62805, 10059);
+
+insert into EquipRepairs (RID, EID)
+values (62806, 10061);
+
+insert into EquipRepairs (RID, EID)
+values (62807, 10292);
+
+insert into EquipRepairs (RID, EID)
+values (62808, 10000);
+
+insert into EquipRepairs (RID, EID)
+values (62809, 10029);
+
+commit;
