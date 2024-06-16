@@ -1,30 +1,6 @@
--- delete all the vehicles that pass more than 5 repairs
-DELETE FROM Vehicles
-WHERE vID IN (
-  SELECT vid
-  FROM VehiclesRepairs
-  GROUP BY vID
-  HAVING COUNT(rID) > 5
-);
 
 
--- delete all suppliers who did not provide equipment in the last year
-delete from Suppliers
-where Suppliers.Sid in ( 
-select S.Sid
-from Suppliers S
-where not exists (
-      select O.SID 
-      from Orders O
-      --where O.ORDERDATE > TO_DATE('2023-01-01', 'YYYY-MM-DD') AND O.Sid = S.Sid
-       WHERE EXTRACT(YEAR FROM O.ORDERDATE) > 2022 AND O.Sid = S.Sid
-       ))T;
-select * from orders O
-where EXTRACT(YEAR FROM O.ORDERDATE) > 2022 --AND O.Sid = S.Sid
-
-
-
---select all the donors that donate all the types of the vehicles  V
+--select all the donors that donate all the types of the vehicles  
 SELECT d.dID, d.dname, d.address, d.phoneNumber
 FROM Donors d
 WHERE NOT EXISTS (
@@ -38,15 +14,6 @@ WHERE NOT EXISTS (
     )
 );
 
--- Update the description for each repair of non-mobile equipment, adding "Note: This equipment is not mobile" to the description
-UPDATE Repairs r
-SET r.description = r.description || '. Note: This equipment is not mobile'
-WHERE EXISTS (
-    SELECT 1
-    FROM EquipRepairs er
-    JOIN Equipment e ON er.eID = e.eID
-    WHERE er.rID = r.rID AND e.isMobile = 'false'
-);
 
 -- Select the names of all products and the latest supply date for each product
 
@@ -85,8 +52,7 @@ ORDER BY e.ename;
 
 
 
-
---update old vehicles(before 4/2021) to be "not normal"  V
+--update old vehicles(before 4/2021) to be "not normal"  
 UPDATE Vehicles
 SET status = 'not normal'
 WHERE vID IN (SELECT vr.vID 
@@ -96,3 +62,35 @@ WHERE vID IN (SELECT vr.vID
                                    WHERE repairDate > TO_DATE('2021-04-01', 'YYYY-MM-DD')));
 
 
+
+-- Update the description for each repair of non-mobile equipment, adding "Note: This equipment is not mobile" to the description
+UPDATE Repairs r
+SET r.description = r.description || '. Note: This equipment is not mobile'
+WHERE EXISTS (
+    SELECT 1
+    FROM EquipRepairs er
+    JOIN Equipment e ON er.eID = e.eID
+    WHERE er.rID = r.rID AND e.isMobile = 'false'
+);
+
+
+
+-- delete all the vehicles that pass more than 5 repairs
+DELETE FROM Vehicles
+WHERE vID IN (
+  SELECT vid
+  FROM VehiclesRepairs
+  GROUP BY vID
+  HAVING COUNT(rID) > 5
+);
+commit;
+-- delete all suppliers who did not provide equipment in the 2 last years
+delete from Suppliers
+where Suppliers.Sid in ( 
+select S.Sid
+from Suppliers S
+where not exists (
+      select O.SID 
+      from Orders O
+      WHERE EXTRACT(YEAR FROM O.ORDERDATE) > 2022 AND O.Sid = S.Sid
+       ));

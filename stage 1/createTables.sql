@@ -77,6 +77,7 @@ CREATE TABLE vehicle_equip
   FOREIGN KEY (vID) REFERENCES Vehicles(vID)
 );
 
+
 -- Create the Repairs table
 CREATE TABLE Repairs
 (
