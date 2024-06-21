@@ -1,4 +1,4 @@
--- select The names of all the products supplied by supplier 322864762 
+-- select The names of all the products supplied by supplier 
 select ename
 from (
 select eid

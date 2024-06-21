@@ -1,4 +1,4 @@
--- select The names of all the products supplied by supplier 322864762 V
+-- select The names of all the products supplied by supplier 322864762 
 select ename
 from (
 select eid
@@ -9,17 +9,18 @@ where sid= &<name="sid" hint="number with 9 digits" type= "integer" required= tr
 ) natural join Equipment
 
 
--- select all details by a choosen equipment.ename V
+-- select all details by a choosen equipment.ename 
 
 SELECT s.sID, s.sname, e.eID, e.ename, e.price
 FROM Suppliers s
 JOIN Orders o ON s.sID = o.sID
 JOIN equip_order eo ON o.oID = eo.oID
 JOIN Equipment e ON eo.eID = e.eID
-WHERE e.ename = &<name="ename" hint="equipment name" type="string" required= true>;
+WHERE e.ename = &<name="ename" hint="equipment name" type="string"
+                  list="select ename from equipment"  required= true>;
 
 
--- update the quantity of equipment according to choosen order  V 
+-- update the quantity of equipment according to choosen order   
 
 UPDATE Equipment e
 SET e.quantity = e.quantity + (
@@ -41,25 +42,3 @@ from (Suppliers s natural join orders o)
                where e.ismobile= &<name="mobility" 
                hint="show mobile or not mobile"
                list="true,false" type="string">;
-               
--- Update the description for each repair of non-mobile equipment, adding "Note: This equipment is not mobile" to the description
-UPDATE Repairs r
-SET r.description = r.description || '. Note: This equipment is not mobile'
-WHERE EXISTS (
-    SELECT 1
-    FROM EquipRepairs er
-    JOIN Equipment e ON er.eID = e.eID
-    WHERE er.rID = r.rID AND e.isMobile = 'false'
-);
-
--- Select the names of all products and the latest supply date for each product
-
-SELECT e.ename, TRUNC(MAX(o.orderDate)) AS last_supply_date
-FROM Equipment e
-JOIN equip_order eo ON e.eID = eo.eID
-JOIN Orders o ON eo.oID = o.oID
-GROUP BY e.ename
-order by e.ename;
-
-
-
