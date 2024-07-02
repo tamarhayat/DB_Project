@@ -3,7 +3,7 @@ PL/SQL Developer Project
 [Options]
 AutoConnect=0
 Username=
-Password=2742
+Password=2060
 Database=
 ConnectAs=Normal
 Edition=
@@ -17,6 +17,7 @@ ShowItems=-1
 1,4,,,stage 2\ParamsQueries.sql
 1,4,,,stage 2\queries.sql
 1,4,,,stage 2\AlterTables.sql
+1,4,,,testwindow.sql
 
 [Notes]
 {\rtf1\ansi\deff0{\fonttbl{\f0\fnil Tahoma;}}

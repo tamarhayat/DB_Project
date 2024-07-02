@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE vehicle_last_repair(v_vehicle_id IN vehicles.vid%type) IS
+CREATE OR REPLACE PROCEDURE vehicle_last_repair(v_vehicle_id IN NUMBER) IS
     CURSOR c_repair_details IS
         SELECT r.rID, r.repairDate, r.description
         FROM Repairs r

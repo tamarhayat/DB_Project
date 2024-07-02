@@ -4,7 +4,7 @@ Version=1
 
 [Preferences]
 Username=
-Password=2881
+Password=2249
 Database=
 DateFormat=
 CommitCount=0
@@ -34,6 +34,6 @@ Master=
 Name=OID
 Type=NUMBER
 Size=5
-Data=List(select oID from orders)
+Data=Sequence(39999, [1], [40399])
 Master=
 

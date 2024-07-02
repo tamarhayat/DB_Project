@@ -20,7 +20,7 @@ where not exists (
 select * from orders 
 where orders.sid= '322864751';
 
---select all necessary
+--select all necessary details about mobile or not mobile Equipment
 select sid,sname,eid,ename,price 
 from (Suppliers s natural join orders o) 
                natural join (equip_order eo natural join Equipment e) 

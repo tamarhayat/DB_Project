@@ -67,12 +67,21 @@ FOREIGN KEY (sID) REFERENCES suppliers(sid);
 ---------------------------------------------------------------------------
 commit;
 
+------------------add constraint for premium donor-------------------------
+
+ALTER TABLE Donors ADD premium VARCHAR2(5) DEFAULT 'false' 
+CHECK (premium IN ('true', 'false'));
 
 
+UPDATE Donors SET premium = 'false';
+
+commit;
 
 
+---------add column for requiredb amount in vehicle-----------------------
 
+ALTER TABLE equipment ADD required_in_vehicle integer DEFAULT 1 
+CHECK (required_in_vehicle > 0 OR required_in_vehicle IS NULL);
 
-
-
-
+update equipment set required_in_vehicle= null  where ismobile='false';
+commit;
