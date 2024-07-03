@@ -3,7 +3,7 @@ PL/SQL Developer Project
 [Options]
 AutoConnect=0
 Username=
-Password=2060
+Password=2604
 Database=
 ConnectAs=Normal
 Edition=
@@ -15,9 +15,14 @@ ShowItems=-1
 
 [Files]
 1,4,,,stage 2\ParamsQueries.sql
-1,4,,,stage 2\queries.sql
-1,4,,,stage 2\AlterTables.sql
-1,4,,,testwindow.sql
+1,0,,,stage 2\queries.sql
+1,0,,,stage 2\AlterTables.sql
+1,0,,,testwindow.sql
+3,0,,,stage 3\func1_update_according_order.fnc
+3,0,,,stage 3\func2_update_vehicle_equipment.fnc
+2,0,,,stage 3\main_program1.tst
+3,0,,,stage 3\pro1_get_equipment_and_suppliers.prc
+3,0,,,stage 3\pro2_update_premium_status.prc
 
 [Notes]
 {\rtf1\ansi\deff0{\fonttbl{\f0\fnil Tahoma;}}

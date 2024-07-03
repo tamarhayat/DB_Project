@@ -83,8 +83,8 @@ WHERE vID IN (
   GROUP BY vID
   HAVING COUNT(rID) > 5
 );
-
--- delete all suppliers who did not provide equipment in the last year
+commit;
+-- delete all suppliers who did not provide equipment in the 2 last years
 delete from Suppliers
 where Suppliers.Sid in ( 
 select S.Sid

@@ -30,21 +30,23 @@ BEGIN
         WHERE eID = v_eid;
 
         -- Print the updated stock status
-        DBMS_OUTPUT.PUT_LINE(v_eid || '     ' || 'quantity before: ' ||v_oldquantity || '     ' || 'quantity after: ' || v_quantity || '     ' || v_ename);
+        DBMS_OUTPUT.PUT_LINE(v_eid || '     ' || 'quantity before: ' 
+        ||v_oldquantity || '     ' || 'quantity after: ' 
+        || v_quantity || '     ' || v_ename);
 
         -- Check if the old quantity was 0 and print message
         IF v_oldquantity = 0 THEN
             DBMS_OUTPUT.PUT_LINE(v_ename || ' is back in stock.');
         END IF;
     END LOOP;
-
+    
     CLOSE equip_order_cursor;
-    v_message := 'true'
+    v_message := 'true';
     RETURN v_message;
 
 EXCEPTION
     WHEN OTHERS THEN
-        v_message := 'false'
+        v_message := 'false';
         RETURN v_message;
         CLOSE equip_order_cursor;
 END;

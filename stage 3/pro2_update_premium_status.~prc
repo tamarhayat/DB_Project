@@ -31,18 +31,18 @@ BEGIN
               );
 
             --check the current status and updat if necessary
-            IF v_premium > 0 AND donor_rec.premium != 'TRUE' THEN
+            IF v_premium > 0 AND donor_rec.premium != 'true' THEN
                 UPDATE Donors
-                SET premium = 'TRUE'
+                SET premium = 'true'
                 WHERE dID = donor_rec.dID;
                 v_changes := v_changes + 1;
-            ELSIF v_premium = 0 AND donor_rec.premium != 'FALSE' THEN
+            ELSIF v_premium = 0 AND donor_rec.premium != 'false' THEN
                 UPDATE Donors
-                SET premium = 'FALSE'
+                SET premium = 'false'
                 WHERE dID = donor_rec.dID;
                 v_changes := v_changes + 1;
             END IF;
-        END;
+      
     END LOOP;
 
 --close the cursor

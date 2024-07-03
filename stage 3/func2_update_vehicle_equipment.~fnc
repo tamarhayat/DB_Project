@@ -1,15 +1,18 @@
-CREATE OR REPLACE PROCEDURE update_vehicle_equip(p_vID IN vehicles.vid%type) IS
+CREATE OR REPLACE FUNCTION update_vehicle_equip(p_vID IN vehicles.vid%TYPE) 
+RETURN SYS.ODCINUMBERLIST
+IS
     CURSOR c_vehicle_equip IS
-        SELECT e.eID, e.required_in_vehicle, ve.equipAmount, e.quantity
+        SELECT e.eID, e.ename, e.required_in_vehicle, ve.equipAmount, e.quantity
         FROM vehicle_equip ve
         JOIN Equipment e ON ve.eID = e.eID
-        WHERE ve.vID = p_vID;
+        WHERE ve.vID = p_vID
+        FOR UPDATE OF ve.equipAmount, e.quantity;
         
     rec_vehicle_equip c_vehicle_equip%ROWTYPE;
 
     v_diff INT;
-   -- v_new_vehicle_amount INT;
-    --v_new_stock_quantity INT;
+
+    zero_stock_list SYS.ODCINUMBERLIST := SYS.ODCINUMBERLIST();
     
 BEGIN
     OPEN c_vehicle_equip;
@@ -44,8 +47,12 @@ BEGIN
                 UPDATE Equipment
                 SET quantity = 0
                 WHERE eID = rec_vehicle_equip.eID;
-                
+
                 DBMS_OUTPUT.PUT_LINE('Partially added ' || rec_vehicle_equip.quantity || ' units of equipment ID ' || rec_vehicle_equip.eID || ' to vehicle ID ' || p_vID || '. Not enough stock to fully fulfill the desired quantity.');
+                
+                -- Add to zero stock list
+                zero_stock_list.EXTEND;
+                zero_stock_list(zero_stock_list.LAST) := rec_vehicle_equip.eID;
             END IF;
 
         ELSIF v_diff < 0 THEN
@@ -64,8 +71,11 @@ BEGIN
     END LOOP;
 
     CLOSE c_vehicle_equip;
+
+    RETURN zero_stock_list;
 EXCEPTION
     WHEN OTHERS THEN
         DBMS_OUTPUT.PUT_LINE('An unexpected error occurred: ' || SQLERRM);
-END;
+        RETURN NULL;
+END update_vehicle_equip;
 /

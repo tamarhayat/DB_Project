@@ -1,64 +1,81 @@
-CREATE OR REPLACE FUNCTION update_vehicle_equipment(p_eID IN NUMBER, p_amount IN NUMBER, p_vID IN NUMBER)
-RETURN NUMBER IS
-    v_current_quantity Equipment.quantity%TYPE;
-    v_current_vehicle_quantity vehicle_equip.equipAmount%TYPE;
-    v_new_vehicle_quantity vehicle_equip.equipAmount%TYPE;
-
-    -- Custom exceptions
-    insufficient_quantity EXCEPTION;
-    equipment_not_found EXCEPTION;
-
-    -- Explicit cursor
+CREATE OR REPLACE FUNCTION update_vehicle_equip(p_vID IN vehicles.vid%TYPE) 
+RETURN SYS.ODCINUMBERLIST
+IS
     CURSOR c_vehicle_equip IS
-        SELECT equipAmount 
-        FROM vehicle_equip 
-        WHERE eID = p_eID AND vID = p_vID;
-
-    -- Cursor record
+        SELECT e.eID, e.ename, e.required_in_vehicle, ve.equipAmount, e.quantity
+        FROM vehicle_equip ve
+        JOIN Equipment e ON ve.eID = e.eID
+        WHERE ve.vID = p_vID
+        FOR UPDATE OF ve.equipAmount, e.quantity;
+        
     rec_vehicle_equip c_vehicle_equip%ROWTYPE;
-BEGIN
-    -- Check the quantity in stock
-    SELECT quantity INTO v_current_quantity FROM Equipment WHERE eID = p_eID;
-    IF v_current_quantity < p_amount THEN
-        RAISE insufficient_quantity;
-    END IF;
 
-    -- Open the cursor and fetch the current equipment amount for the vehicle
-    OPEN c_vehicle_equip;
-    FETCH c_vehicle_equip INTO rec_vehicle_equip;
+    v_diff INT;
+
+    zero_stock_list SYS.ODCINUMBERLIST := SYS.ODCINUMBERLIST();
     
-    -- Check if no data was found
-    IF c_vehicle_equip%NOTFOUND THEN
-        RAISE equipment_not_found;
-    END IF;
+BEGIN
+    OPEN c_vehicle_equip;
+    
+    LOOP
+        FETCH c_vehicle_equip INTO rec_vehicle_equip;
+        EXIT WHEN c_vehicle_equip%NOTFOUND;
 
-    -- Print the current quantity
-    v_current_vehicle_quantity := rec_vehicle_equip.equipAmount;
-    DBMS_OUTPUT.PUT_LINE('Current vehicle equipment amount: ' || v_current_vehicle_quantity);
+        v_diff := rec_vehicle_equip.required_in_vehicle - rec_vehicle_equip.equipAmount;
+        
+        IF v_diff > 0 THEN
+            -- If there is a deficit in the vehicle, try to add from stock
+            IF rec_vehicle_equip.quantity >= v_diff THEN
+                -- Update vehicle's equipment amount
+                UPDATE vehicle_equip
+                SET equipAmount = rec_vehicle_equip.required_in_vehicle
+                WHERE vID = p_vID AND eID = rec_vehicle_equip.eID;
+                
+                -- Update stock quantity
+                UPDATE Equipment
+                SET quantity = quantity - v_diff
+                WHERE eID = rec_vehicle_equip.eID;
+                
+                DBMS_OUTPUT.PUT_LINE('Added ' || v_diff || ' units of equipment ID ' || rec_vehicle_equip.eID || ' to vehicle ID ' || p_vID);
+            ELSE
+                -- Add what is available and set stock to zero
+                UPDATE vehicle_equip
+                SET equipAmount = rec_vehicle_equip.equipAmount + rec_vehicle_equip.quantity
+                WHERE vID = p_vID AND eID = rec_vehicle_equip.eID;
 
-    -- Update the vehicle's equipment amount
-    v_new_vehicle_quantity := v_current_vehicle_quantity + p_amount;
-    UPDATE vehicle_equip SET equipAmount = v_new_vehicle_quantity WHERE eID = p_eID AND vID = p_vID;
+                -- Update stock quantity to zero
+                UPDATE Equipment
+                SET quantity = 0
+                WHERE eID = rec_vehicle_equip.eID;
 
-    -- Update the equipment stock
-    UPDATE Equipment SET quantity = v_current_quantity - p_amount WHERE eID = p_eID;
+                DBMS_OUTPUT.PUT_LINE('Partially added ' || rec_vehicle_equip.quantity || ' units of equipment ID ' || rec_vehicle_equip.eID || ' to vehicle ID ' || p_vID || '. Not enough stock to fully fulfill the desired quantity.');
+                
+                -- Add to zero stock list
+                zero_stock_list.EXTEND;
+                zero_stock_list(zero_stock_list.LAST) := rec_vehicle_equip.eID;
+            END IF;
 
-    -- Print the new quantity
-    DBMS_OUTPUT.PUT_LINE('New vehicle equipment amount: ' || v_new_vehicle_quantity);
+        ELSIF v_diff < 0 THEN
+            -- If there is an excess in the vehicle, return to stock
+            UPDATE vehicle_equip
+            SET equipAmount = rec_vehicle_equip.required_in_vehicle
+            WHERE vID = p_vID AND eID = rec_vehicle_equip.eID;
+            
+            -- Update stock quantity
+            UPDATE Equipment
+            SET quantity = quantity - v_diff
+            WHERE eID = rec_vehicle_equip.eID;
+
+            DBMS_OUTPUT.PUT_LINE('Removed ' || ABS(v_diff) || ' units of equipment ID ' || rec_vehicle_equip.eID || ' from vehicle ID ' || p_vID);
+        END IF;
+    END LOOP;
 
     CLOSE c_vehicle_equip;
 
-    RETURN p_vID;
-
+    RETURN zero_stock_list;
 EXCEPTION
-    WHEN insufficient_quantity THEN
-        DBMS_OUTPUT.PUT_LINE('Error: Insufficient quantity in stock.');
-        RETURN NULL;
-    WHEN equipment_not_found THEN
-        DBMS_OUTPUT.PUT_LINE('Error: Equipment not found in the specified vehicle.');
-        RETURN NULL;
     WHEN OTHERS THEN
         DBMS_OUTPUT.PUT_LINE('An unexpected error occurred: ' || SQLERRM);
         RETURN NULL;
-END;
+END update_vehicle_equip;
 /

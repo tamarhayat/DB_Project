@@ -30,7 +30,9 @@ BEGIN
         WHERE eID = v_eid;
 
         -- Print the updated stock status
-        DBMS_OUTPUT.PUT_LINE(v_eid || '     ' || 'quantity before: ' ||v_oldquantity || '     ' || 'quantity after: ' || v_quantity || '     ' || v_ename);
+        DBMS_OUTPUT.PUT_LINE(v_eid || '     ' || 'quantity before: ' 
+        ||v_oldquantity || '     ' || 'quantity after: ' 
+        || v_quantity || '     ' || v_ename);
 
         -- Check if the old quantity was 0 and print message
         IF v_oldquantity = 0 THEN
