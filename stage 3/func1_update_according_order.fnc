@@ -5,6 +5,7 @@ CREATE OR REPLACE FUNCTION update_according_order(p_order_id IN orders.oid%type)
         FROM equip_order eo
         JOIN Equipment e ON eo.eID = e.eID
         WHERE eo.oID = p_order_id;
+    
            
     v_eid Equipment.eID%TYPE;
     v_ename Equipment.ename%TYPE;
@@ -12,14 +13,17 @@ CREATE OR REPLACE FUNCTION update_according_order(p_order_id IN orders.oid%type)
     v_quantity Equipment.quantity%TYPE;
     v_amount_order equip_order.amountInOrder%TYPE;
     v_message VARCHAR2(5);
+    no_order_found EXCEPTION;
 
 BEGIN
     OPEN equip_order_cursor;
-    LOOP
-        FETCH equip_order_cursor INTO v_eid, v_ename, v_oldquantity, v_amount_order;
-        EXIT WHEN equip_order_cursor%NOTFOUND;
+    FETCH equip_order_cursor INTO v_eid, v_ename, v_oldquantity, v_amount_order;
 
-        -- Update the equipment quantity
+    IF equip_order_cursor%NOTFOUND THEN
+        RAISE no_order_found;
+    END IF;
+    LOOP
+                -- Update the equipment quantity
         UPDATE Equipment
         SET quantity = quantity + v_amount_order
         WHERE eID = v_eid;
@@ -38,6 +42,8 @@ BEGIN
         IF v_oldquantity = 0 THEN
             DBMS_OUTPUT.PUT_LINE(v_ename || ' is back in stock.');
         END IF;
+        FETCH equip_order_cursor INTO v_eid, v_ename, v_oldquantity, v_amount_order;
+        EXIT WHEN equip_order_cursor%NOTFOUND;
     END LOOP;
     
     CLOSE equip_order_cursor;
@@ -45,6 +51,11 @@ BEGIN
     RETURN v_message;
 
 EXCEPTION
+    WHEN no_order_found THEN
+         v_message := 'false';
+         DBMS_OUTPUT.PUT_LINE('Order No.  '||p_order_id || ' does not exist.');
+         RETURN v_message;
+         CLOSE equip_order_cursor;
     WHEN OTHERS THEN
         v_message := 'false';
         RETURN v_message;

@@ -85,3 +85,10 @@ CHECK (required_in_vehicle > 0 OR required_in_vehicle IS NULL);
 
 update equipment set required_in_vehicle= null  where ismobile='false';
 commit;
+
+UPDATE equipment
+    SET required_in_vehicle = TRUNC(DBMS_RANDOM.VALUE(2, 31))
+    WHERE required_in_vehicle IS NOT NULL;
+    
+    
+    select * from equipment

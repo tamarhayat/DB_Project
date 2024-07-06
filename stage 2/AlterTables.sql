@@ -90,5 +90,6 @@ UPDATE equipment
     SET required_in_vehicle = TRUNC(DBMS_RANDOM.VALUE(2, 31))
     WHERE required_in_vehicle IS NOT NULL;
     
-    
-    select * from equipment
+
+
+

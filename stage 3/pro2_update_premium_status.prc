@@ -49,6 +49,6 @@ BEGIN
     CLOSE donors_cursor;
 
 -- printing the number of changes that have done
-    DBMS_OUTPUT.PUT_LINE('Number of changes made: ' || v_changes);
+    DBMS_OUTPUT.PUT_LINE('number of premium of donors that change: ' || v_changes);
 END;
 /

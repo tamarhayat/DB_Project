@@ -1,21 +1,20 @@
 PL/SQL Developer Test script 3.0
-12
-SET SERVEROUTPUT ON;
+10
 
 DECLARE
-  result VARCHAR2(10); -- äëøæú äîùúðä result
-BEGIN
-  result := update_according_order(p_order_id => :p_order_id);
-  DBMS_OUTPUT.PUT_LINE('Update according order result: ' || result);
+    result INTEGER; -- Declare the result variable
 
-  IF result = 'true' THEN
+BEGIN
+    -- Call the function and store the result
+    :result := update_according_order(p_order_id => :p_order_id);
     update_premium_status;
-  END IF;
 END;
+
 2
 result
-0
--5
+1
+ï»¿true
+5
 p_order_id
 1
 ï»¿40192

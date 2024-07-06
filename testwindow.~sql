@@ -1,4 +1,4 @@
-﻿select * FROM Vehicles
+select * FROM Vehicles
 WHERE vID IN (
   SELECT vid
   FROM VehiclesRepairs
@@ -28,4 +28,3 @@ from (Suppliers s natural join orders o)
                hint="show mobile or not mobile"
                list="true,false" type="string">;
                
-אל תיבהלי הלכתי גם לשירותים בטוחה שתסתדרי בלעדיי על אף הקושי

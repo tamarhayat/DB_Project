@@ -28,3 +28,23 @@ from (Suppliers s natural join orders o)
                hint="show mobile or not mobile"
                list="true,false" type="string">;
                
+ select * from vehicle_equip order by vid
+select * from equipment natural join vehicle_equip
+            
+update equipment set quantity=15 where eid='10003' 
+commit;
+rollback;
+
+
+
+--אם רוצים לעשות באלגן בפרימיום של התורמים
+
+BEGIN
+  UPDATE Donors
+  SET premium = CASE
+                  WHEN DBMS_RANDOM.VALUE(0, 1) < 0.5 THEN 'true'
+                  ELSE 'false'
+                END
+  WHERE did BETWEEN 322498461 AND 322498860;
+END;
+commit;
