@@ -7,7 +7,7 @@ IS
         SELECT e.eID, e.ename, e.required_in_vehicle, ve.equipAmount, e.quantity
         FROM vehicle_equip ve
         JOIN Equipment e ON ve.eID = e.eID
-        WHERE ve.vID = p_vID
+        WHERE ve.vID = p_vID;
         FOR UPDATE OF ve.equipAmount, e.quantity;
 
     rec_vehicle_equip c_vehicle_equip%ROWTYPE;
@@ -60,8 +60,8 @@ BEGIN
 
                 DBMS_OUTPUT.PUT_LINE('Partially added ' 
                 || rec_vehicle_equip.quantity || ' units of equipment ID ' 
-                || rec_vehicle_equip.eID || ' to vehicle ID ' || p_vID 
-                || '. Not enough stock to fully fulfill the desired quantity.');
+                || rec_vehicle_equip.eID || ' to vehicle ID ' || p_vID);
+
                 
                 -- Add to zero stock list
                 zero_stock_list.EXTEND;

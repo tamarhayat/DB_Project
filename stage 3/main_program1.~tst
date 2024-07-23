@@ -1,19 +1,28 @@
 PL/SQL Developer Test script 3.0
-11
-declare
+19
+DECLARE
   -- Non-scalar parameters require additional processing 
-      result sys.odcinumberlist;
-begin
+  result sys.odcinumberlist;
+BEGIN
   -- Call the function
-     result := update_vehicle_equip(p_vid => :p_vid);
-     get_equipment_and_suppliers(result);
-
-end;
-
-
+  FOR rec IN (
+    SELECT DISTINCT vid
+    FROM Vehicle_Equip ve
+  ) LOOP
+    DBMS_OUTPUT.PUT_LINE('vehicle No. ' || rec.vid);
+    -- Call the function to update vehicle equipment and get zero stock list
+    result := update_vehicle_equip(rec.vid);
+    IF result IS NOT NULL AND result.COUNT > 0 THEN
+      get_equipment_and_suppliers(result);
+    ELSE
+      DBMS_OUTPUT.PUT_LINE('No zero stock items for vehicle No. ' || rec.vid);
+   END IF;
+   END LOOP;
+END;
 1
 p_vid
 1
-45140235
-3
-0
+45140106
+-3
+1
+p_vid

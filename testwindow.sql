@@ -31,7 +31,7 @@ from (Suppliers s natural join orders o)
  select * from vehicle_equip order by vid
 select * from equipment natural join vehicle_equip
             
-update equipment set quantity=15 where eid='10003' 
+update equipment set quantity=2 where eid='10003' 
 commit;
 rollback;
 
@@ -48,3 +48,19 @@ BEGIN
   WHERE did BETWEEN 322498461 AND 322498860;
 END;
 commit;
+rollback;
+
+
+select * from orders 
+select * from vehicle_equip natural join equipment
+commit;
+
+
+        SELECT e.eID, e.ename, e.required_in_vehicle, ve.equipAmount, e.quantity
+        FROM vehicle_equip ve
+        JOIN Equipment e ON ve.eID = e.eID
+        WHERE ve.vID = 45140287
+        FOR UPDATE OF ve.equipAmount
+          
+select * from equipment  
+ 

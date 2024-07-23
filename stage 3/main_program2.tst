@@ -7,9 +7,9 @@ DECLARE
 BEGIN
     -- Call the function and store the result
     :result := update_according_order(p_order_id => :p_order_id);
+    DBMS_OUTPUT.PUT_LINE(CHR(10));
     update_premium_status;
 END;
-
 2
 result
 1
