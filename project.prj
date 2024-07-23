@@ -3,7 +3,7 @@ PL/SQL Developer Project
 [Options]
 AutoConnect=0
 Username=
-Password=2604
+Password=2064
 Database=
 ConnectAs=Normal
 Edition=
@@ -23,6 +23,9 @@ ShowItems=-1
 2,0,,,stage 3\main_program1.tst
 3,0,,,stage 3\pro1_get_equipment_and_suppliers.prc
 3,0,,,stage 3\pro2_update_premium_status.prc
+1,0,,,stage 4\views.sql
+1,0,,,stage 4\generateData.sql
+1,0,,,stage 4\Integrate.sql
 
 [Notes]
 {\rtf1\ansi\deff0{\fonttbl{\f0\fnil Tahoma;}}

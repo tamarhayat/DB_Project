@@ -1,0 +1,78 @@
+----------------view 1---------------------------------------------------
+CREATE OR replace VIEW vehicle_manager_view AS
+SELECT
+    v.vid AS vid,
+    v.typeIs AS v_type,
+    e.eid AS eid,
+    e.ename AS ename,
+    tcat.category_name,
+    e.quantity AS quantity,
+    e.required_in_vehicle AS required_in_vehicle
+FROM
+    Vehicles v
+    JOIN vehicle_equip ve ON v.vid = ve.vid
+    JOIN Equipment e ON ve.eid = e.eid
+    JOIN tcategory tcat ON e.category_name = tcat.category_name
+WHERE
+    v.status = 'normal' AND
+    e.isMobile = 'true';
+
+
+---------count the normal vehicles for any type----------------------------
+SELECT v_type, COUNT(vid) AS vehicle_count
+FROM vehicle_manager_view
+GROUP BY v_type;
+
+------vehicles that have choosen equipment------------------------------
+SELECT vid, eid, ename, quantity
+FROM vehicle_manager_view
+WHERE ename = &<name="ename" hint="equipment name" type="string"
+                  list="select ename from equipment"  required= true>;
+
+
+
+
+---------------view 2----------------------------------------------------
+
+CREATE OR REPLACE VIEW EquipmentCourseDetailsView AS
+SELECT
+    c.COURSE_ID,
+    c.COURSE_NAME,
+    c.PRICE AS COURSE_PRICE,
+    eq.EID,
+    eq.QUANTITY
+FROM
+    Course c
+JOIN
+    COURSE_EQUIP eqc ON c.COURSE_ID = eqc.COURSE_ID
+JOIN
+    Equipment eq ON eqc.EID = eq.EID
+ORDER BY
+    c.COURSE_ID; 
+
+
+---------------All equipment required for a specific course--------------
+SELECT 
+    COURSE_ID,
+    COURSE_NAME,
+    COURSE_PRICE,
+    EID,
+    QUANTITY
+FROM 
+    EquipmentCourseDetailsView
+
+WHERE COURSE_ID=&<name="COURSE ID" hint="number with 5 digits" type="integer" required= true>
+
+---------------Show all courses starting from a certain date-------------
+SELECT 
+    COURSE_ID,
+    COURSE_NAME,
+    COURSE_DATE,
+    COURSE_LOCATION,
+    PRICE AS COURSE_PRICE,
+    HOURS,
+    INSTRUCTOR_ID
+FROM 
+    Course
+WHERE 
+    COURSE_DATE >= TO_DATE('2023-10-07', 'YYYY-MM-DD');
